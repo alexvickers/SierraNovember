@@ -1,0 +1,21 @@
+/* Geral */
+html{overflow-x: hidden;}
+body{font-family: 'Open Sans', sans-serif; overflow-x: hidden;}
+a:hover, a:active{text-decoration: none;}
+b, strong{font-weight: 700;}
+
+.absolute{position: absolute;}
+.relative{position: relative;}
+.flex{display: -webkit-box; display: -ms-flexbox; display: flex;}
+
+/*Header*/
+header{position: fixed; top: 0; right: 0; left: 0; width: 100%; margin: auto; z-index: 100; background-color: transparent; padding: 24px 0;}
+.social{float: right;}
+.social a{margin-left: 6px;}
+
+/*Home*/
+main{background-color: #fbf8f4;}
+main .bg img{position: absolute;}
+
+/*Slider*/
+.bx-wrapper .bx-loading{min-height: 50px; background: url('../img/bx_loader.gif') center center no-repeat #fff; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 2000;}
