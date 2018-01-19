@@ -11,14 +11,14 @@ b, strong{font-weight: 700;}
 /*Background*/
 .bg img{position: absolute;}
 .bg #bg-2{top:0px;}
-.bg #bg-3{top:20px;}
-.bg #bg-4{top:40px;}
-.bg #bg-5{top:60px;}
-.bg #bg-6{top:80px;}
-.bg #bg-7{top:100px;}
-.bg #bg-8{top:120px;}
-.bg #bg-9{top:140px;}
-.bg #bg-10{top:160px;}
+.bg #bg-3{top:10px;}
+.bg #bg-4{top:20px;}
+.bg #bg-5{top:30px;}
+.bg #bg-6{top:40px;}
+.bg #bg-7{top:50px;}
+.bg #bg-8{top:60px;}
+.bg #bg-9{top:70px;}
+.bg #bg-10{top:80px;}
 
 /*Header*/
 header{position: fixed; top: 0; right: 0; left: 0; width: 100%; margin: auto; z-index: 100; background-color: transparent; padding: 24px 0;}
@@ -33,8 +33,8 @@ header nav li img{margin-right: 8px;}
 header nav li:first-child{margin-left: 0;}
 header nav ul li a{color: black;}
 
-/*Home*/
-main{background-color: #fbf8f4;}
-
 /*Slider*/
 .bx-wrapper .bx-loading{min-height: 50px; background: url('../img/bx_loader.gif') center center no-repeat #fff; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 2000;}
+
+/*Footer*/
+footer{background-color: #364459;}
