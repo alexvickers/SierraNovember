@@ -8,6 +8,18 @@ b, strong{font-weight: 700;}
 .relative{position: relative;}
 .flex{display: -webkit-box; display: -ms-flexbox; display: flex;}
 
+/*Background*/
+.bg img{position: absolute;}
+.bg #bg-2{top:0px;}
+.bg #bg-3{top:20px;}
+.bg #bg-4{top:40px;}
+.bg #bg-5{top:60px;}
+.bg #bg-6{top:80px;}
+.bg #bg-7{top:100px;}
+.bg #bg-8{top:120px;}
+.bg #bg-9{top:140px;}
+.bg #bg-10{top:160px;}
+
 /*Header*/
 header{position: fixed; top: 0; right: 0; left: 0; width: 100%; margin: auto; z-index: 100; background-color: transparent; padding: 24px 0;}
 .social{float: right;}
@@ -23,7 +35,6 @@ header nav ul li a{color: black;}
 
 /*Home*/
 main{background-color: #fbf8f4;}
-main .bg img{position: absolute;}
 
 /*Slider*/
 .bx-wrapper .bx-loading{min-height: 50px; background: url('../img/bx_loader.gif') center center no-repeat #fff; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 2000;}
