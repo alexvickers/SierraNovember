@@ -13,6 +13,14 @@ header{position: fixed; top: 0; right: 0; left: 0; width: 100%; margin: auto; z-
 .social{float: right;}
 .social a{margin-left: 6px;}
 
+/*Menu*/
+header .hamburguer, header nav{float: left;}
+nav ul{list-style: none;}
+nav li{float: left; font-family: 'Roboto Condensed', sans-serif; font-weight: 700; text-transform: uppercase; margin-left: 36px; display: none;}
+header nav li img{margin-right: 8px;}
+header nav li:first-child{margin-left: 0;}
+header nav ul li a{color: black;}
+
 /*Home*/
 main{background-color: #fbf8f4;}
 main .bg img{position: absolute;}
