@@ -1,9 +1,11 @@
+//Toggle Menu
 $(document).ready(function () {
     $(".hamburguer").click(function () {
-        $("nav li").toggle(1000);
+        $("nav").toggle('slide');
     });
 });
 
+//Parallax BG
 $(window).bind('scroll',function(e){
     parallaxScroll();
 });
