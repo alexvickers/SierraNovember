@@ -1,5 +1,5 @@
 @import "./variables.scss";
-@import "~normalize.css";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:500&display=swap");
 
 * {
@@ -8,4 +8,11 @@
 
 body {
   background-color: $greyish;
+}
+
+header {
+  a.icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
 }
