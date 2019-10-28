@@ -5,6 +5,12 @@ module.exports = {
     author: `Alexandre Aimbiré`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-113730929-1",
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
