@@ -1,6 +1,11 @@
+@import "./variables.scss";
 @import "~normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:500&display=swap");
 
 * {
   font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: $greyish;
 }
