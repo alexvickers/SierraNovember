@@ -1,4 +1,14 @@
-import { faAdobe, faAngular, faBootstrap, faCss3Alt, faHtml5, faSass } from '@fortawesome/free-brands-svg-icons';
+import {
+  faAdobe,
+  faAngular,
+  faBootstrap,
+  faCss3Alt,
+  faGit,
+  faHtml5,
+  faJs,
+  faSass,
+  faSketch,
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -22,15 +32,26 @@ const IndexPage = () => (
             future.
           </p>
           <p className="text-center text-white">
-            Meanwhile, check out my resumé and some of the things I do.
+            Meanwhile, check out my{" "}
+            <a
+              href="http://sierranovember.com.br/resume.pdf"
+              target="_blank"
+              className="text-white"
+            >
+              resumé
+            </a>{" "}
+            and some of the things I do.
           </p>
           <div className="icons text-white justify-content-center d-flex">
             <FontAwesomeIcon icon={faAngular} className="mr-2" />
+            <FontAwesomeIcon icon={faJs} className="mx-2" />
             <FontAwesomeIcon icon={faHtml5} className="mx-2" />
             <FontAwesomeIcon icon={faCss3Alt} className="mx-2" />
             <FontAwesomeIcon icon={faSass} className="mx-2" />
             <FontAwesomeIcon icon={faBootstrap} className="mx-2" />
-            <FontAwesomeIcon icon={faAdobe} className="ml-2" />
+            <FontAwesomeIcon icon={faAdobe} className="mx-2" />
+            <FontAwesomeIcon icon={faSketch} className="mx-2" />
+            <FontAwesomeIcon icon={faGit} className="ml-2" />
           </div>
         </div>
       </div>
