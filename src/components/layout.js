@@ -27,10 +27,16 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <footer className="text-white text-right container-fluid py-3">
+        <div class="row">
+          <div class="col">
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org" className="text-white">
+              Gatsby
+            </a>
+          </div>
+        </div>
       </footer>
     </>
   )
