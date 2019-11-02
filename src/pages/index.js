@@ -3,7 +3,9 @@ import {
   faAngular,
   faBootstrap,
   faCss3Alt,
+  faFigma,
   faGit,
+  faGulp,
   faHtml5,
   faJs,
   faSass,
@@ -23,13 +25,12 @@ const IndexPage = () => (
         <div class="col">
           <h1 className="text-center text-white text-uppercase">Hello!</h1>
           <h2 className="text-center text-white mb-5">
-            I'm Alex and I'm a Front-end developer and Webdesigner living in São
+            I'm Alex and I'm a Front-end Developer and Webdesigner living in São
             Paulo, Brazil.
           </h2>
           <p className="text-center text-white">
-            Unfortunately there's not much around here right now, but be sure to
-            check back. I'll be constantly updating this website in the near
-            future.
+            There's not much around here right now, but be sure to check back.
+            I'll be constantly updating this website in the near future.
           </p>
           <p className="text-center text-white">
             Meanwhile, check out my{" "}
@@ -49,8 +50,10 @@ const IndexPage = () => (
             <FontAwesomeIcon icon={faCss3Alt} className="mx-2" />
             <FontAwesomeIcon icon={faSass} className="mx-2" />
             <FontAwesomeIcon icon={faBootstrap} className="mx-2" />
+            <FontAwesomeIcon icon={faGulp} className="mx-2" />
             <FontAwesomeIcon icon={faAdobe} className="mx-2" />
             <FontAwesomeIcon icon={faSketch} className="mx-2" />
+            <FontAwesomeIcon icon={faFigma} className="mx-2" />
             <FontAwesomeIcon icon={faGit} className="ml-2" />
           </div>
         </div>
