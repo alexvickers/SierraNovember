@@ -28,8 +28,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
       <footer className="text-white text-right container-fluid py-3">
-        <div class="row">
-          <div class="col">
+        <div className="row">
+          <div className="col">
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org" className="text-white">
