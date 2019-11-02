@@ -29,6 +29,7 @@ module.exports = {
         short_name: `sierra`,
         start_url: `/`,
         icon: `src/images/mountain-solid.svg`,
+        background_color: `#1d1d1d`,
       },
     },
   ],
