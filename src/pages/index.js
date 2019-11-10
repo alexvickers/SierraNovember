@@ -12,27 +12,39 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Helmet from 'react-helmet';
 
-import Image from '../components/image';
+import ImageMe from '../components/image-me';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
+    <Helmet
+      bodyAttributes={{
+        class: "index",
+      }}
+    />
     <SEO title="Hello!" />
     <div className="container-fluid">
       <div className="row align-items-center">
         <div className="col-8 col-md-4 col-lg-3 mx-auto">
           <div className="avatar my-4 my-xl-0">
-            <Image />
+            <ImageMe />
           </div>
         </div>
         <div className="col-md-8 col-lg-9">
           <h1 className="text-white text-uppercase">Hello! I'm Alex!</h1>
           <h2 className="text-white mb-4 mb-xl-5">
-            I'm a Front-end Developer and Webdesigner living in São Paulo,
+            I'm a Frontend Developer and Webdesigner living in São Paulo,
             Brazil.
           </h2>
+          <p className="text-white">
+            My name is <strong>Alexandre Aimbiré</strong>. I'm 36 years old and
+            I was born in Florianópolis, a city mostly known for it's sandy
+            beaches and tennis player Gustavo Kuerten. I've started out as a
+            designer that knew code and now I'm a coder that knows design.
+          </p>
           <p className="text-white">
             There's not much around here right now, but be sure to check back.
             I'll be constantly updating this website in the near future.
@@ -47,6 +59,7 @@ const IndexPage = () => (
               href="http://sierranovember.com.br/resume.pdf"
               target="_blank"
               className="text-white"
+              rel="noopener noreferrer"
             >
               resumé
             </a>{" "}
