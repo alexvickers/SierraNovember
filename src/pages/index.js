@@ -25,7 +25,7 @@ const IndexPage = () => (
         class: "index",
       }}
     />
-    <SEO title="Hello!" />
+    <SEO title="Hello! This is the personal website of Alexandre Aimbiré!" />
     <div className="container-fluid">
       <div className="row align-items-center">
         <div className="col-8 col-md-4 col-lg-3 mx-auto">

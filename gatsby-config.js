@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Sierra November`,
-    description: ``,
+    description: `Personal website and Portfolio of Alexandre Aimbiré`,
     author: `Alexandre Aimbiré`,
+    url: `https://sierranovember.com.br`,
+    image: `/images/me.jpg`,
+    twitterUsername: `@vickersvickers`,
   },
   plugins: [
     {
