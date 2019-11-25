@@ -7,15 +7,15 @@ import React from 'react';
 
 const Header = ({ siteTitle }) => (
   <header className="container-fluid py-3">
-    <div class="row align-items-center">
-      <div class="col-4">
+    <div className="row align-items-center">
+      <div className="col-4">
         <Link to="/" title={siteTitle} className="logo text-white">
           <FontAwesomeIcon icon={faMountain} />
         </Link>
       </div>
-      <div class="col-8 d-flex justify-content-end">
+      <div className="col-8 d-flex justify-content-end">
         <a
-          class="icon text-white"
+          className="icon text-white"
           href="https://www.linkedin.com/in/alexandreaimbire"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
-          class="icon text-white"
+          className="icon text-white"
           href="https://www.behance.net/vickersvickers"
           target="_blank"
           rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faBehance} />
         </a>
         <a
-          class="icon text-white"
+          className="icon text-white"
           href="https://github.com/alexvickers"
           target="_blank"
           rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
-          class="icon text-white"
+          className="icon text-white"
           href="https://stackoverflow.com/users/4366533/alexandre-aimbir%c3%a9"
           target="_blank"
           rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faStackOverflow} />
         </a>
         <a
-          class="icon text-white"
+          className="icon text-white"
           href="https://medium.com/@vickersvickers"
           target="_blank"
           rel="noopener noreferrer"

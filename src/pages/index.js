@@ -42,8 +42,9 @@ const IndexPage = () => (
           <p className="text-white">
             My name is <strong>Alexandre Aimbiré</strong>. I'm 36 years old and
             I was born in Florianópolis, a city mostly known for it's sandy
-            beaches and tennis player Gustavo Kuerten. I've started out as a
-            designer that knew code and now I'm a coder that knows design.
+            beaches and former tennis player Gustavo Kuerten. I've started out
+            as a designer that knew code and now I'm a coder that knows how to
+            design.
           </p>
           <p className="text-white">
             There's not much around here right now, but be sure to check back.
@@ -51,8 +52,8 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col">
+      <div className="row mt-4">
+        <div className="col">
           <p className="text-center text-white">
             You can check out my{" "}
             <a
