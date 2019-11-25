@@ -13,7 +13,7 @@ module.exports = {
       options: {
         RewriteBase: "/custom/",
         https: true,
-        www: true,
+        www: false,
         SymLinksIfOwnerMatch: true,
         host: "sierranovember.com.br",
         redirect: [
