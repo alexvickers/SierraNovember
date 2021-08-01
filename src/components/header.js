@@ -10,54 +10,54 @@ const Header = ({ siteTitle }) => (
     <div className="row align-items-center">
       <div className="col-4">
         <Link to="/" title={siteTitle} className="logo text-white">
-          <FontAwesomeIcon icon={faMountain} />
+          <FontAwesomeIcon icon={faMountain} size="3x" />
         </Link>
       </div>
       <div className="col-8 d-flex justify-content-end">
         <a
-          className="icon text-white"
+          className="icon text-white mx-1"
           href="https://www.linkedin.com/in/alexandreaimbire"
           target="_blank"
           title="LinkedIn"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <FontAwesomeIcon icon={faLinkedin} size="lg" />
         </a>
         <a
-          className="icon text-white"
+          className="icon text-white mx-1"
           href="https://github.com/alexvickers"
           target="_blank"
           title="GitHub"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faGithub} size="lg" />
         </a>
         <a
-          className="icon text-white"
+          className="icon text-white mx-1"
           href="https://stackoverflow.com/users/4366533/alexandre-aimbir%c3%a9"
           target="_blank"
           title="Stack Overflow"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faStackOverflow} />
+          <FontAwesomeIcon icon={faStackOverflow} size="lg" />
         </a>
         <a
-          className="icon text-white"
+          className="icon text-white mx-1"
           href="https://vickersvickers.medium.com/"
           target="_blank"
           title="Medium"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faMedium} />
+          <FontAwesomeIcon icon={faMedium} size="lg" />
         </a>
         <a
-          className="icon text-white"
+          className="icon text-white mx-1"
           href="https://twitter.com/vickersvickers"
           target="_blank"
           title="Twitter"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faTwitter} size="lg" />
         </a>
       </div>
     </div>

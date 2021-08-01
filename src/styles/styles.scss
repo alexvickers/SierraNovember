@@ -19,27 +19,12 @@ h5 {
   font-weight: 700;
 }
 
-header {
-  .logo {
-    font-size: 2rem;
-  }
-
-  .icon {
-    font-size: 1.5rem;
-    margin-left: 0.75rem;
-  }
-}
-
 .index main {
   display: flex;
   align-items: center;
 
   @media (min-width: 1200px) {
     height: calc(100vh - 130px);
-  }
-
-  .icons {
-    font-size: 1.5rem;
   }
 
   .avatar {
