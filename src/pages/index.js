@@ -1,6 +1,4 @@
-import {
-  faAdobe,
-  faAngular,
+import {  faAngular,
   faBootstrap,
   faCss3Alt,
   faFigma,
@@ -75,7 +73,6 @@ const IndexPage = () => (
             <FontAwesomeIcon icon={faBootstrap} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faWordpressSimple} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faGulp} size="2x" className="mx-2" />
-            <FontAwesomeIcon icon={faAdobe} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faSketch} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faFigma} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faGit} size="2x" className="mx-2" />
