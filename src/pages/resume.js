@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
@@ -11,7 +11,7 @@ const IndexPage = () => (
         class: "resume",
       }}
     />
-    <SEO title="Alexandre Aimbiré - Resumé" />
+    <Seo title="Alexandre Aimbiré - Resumé" />
     <div className="container-fluid">
       <div className="row">
         <div className="col-4"></div>

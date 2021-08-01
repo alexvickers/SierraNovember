@@ -1,4 +1,4 @@
-import { faBehance, faGithub, faLinkedin, faMedium, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faMedium, faTwitter, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { faMountain } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'gatsby';
@@ -18,22 +18,16 @@ const Header = ({ siteTitle }) => (
           className="icon text-white"
           href="https://www.linkedin.com/in/alexandreaimbire"
           target="_blank"
+          title="LinkedIn"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           className="icon text-white"
-          href="https://www.behance.net/vickersvickers"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faBehance} />
-        </a>
-        <a
-          className="icon text-white"
           href="https://github.com/alexvickers"
           target="_blank"
+          title="GitHub"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
@@ -42,17 +36,28 @@ const Header = ({ siteTitle }) => (
           className="icon text-white"
           href="https://stackoverflow.com/users/4366533/alexandre-aimbir%c3%a9"
           target="_blank"
+          title="Stack Overflow"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faStackOverflow} />
         </a>
         <a
           className="icon text-white"
-          href="https://medium.com/@vickersvickers"
+          href="https://vickersvickers.medium.com/"
           target="_blank"
+          title="Medium"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faMedium} />
+        </a>
+        <a
+          className="icon text-white"
+          href="https://twitter.com/vickersvickers"
+          target="_blank"
+          title="Twitter"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
     </div>

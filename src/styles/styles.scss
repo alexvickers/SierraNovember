@@ -1,6 +1,6 @@
 @import "./variables.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Barlow:700&display=swap");
 
 * {
   font-family: "Lato", sans-serif;
@@ -15,8 +15,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Oswald", Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
+  font-family: $barlow;
+  font-weight: 700;
 }
 
 header {

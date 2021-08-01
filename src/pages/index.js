@@ -16,7 +16,7 @@ import Helmet from 'react-helmet';
 
 import ImageMe from '../components/image-me';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +25,7 @@ const IndexPage = () => (
         class: "index",
       }}
     />
-    <SEO title="Hello! This is the personal website of Alexandre Aimbiré!" />
+    <Seo title="Hello! This is the personal website of Alexandre Aimbiré!" />
     <div className="container-fluid">
       <div className="row align-items-center">
         <div className="col-8 col-md-4 col-lg-3 mx-auto">
@@ -34,17 +34,18 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="col-md-8 col-lg-9">
-          <h1 className="text-white text-uppercase">Hello! I'm Alex!</h1>
+          <h1 className="text-white">Hello! I'm Alex!</h1>
           <h2 className="text-white mb-4 mb-xl-5">
             I'm a Frontend Developer and Webdesigner living in São Paulo,
             Brazil.
           </h2>
           <p className="text-white">
-            My name is <strong>Alexandre Aimbiré</strong>. I'm 36 years old and
+            My name is <strong>Alexandre Aimbiré</strong>. I'm 38 years old and
             I was born in Florianópolis, a city mostly known for it's sandy
             beaches and former tennis player Gustavo Kuerten. I've started out
             as a designer that knew code and now I'm a coder that knows how to
-            design.
+            design. I also study Language and Literature at the University of
+            São Paulo and drink unholy amounts of Coca-Cola.
           </p>
           <p className="text-white">
             There's not much around here right now, but be sure to check back.
