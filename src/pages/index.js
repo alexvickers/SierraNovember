@@ -3,14 +3,19 @@ import {
   faAngular,
   faBootstrap,
   faCss3Alt,
+  faFigma,
   faGit,
+  faGulp,
   faHtml5,
   faJs,
+  faPhp,
   faSass,
   faSketch,
+  faWordpress,
   faWordpressSimple,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 
@@ -42,8 +47,8 @@ const IndexPage = () => (
           <p className="text-white">
             My name is <strong>Alexandre Aimbiré</strong>. I'm 38 years old and
             I was born in Florianópolis, a city mostly known for it's sandy
-            beaches and former tennis player Gustavo Kuerten. I've started out
-            as a designer that knew code and now I'm a coder that knows how to
+            beaches and former tennis player Gustavo Kuerten. I started out
+            as an graphic designer that knew how to code, and now I'm a coder that knows how to
             design. I also study Language and Literature at the University of
             São Paulo and drink unholy amounts of Coca-Cola.
           </p>
@@ -56,15 +61,7 @@ const IndexPage = () => (
       <div className="row mt-4">
         <div className="col">
           <p className="text-center text-white">
-            You can check out my{" "}
-            <a
-              href="http://sierranovember.com.br/resume.pdf"
-              target="_blank"
-              className="text-white"
-              rel="noopener noreferrer"
-            >
-              resumé
-            </a>{" "}
+            You can check out my <Link className="text-white" to="/resume">resumé</Link>.
             and some of the things I do here.
           </p>
           <div className="icons text-white justify-content-center d-flex flex-wrap">
@@ -72,11 +69,15 @@ const IndexPage = () => (
             <FontAwesomeIcon icon={faJs} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faHtml5} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faCss3Alt} size="2x" className="mx-2" />
+            <FontAwesomeIcon icon={faWordpress} size="2x" className="mx-2" />
+            <FontAwesomeIcon icon={faPhp} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faSass} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faBootstrap} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faWordpressSimple} size="2x" className="mx-2" />
+            <FontAwesomeIcon icon={faGulp} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faAdobe} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faSketch} size="2x" className="mx-2" />
+            <FontAwesomeIcon icon={faFigma} size="2x" className="mx-2" />
             <FontAwesomeIcon icon={faGit} size="2x" className="mx-2" />
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faMedium, faTwitter, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faMediumM, faTwitter, faStackOverflow, faLastfm } from '@fortawesome/free-brands-svg-icons';
 import { faMountain } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'gatsby';
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
           title="LinkedIn"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedin} size="lg" />
+          <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
         </a>
         <a
           className="icon text-white mx-1"
@@ -48,7 +48,7 @@ const Header = ({ siteTitle }) => (
           title="Medium"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faMedium} size="lg" />
+          <FontAwesomeIcon icon={faMediumM} size="lg" />
         </a>
         <a
           className="icon text-white mx-1"
@@ -58,6 +58,15 @@ const Header = ({ siteTitle }) => (
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faTwitter} size="lg" />
+        </a>
+        <a
+          className="icon text-white mx-1"
+          href="https://www.last.fm/user/alexvickers"
+          target="_blank"
+          title="Last.fm"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faLastfm} size="lg" />
         </a>
       </div>
     </div>

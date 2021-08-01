@@ -14,8 +14,8 @@ const IndexPage = () => (
     <Seo title="Alexandre Aimbiré - Resumé" />
     <div className="container-fluid">
       <div className="row">
-        <div className="col-4"></div>
-        <div className="col-8">
+        <div className="col-3"></div>
+        <div className="col-9">
           <h2 className="text-white text-uppercase mb-4">Experiences</h2>
           <div className="experience-template bg-white p-4 mb-1">
             <h3 className="text-uppercase">Neo Med</h3>
