@@ -54,8 +54,7 @@ const IndexPage = () => (
             I'll be constantly updating this website in the near future.
           </p>
           <p className="text-white">
-            You can check out my resumè <Link className="text-white" to="/resume">here</Link>, or check out
-           some of the things I do below:
+            You can check out some of the things I do below:
           </p>
           <div className="icons text-white d-flex">
             <FontAwesomeIcon icon={faAngular} size="2x" className="me-3" />
