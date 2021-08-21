@@ -53,10 +53,6 @@ const IndexPage = () => (
             There's not much around here right now, but be sure to check back.
             I'll be constantly updating this website in the near future.
           </p>
-        </div>
-      </div>
-      <div className="row mt-4">
-        <div className="col-md-8 col-lg-9 offset-md-4 offset-lg-3">
           <p className="text-white">
             You can check out my <Link className="text-white" to="/resume">resumé</Link>.
             and some of the things I do here:

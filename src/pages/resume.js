@@ -20,7 +20,7 @@ const IndexPage = () => (
           <div className="experience-template bg-white p-4 mb-1">
             <h3 className="text-uppercase">Neo Med</h3>
             <h4 className="mb-3">
-              Front-end Developer - September 2019 to Present
+              Front-end Developer - September 2019 to to Febuary 2020
             </h4>
             <p>
               Member of the team responsible for building the front-end of the
@@ -33,12 +33,13 @@ const IndexPage = () => (
               Front-end Developer - March 2019 to September 2019
             </h4>
             <p>
-              Lead Front-end developer. Responsible for the development of
+              Lead front-end developer. Responsible for the development of
               websites and webapps.
             </p>
             <h5 class="text-uppercase">Projects</h5>
             <ul></ul>
             <h5 class="text-uppercase">Clients</h5>
+            <ul></ul>
           </div>
         </div>
       </div>
