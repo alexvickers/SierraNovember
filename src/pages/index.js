@@ -12,7 +12,6 @@ import {
   faWordpressSimple,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 
