@@ -6,16 +6,16 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const Header = ({ siteTitle }) => (
-  <header className="container-fluid py-3">
+  <header className="container py-3">
     <div className="row align-items-center">
       <div className="col-4">
         <Link to="/" title={siteTitle} className="logo text-white">
-          <FontAwesomeIcon icon={faMountain} size="3x" />
+          <FontAwesomeIcon icon={faMountain} size="2x" />
         </Link>
       </div>
       <div className="col-8 d-flex justify-content-end">
         <a
-          className="icon text-white mx-1"
+          className="icon text-white me-3"
           href="https://www.linkedin.com/in/alexandreaimbire"
           target="_blank"
           title="LinkedIn"
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
         </a>
         <a
-          className="icon text-white mx-1"
+          className="icon text-white me-3"
           href="https://github.com/alexvickers"
           target="_blank"
           title="GitHub"
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faGithub} size="lg" />
         </a>
         <a
-          className="icon text-white mx-1"
+          className="icon text-white me-3"
           href="https://stackoverflow.com/users/4366533/alexandre-aimbir%c3%a9"
           target="_blank"
           title="Stack Overflow"
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faStackOverflow} size="lg" />
         </a>
         <a
-          className="icon text-white mx-1"
+          className="icon text-white me-3"
           href="https://vickersvickers.medium.com/"
           target="_blank"
           title="Medium"
@@ -51,7 +51,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faMediumM} size="lg" />
         </a>
         <a
-          className="icon text-white mx-1"
+          className="icon text-white me-3"
           href="https://twitter.com/vickersvickers"
           target="_blank"
           title="Twitter"
@@ -60,7 +60,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={faTwitter} size="lg" />
         </a>
         <a
-          className="icon text-white mx-1"
+          className="icon text-white"
           href="https://www.last.fm/user/alexvickers"
           target="_blank"
           title="Last.fm"
