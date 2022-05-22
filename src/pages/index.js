@@ -35,18 +35,12 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="col-md-8 col-lg-9">
-          <h1 className="text-white">Hello! I'm Alex!</h1>
+          <h1 className="text-white">Hello! You can call me Alex!</h1>
           <h2 className="text-white mb-4">
-            I'm a Frontend Developer and Webdesigner living in São Paulo,
-            Brazil.
+            I'm a Frontend Developer living in São Paulo, Brazil.
           </h2>
           <p className="text-white">
-            My name is <strong>Alexandre Aimbiré</strong>. I'm 38 years old and
-            I was born in Florianópolis, a city mostly known for it's sandy
-            beaches and former tennis player Gustavo Kuerten. I started out
-            as an graphic designer that knew how to code, and now I'm a coder that knows how to
-            design. I also study Language and Literature at the University of
-            São Paulo and drink unholy amounts of Coca-Cola.
+            My name is <strong>Alexandre Aimbiré</strong>. I'm 39 years old and I was born in Florianópolis, a city mostly known for it's sandy beaches and former tennis player Gustavo Kuerten. I started out as an graphic designer that knew how to code, and before that I was an undergrad Social Sciences. I'm currently studying Language and Literature at the University of São Paulo and drink unholy amounts of Coca-Cola.
           </p>
           <p className="text-white">
             There's not much around here right now, but be sure to check back.
