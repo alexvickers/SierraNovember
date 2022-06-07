@@ -50,17 +50,17 @@ const IndexPage = () => (
             You can check out some of the things I do below:
           </p>
           <div className="icons text-white d-flex">
-            <FontAwesomeIcon icon={faAngular} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faReact} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faJs} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faHtml5} size="2x" className="me-3" />
+            <FontAwesomeIcon icon={faAngular} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faReact} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faJs} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faHtml5} size="2x" className="me-3 mb-2" />
             <FontAwesomeIcon icon={faCss3Alt} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faWordpressSimple} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faPhp} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faSass} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faBootstrap} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faGit} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faGulp} size="2x" />
+            <FontAwesomeIcon icon={faWordpressSimple} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faPhp} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faSass} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faBootstrap} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faGit} size="2x" className="me-3 mb-2" />
+            <FontAwesomeIcon icon={faGulp} size="2x mb-2" />
           </div>
         </div>
       </div>

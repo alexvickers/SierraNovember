@@ -38,6 +38,18 @@ p {
 
     .gatsby-image-wrapper {
       border-radius: 50%;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .icons {
+    flex-wrap: wrap;
+
+    @media (min-width: 1200px) {
+      justify-content: center;
     }
   }
 }
