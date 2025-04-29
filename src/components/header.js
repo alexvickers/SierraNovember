@@ -1,4 +1,4 @@
-import { faGithub, faLinkedinIn, faMediumM, faTwitter, faStackOverflow, faLastfm } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faMediumM, faStackOverflow, faLastfm, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faMountain } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'gatsby';
@@ -25,6 +25,16 @@ const Header = ({ siteTitle }) => (
         </a>
         <a
           className="icon text-white me-3"
+          href="https://www.instagram.com/vickersvickers/"
+          target="_blank"
+          title="LinkedIn"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faInstagram} size="lg" />
+        </a>
+
+        <a
+          className="icon text-white me-3"
           href="https://github.com/alexvickers"
           target="_blank"
           title="GitHub"
@@ -49,15 +59,6 @@ const Header = ({ siteTitle }) => (
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faMediumM} size="lg" />
-        </a>
-        <a
-          className="icon text-white me-3"
-          href="https://twitter.com/vickersvickers"
-          target="_blank"
-          title="Twitter"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="lg" />
         </a>
         <a
           className="icon text-white"
