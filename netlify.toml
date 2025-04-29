@@ -1,2 +1,12 @@
+[build]
+  command = "gatsby build"
+  publish = "public"
+
 [build.environment]
   NODE_VERSION = "18.17.0"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+
+[context.production.environment]
+  NODE_ENV = "production"
