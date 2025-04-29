@@ -1,21 +1,24 @@
+import React from "react";
+import Helmet from "react-helmet";
+import ImageMe from "../components/image-me";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import Age from "../components/age";
 import {
-  faBootstrap,
-  faCss3Alt,
-  faGit,
-  faGulp,
-  faHtml5,
-  faJs,
-  faPhp,
-  faReact,
-  faSass,
-  faWordpressSimple,
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import Helmet from 'react-helmet';
-import ImageMe from '../components/image-me';
-import Layout from '../components/layout';
-import Seo from '../components/seo';
+  FaReact,
+  FaBootstrap,
+  FaCss3Alt,
+  FaGit,
+  FaGulp,
+  FaHtml5,
+  FaPhp,
+  FaSass,
+  FaWordpress,
+  FaFigma,
+} from "react-icons/fa";
+import { RiNextjsFill, RiGatsbyFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiWoo, SiJquery, SiAdobexd } from "react-icons/si";
+import { RiJavascriptFill } from "react-icons/ri";
 
 const IndexPage = () => (
   <Layout>
@@ -38,31 +41,43 @@ const IndexPage = () => (
             I'm a Frontend Developer living in São Paulo, Brazil.
           </h2>
           <p className="text-white">
-            My name is <strong>Alexandre Aimbiré</strong>. I'm 41 years old and I was born in Florianópolis, a city mostly known for it's sandy beaches and former tennis player Gustavo Kuerten. I started out as an Graphic Designer that knew how to code, and before that I was an undergrad Social Sciences. I'm currently studying English Language and Literature at the University of São Paulo and I'm a recovering Coca-Cola addict.
+            My name is <strong>Alexandre Aimbiré</strong>. I'm <Age /> years old
+            and I was born in Florianópolis, a city mostly known for it's sandy
+            beaches and former tennis player Gustavo Kuerten. I'm currently studying English Language
+            and Literature at the University of São Paulo and I'm a recovering
+            Coca-Cola addict. I play guitar and bass, and I collect vinyl records.
           </p>
           <p className="text-white">
-            There's not much around here right now, but be sure to check back.<br />
+            There's not much around here right now, but be sure to check back.
+            <br />
             I'll be constantly updating this website in the near future.
           </p>
           <p className="text-white">
-            You can check out some of the things I do below:
+            Here's some of the stuff I've worked with:
           </p>
           <div className="icons text-white d-flex justify-content-start">
-            <FontAwesomeIcon icon={faReact} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faJs} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faHtml5} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faCss3Alt} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faWordpressSimple} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faPhp} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faSass} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faBootstrap} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faGit} size="2x" className="me-3 mb-2" />
-            <FontAwesomeIcon icon={faGulp} size="2x mb-2" />
+            <FaReact size={36} className="me-3 mb-2" />
+            <RiJavascriptFill size={36} className="me-3 mb-2" />
+            <RiNextjsFill size={36} className="me-3 mb-2" />
+            <RiGatsbyFill size={36} className="me-3 mb-2" />
+            <FaHtml5 size={36} className="me-3 mb-2" />
+            <FaCss3Alt size={36} className="me-3" />
+            <SiJquery size={36} className="me-3" />
+            <FaWordpress size={36} className="me-3 mb-2" />
+            <SiWoo size={36} className="me-3 mb-2" />
+            <FaPhp size={36} className="me-3 mb-2" />
+            <FaSass size={36} className="me-3 mb-2" />
+            <FaBootstrap size={36} className="me-3 mb-2" />
+            <RiTailwindCssFill size={36} className="me-3 mb-2" />
+            <FaGit size={36} className="me-3 mb-2" />
+            <FaGulp size={36} className="me-3 mb-2" />
+            <FaFigma size={36} className="me-3 mb-2" />
+            <SiAdobexd size={36} className="mb-2" />
           </div>
         </div>
       </div>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

@@ -1,16 +1,16 @@
-import { faGithub, faLinkedinIn, faMediumM, faStackOverflow, faLastfm, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faMountain } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { PiMountainsFill } from 'react-icons/pi';
+import { FaGithub, FaLinkedin, FaStackOverflow, FaLastfm,  FaInstagram } from 'react-icons/fa';
+import { BsMedium } from "react-icons/bs";
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
 const Header = ({ siteTitle }) => (
-  <header className="container py-3">
+  <header className="container py-4">
     <div className="row align-items-center">
       <div className="col-4">
         <Link to="/" title={siteTitle} className="logo text-white">
-          <FontAwesomeIcon icon={faMountain} size="2x" />
+          <PiMountainsFill size={42}/>
         </Link>
       </div>
       <div className="col-8 d-flex justify-content-end">
@@ -21,16 +21,16 @@ const Header = ({ siteTitle }) => (
           title="LinkedIn"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+          <FaLinkedin size={24} />
         </a>
         <a
           className="icon text-white me-3"
           href="https://www.instagram.com/vickersvickers/"
           target="_blank"
-          title="LinkedIn"
+          title="Instagram"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faInstagram} size="lg" />
+          <FaInstagram size={24} />
         </a>
 
         <a
@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
           title="GitHub"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} size="lg" />
+          <FaGithub size={24} />
         </a>
         <a
           className="icon text-white me-3"
@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => (
           title="Stack Overflow"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faStackOverflow} size="lg" />
+          <FaStackOverflow size={24} />
         </a>
         <a
           className="icon text-white me-3"
@@ -58,7 +58,7 @@ const Header = ({ siteTitle }) => (
           title="Medium"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faMediumM} size="lg" />
+          <BsMedium size={24} />
         </a>
         <a
           className="icon text-white"
@@ -67,7 +67,7 @@ const Header = ({ siteTitle }) => (
           title="Last.fm"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faLastfm} size="lg" />
+          <FaLastfm size={24} />
         </a>
       </div>
     </div>
