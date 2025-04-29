@@ -13,7 +13,6 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Helmet from 'react-helmet';
-
 import ImageMe from '../components/image-me';
 import Layout from '../components/layout';
 import Seo from '../components/seo';

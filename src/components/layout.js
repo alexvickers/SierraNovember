@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
-      <footer className="text-white text-right container-fluid py-3">
+      <footer className="text-white text-right container py-3">
         <div className="row">
           <div className="col">
             © {new Date().getFullYear()}, Built with
