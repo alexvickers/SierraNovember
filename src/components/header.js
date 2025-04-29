@@ -14,9 +14,6 @@ const Header = ({ siteTitle }) => (
         </Link>
       </div>
       <div className="col-8 d-flex justify-content-end">
-        <Link  to="/portfolio" title="Portfolio" className="text-white me-3">
-          Porfolio
-        </Link>
         <a
           className="icon text-white me-3"
           href="https://www.linkedin.com/in/alexandreaimbire"
