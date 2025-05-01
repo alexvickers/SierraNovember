@@ -1,5 +1,5 @@
 import { PiMountainsFill } from 'react-icons/pi';
-import { FaGithub, FaLinkedin, FaStackOverflow, FaLastfm, FaSteam, FaInstagram, FaLaptopCode } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaStackOverflow, FaLastfm, FaSteam, FaInstagram } from 'react-icons/fa';
 import { BsMedium } from "react-icons/bs";
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
