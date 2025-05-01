@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Link } from "gatsby";
 import ImageMe from "../components/image-me";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
@@ -43,12 +44,17 @@ const IndexPage = () => (
           <p className="text-white">
             My name is <strong>Alexandre Aimbiré</strong>. I'm <Age /> years old
             and I was born in Florianópolis, a city mostly known for it's sandy
-            beaches and former tennis player Gustavo Kuerten. I'm currently studying English Language
-            and Literature at the University of São Paulo and I'm a recovering
-            Coca-Cola addict. I play guitar and bass, and I collect vinyl records.
+            beaches and former tennis player Gustavo Kuerten. I'm currently
+            studying English Language and Literature at the University of São
+            Paulo and I'm a recovering Coca-Cola addict. I play guitar and bass,
+            and I collect vinyl records.
           </p>
           <p className="text-white">
-            There's not much around here right now, but be sure to check back.
+            Check out my portfolio to see a selection of the{" "}
+            <Link to="/portfolio" title="Portfolio" className="text-white">
+              projects
+            </Link>{" "}
+            I've worked on.
             <br />
             I'll be constantly updating this website in the near future.
           </p>

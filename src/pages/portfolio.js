@@ -1,62 +1,72 @@
 import React from "react";
+import Helmet from "react-helmet";
+import Seo from "../components/seo";
 import Layout from "../components/layout";
 import { Link } from "gatsby";
 import portfolioData from "../data/portfolio-data";
-import { FaReact, FaWordpress, FaBootstrap, FaPhp } from "react-icons/fa";
-import { SiGatsby, SiGraphql } from "react-icons/si";
+import { tagMetaMap, customColors } from "../data/techstack-meta";
 
-const tagMetaMap = {
-  react: { icon: <FaReact />, color: "primary" },
-  wordpress: { icon: <FaWordpress />, color: "info" },
-  bootstrap: { icon: <FaBootstrap />, color: "secondary" },
-  php: { icon: <FaPhp />, color: "warning" },
-  gatsby: { icon: <SiGatsby />, color: "purple" },
-  graphql: { icon: <SiGraphql />, color: "pink" },
+const cardStyle = {
+  backgroundColor: "#f1f1f1",
+  color: "#333",
+  boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
 };
 
-const customColors = {
-  purple: "#6f42c1",
-  pink: "#d63384",
+const buttonStyle = {
+  backgroundColor: "#333333",
+  borderColor: "#333333",
+  color: "#fff",
+  hover: {
+    backgroundColor: "#1f1f1f",
+  },
 };
 
 const PortfolioPage = () => {
   return (
     <Layout>
+      <Helmet
+        bodyAttributes={{
+          class: "porfolio",
+        }}
+      />
+      <Seo title="This is my portfolio!" />
+
       <div className="container py-5">
-        <h1 className="mb-4 text-white">Portfolio</h1>
+        <h1 className="mb-3 text-white">Portfolio</h1>
+        <p className="text-white mb-4">
+          Some of the stuff I’ve built over the years — WordPress sites, React
+          apps, a few things in between. Mostly clean code, always made with
+          care.
+        </p>
         <div className="row gy-5">
           {portfolioData.map((project, index) => (
             <div className="col-12" key={index}>
-              <div className="card h-100 flex-md-row">
-                <div className="col-md-5">
+              <div className="card h-100 flex-md-row" style={cardStyle}>
+                <div className="col-md-4">
                   <img
                     src={project.image}
-                    className="img-fluid rounded-start w-100 h-100 object-fit-cover"
                     alt={project.title}
-                    style={{
-                      objectFit: "cover",
-                      height: "100%",
-                      maxHeight: "300px",
-                    }}
+                    className="img-fluid rounded-start w-auto h-100 object-fit-cover"
                   />
                 </div>
-                <div className="col-md-7 d-flex flex-column p-4">
+                <div className="col-md-8 d-flex flex-column p-4">
                   <div className="card-body d-flex flex-column h-100">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.description}</p>
                     <div className="mb-3 d-flex flex-wrap">
                       {project.tags.map((tag, i) => {
-                        const meta = tagMetaMap[tag];
+                        const meta = tagMetaMap[tag.toLowerCase()];
+                        const color = meta?.color || "secondary";
+                        const backgroundStyle = customColors[color]
+                          ? { backgroundColor: customColors[color] }
+                          : {};
+
                         return (
                           <span
                             key={i}
-                            className={`badge bg-${
-                              meta?.color || "secondary"
-                            } me-2 mb-2 d-inline-flex align-items-center badge-fade-in`}
+                            className={`badge bg-${color} me-2 mb-2 d-inline-flex align-items-center badge-fade-in`}
                             style={{
-                              ...(["purple", "pink"].includes(meta?.color)
-                                ? { backgroundColor: customColors[meta.color] }
-                                : {}),
+                              ...backgroundStyle,
                               "--animation-delay": `${i * 0.1}s`,
                             }}
                           >
@@ -74,12 +84,17 @@ const PortfolioPage = () => {
                           href={project.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="btn btn-primary"
+                          className="btn"
+                          style={buttonStyle}
                         >
                           View Project
                         </a>
                       ) : (
-                        <Link to={project.link} className="btn btn-primary">
+                        <Link
+                          to={project.link}
+                          className="btn"
+                          style={buttonStyle}
+                        >
                           View Project
                         </Link>
                       )}
