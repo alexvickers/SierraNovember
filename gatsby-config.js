@@ -26,9 +26,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingId: "UA-113730929-1",
+        id: "G-4SN5BHWDPN",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+        routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
+        enableWebVitalsTracking: true,
       },
     },
     `gatsby-plugin-sass`,
@@ -54,4 +58,4 @@ module.exports = {
       },
     },
   ],
-}
+};

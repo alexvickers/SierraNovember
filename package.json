@@ -16,7 +16,7 @@
     "core-js": "^3.22.8",
     "express": "^5.1.0",
     "gatsby": "^5.14.3",
-    "gatsby-plugin-google-analytics": "^5.14.0",
+    "gatsby-plugin-google-tagmanager": "^5.14.0",
     "gatsby-plugin-htaccess": "^1.4.0",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-manifest": "^5.14.0",
