@@ -59,10 +59,15 @@ footer {
 }
 
 .portfolio-image {
-  border: 4px solid #333; /* dark border */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: cover;
+  height: 100%;
+
+  @media (max-width: 768px) {
+    object-fit: contain;
+    max-height: 280px;
+  }
 }
 
 .badge-fade-in {

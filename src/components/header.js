@@ -1,5 +1,5 @@
 import { PiMountainsFill } from 'react-icons/pi';
-import { FaGithub, FaLinkedin, FaStackOverflow, FaLastfm, FaSteam, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaStackOverflow, FaLastfm, FaSteam, FaInstagram, FaLaptopCode } from 'react-icons/fa';
 import { BsMedium } from "react-icons/bs";
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
@@ -8,10 +8,17 @@ import React from 'react';
 const Header = ({ siteTitle }) => (
   <header className="container py-4">
     <div className="row align-items-center">
-      <div className="col-4">
+      <div className="col-1">
         <Link to="/" title={siteTitle} className="logo text-white">
           <PiMountainsFill size={42}/>
         </Link>
+      </div>
+      <div className='col-3'>
+        <Link to="/portfolio" title={siteTitle} className="text-white text-decoration-none">
+          <FaLaptopCode size={24}/>{" "}
+          Portfolio
+        </Link>
+
       </div>
       <div className="col-8 d-flex justify-content-end">
         <a
