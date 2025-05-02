@@ -1,101 +1,67 @@
-import { PiMountainsFill } from 'react-icons/pi';
-import { FaGithub, FaLinkedin, FaStackOverflow, FaLastfm, FaSteam, FaInstagram, FaLaptopCode } from 'react-icons/fa';
-import { BsMedium } from "react-icons/bs";
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import React from 'react';
+import { FaLaptopCode } from "react-icons/fa";
+import { PiMountainsFill } from "react-icons/pi";
+import { Link } from "gatsby";
+import { socialLinks } from "../components/socialLinks";
+import PropTypes from "prop-types";
+import React from "react";
 
-const Header = ({ siteTitle }) => (
-  <header className="container py-4">
-    <div className="row align-items-center">
-      <div className="col-lg-1 col-6">
-        <Link to="/" title={siteTitle} className="logo text-white">
-          <PiMountainsFill size={42}/>
-        </Link>
-      </div>
-      <div className="col-lg-3 col-6 d-flex d-lg-block justify-content-end">
-        <Link to="/portfolio" title={siteTitle} className="text-white text-decoration-none">
-          <FaLaptopCode size={24}/>{" "}
-          Portfolio
-        </Link>
+const Header = ({ siteTitle }) => {
+  const handleMouseEnter = (e, color) => {
+    e.currentTarget.style.color = color;
+  };
 
-      </div>
-      <div className="col-lg-8 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
-        <a
-          className="icon text-white me-3"
-          href="https://www.linkedin.com/in/alexandreaimbire"
-          target="_blank"
-          title="LinkedIn"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin size={24} />
-        </a>
-        <a
-          className="icon text-white me-3"
-          href="https://www.instagram.com/vickersvickers/"
-          target="_blank"
-          title="Instagram"
-          rel="noopener noreferrer"
-        >
-          <FaInstagram size={24} />
-        </a>
+  const handleMouseLeave = (e) => {
+    e.currentTarget.style.color = "white";
+  };
 
-        <a
-          className="icon text-white me-3"
-          href="https://github.com/alexvickers"
-          target="_blank"
-          title="GitHub"
-          rel="noopener noreferrer"
-        >
-          <FaGithub size={24} />
-        </a>
-        <a
-          className="icon text-white me-3"
-          href="https://stackoverflow.com/users/4366533/alexandre-aimbir%c3%a9"
-          target="_blank"
-          title="Stack Overflow"
-          rel="noopener noreferrer"
-        >
-          <FaStackOverflow size={24} />
-        </a>
-        <a
-          className="icon text-white me-3"
-          href="https://vickersvickers.medium.com/"
-          target="_blank"
-          title="Medium"
-          rel="noopener noreferrer"
-        >
-          <BsMedium size={24} />
-        </a>
-        <a
-          className="icon text-white me-3"
-          href="https://www.last.fm/user/alexvickers"
-          target="_blank"
-          title="Last.fm"
-          rel="noopener noreferrer"
-        >
-          <FaLastfm size={24} />
-        </a>
-        <a
-          className="icon text-white"
-          href="https://steamcommunity.com/id/vickersvickers"
-          target="_blank"
-          title="Steam"
-          rel="noopener noreferrer"
-        >
-          <FaSteam size={24} />
-        </a>
+  return (
+    <header className="container py-4">
+      <div className="row align-items-center">
+        <div className="col-lg-1 col-6">
+          <Link to="/" title={siteTitle} className="logo text-white">
+            <PiMountainsFill size={42} />
+          </Link>
+        </div>
+        <div className="col-lg-3 col-6 d-flex d-lg-block justify-content-end">
+          <Link
+            to="/portfolio"
+            title={siteTitle}
+            className="text-white text-decoration-none"
+          >
+            <FaLaptopCode size={24} /> Portfolio
+          </Link>
+        </div>
+        <div className="col-lg-8 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
+          {socialLinks.map(({ icon: Icon, url, title, color }, index) => (
+            <a
+              key={index}
+              className={`icon me-3`}
+              href={url}
+              target="_blank"
+              title={title}
+              rel="noopener noreferrer"
+              onMouseEnter={(e) => handleMouseEnter(e, color)}
+              onMouseLeave={handleMouseLeave}
+              style={{
+                color: "white",
+                transition: "color 0.3s ease",
+              }}
+            >
+              <Icon size={24} />
+            </a>
+          ))}
+        </div>
       </div>
-    </div>
-  </header>
-)
+    </header>
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
