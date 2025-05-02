@@ -8,19 +8,19 @@ import React from 'react';
 const Header = ({ siteTitle }) => (
   <header className="container py-4">
     <div className="row align-items-center">
-      <div className="col-1">
+      <div className="col-lg-1 col-6">
         <Link to="/" title={siteTitle} className="logo text-white">
           <PiMountainsFill size={42}/>
         </Link>
       </div>
-      <div className='col-3'>
+      <div className="col-lg-3 col-6 d-flex d-lg-block justify-content-end">
         <Link to="/portfolio" title={siteTitle} className="text-white text-decoration-none">
           <FaLaptopCode size={24}/>{" "}
           Portfolio
         </Link>
 
       </div>
-      <div className="col-8 d-flex justify-content-end">
+      <div className="col-lg-8 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
         <a
           className="icon text-white me-3"
           href="https://www.linkedin.com/in/alexandreaimbire"

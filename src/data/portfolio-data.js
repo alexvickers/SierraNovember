@@ -63,7 +63,7 @@ const portfolioData = [
     title: "Sierra November",
     description: "This is my personal portfolio site where I show off my work as a frontend developer and designer. It’s a mix of everything I love to do—building clean, responsive, and user-friendly websites.",
     image: sierraImage,
-    link: "/",
+    link: "https://github.com/alexvickers/SierraNovember",
     tags: [
       "gatsby",
       "react",
