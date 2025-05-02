@@ -1,12 +1,10 @@
-import { Link } from 'gatsby';
 import React from 'react';
-
+import { Link } from 'gatsby';
+import { SeoHead } from '../components/SEOHead';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
     <h1 className="text-white">NOPE</h1>
     <p className="text-white">
       There's something wrong that isn't right. Please refer back to the{" "}
@@ -16,3 +14,5 @@ const NotFoundPage = () => (
 )
 
 export default NotFoundPage
+
+export const Head = () => <SeoHead pageTitle="404! Not Found!" />;

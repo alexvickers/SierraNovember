@@ -1,10 +1,11 @@
 import React from "react";
-import { Helmet } from 'react-helmet-async';
 import { Link } from "gatsby";
+import { useSiteMetadata } from '../hooks/useSiteMetadata';
 import ImageMe from "../components/image-me";
 import Layout from "../components/layout";
-import Seo from "../components/seo";
 import Age from "../components/age";
+import { SeoHead } from '../components/SEOHead';
+
 import {
   FaReact,
   FaBootstrap,
@@ -23,12 +24,6 @@ import { RiJavascriptFill } from "react-icons/ri";
 
 const IndexPage = () => (
   <Layout>
-    <Helmet
-      bodyAttributes={{
-        class: "index",
-      }}
-    />
-    <Seo title="Hello! This is the personal website of Alexandre Aimbiré!" />
     <div className="container">
       <div className="row align-items-center">
         <div className="col-8 col-md-4 col-lg-3 mx-auto">
@@ -87,3 +82,5 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+
+export const Head = () => <SeoHead pageTitle="Hello! This is the personal website of Alexandre Aimbiré!" bodyClass="index" />;

@@ -1,7 +1,6 @@
 import React from "react";
-import { Helmet } from 'react-helmet-async';
-import Seo from "../components/seo";
 import Layout from "../components/layout";
+import { SeoHead } from '../components/SEOHead';
 import { Link } from "gatsby";
 import portfolioData from "../data/portfolio-data";
 import { tagMetaMap, customColors } from "../data/techstack-meta";
@@ -24,13 +23,6 @@ const buttonStyle = {
 const PortfolioPage = () => {
   return (
     <Layout>
-      <Helmet
-        bodyAttributes={{
-          class: "porfolio",
-        }}
-      />
-      <Seo title="This is my portfolio!" />
-
       <div className="container py-5">
         <h1 className="mb-3 text-white">Portfolio</h1>
         <p className="text-white mb-4">
@@ -111,3 +103,5 @@ const PortfolioPage = () => {
 };
 
 export default PortfolioPage;
+
+export const Head = () => <SeoHead pageTitle="This is my portfolio!" bodyClass="porfolio" />;
