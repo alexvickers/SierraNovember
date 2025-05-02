@@ -2,26 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 import { SeoHead } from "../components/SEOHead";
 import Layout from "../components/layout";
+import FogOverlay from "../components/FogOverlay";
 import Lottie from "lottie-react";
 import lostAnimation from "../assets/lottie/404.json";
 
 const NotFoundPage = () => (
   <Layout>
-    <div className="fogwrapper">
-      <div id="foglayer_01" class="fog">
-        <div class="image01"></div>
-        <div class="image02"></div>
-      </div>
-      <div id="foglayer_02" class="fog">
-        <div class="image01"></div>
-        <div class="image02"></div>
-      </div>
-      <div id="foglayer_03" class="fog">
-        <div class="image01"></div>
-        <div class="image02"></div>
-      </div>
-    </div>
-
+    <FogOverlay />
     <div className="container text-center py-5 position-relative">
       <h1 className="text-white display-4 fw-bold">Into the Void</h1>
       <Lottie

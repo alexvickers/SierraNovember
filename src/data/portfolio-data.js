@@ -1,9 +1,9 @@
-import pecImage from "../assets/images/pec.png";
-import mitImage from "../assets/images/mit.png";
-import hueImage from "../assets/images/hue.png";
-import exameImage from '../assets/images/exame.png';
-import underImage from '../assets/images/underfloripa.png';
-import sierraImage from '../assets/images/sierra.png';
+import pecImage from "../assets/images/portfolio/pec.png";
+import mitImage from "../assets/images/portfolio/mit.png";
+import hueImage from "../assets/images/portfolio/hue.png";
+import exameImage from "../assets/images/portfolio/exame.png";
+import underImage from "../assets/images/portfolio/underfloripa.png";
+import sierraImage from "../assets/images/portfolio/sierra.png";
 
 const portfolioData = [
   {
@@ -32,7 +32,8 @@ const portfolioData = [
   },
   {
     title: "Exame",
-    description: "A comprehensive redesign of Exame's digital platform, Brazil's leading business and finance news outlet. The project involved streamlining the user interface for improved navigation and readability, enhancing SEO performance, and optimizing ad placements to boost monetization—all while modernizing the site's visual identity. This was implemented as a headless site, leveraging a decoupled architecture for greater flexibility and performance.",
+    description:
+      "A comprehensive redesign of Exame's digital platform, Brazil's leading business and finance news outlet. The project involved streamlining the user interface for improved navigation and readability, enhancing SEO performance, and optimizing ad placements to boost monetization—all while modernizing the site's visual identity. This was implemented as a headless site, leveraging a decoupled architecture for greater flexibility and performance.",
     image: exameImage,
     link: "https://exame.com/",
     tags: [
@@ -48,29 +49,19 @@ const portfolioData = [
   },
   {
     title: "Underfloripa",
-    description: " I lead the development and design of Underfloripa, an independent music and culture website. Built on WordPress, the project showcases my work across custom theme development, UX/UI design, and performance optimization. I also manage ongoing maintenance, content strategy, and feature planning—including a custom event plugin for local concert listings. In addition to the tech side, I contribute music reviews and features, bringing together my skills in both digital and editorial work.",
+    description:
+      "I lead the development and design of Underfloripa, an independent music and culture website built on WordPress. My work focuses on customizing the theme, extending functionality with custom plugins, and optimizing performance. I also handle ongoing maintenance, content strategy, and feature planning—including a plugin I built for managing local concert listings. Beyond the technical side, I contribute music reviews and features, combining my digital expertise with editorial work.",
     image: underImage,
     link: "https://underfloripa.com.br/",
-    tags: [
-      "wordpress",
-      "javascript",
-      "php",
-      "rest",
-      "sass",
-    ],
+    tags: ["wordpress", "javascript", "php", "rest", "sass"],
   },
   {
     title: "Sierra November",
-    description: "This is my personal portfolio site where I show off my work as a frontend developer and designer. It’s a mix of everything I love to do—building clean, responsive, and user-friendly websites.",
+    description:
+      "This is my personal portfolio site where I show off my work as a frontend developer and designer. It’s a mix of everything I love to do—building clean, responsive, and user-friendly websites.",
     image: sierraImage,
     link: "https://github.com/alexvickers/SierraNovember",
-    tags: [
-      "gatsby",
-      "react",
-      "javascript",
-      "bootstrap",
-      "sass",
-    ],
+    tags: ["gatsby", "react", "javascript", "bootstrap", "sass"],
   },
 ];
 

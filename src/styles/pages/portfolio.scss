@@ -2,8 +2,8 @@
   .portfolio-image {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
     height: 100%;
+    max-width: 100%;
 
     @media (max-width: 768px) {
       max-height: 280px;
