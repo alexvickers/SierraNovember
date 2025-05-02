@@ -5,6 +5,7 @@
 
 body {
   background-color: variables.$greyish;
+  overflow-x: hidden;
 
   * {
     font-family: variables.$lato;
@@ -25,14 +26,13 @@ body {
 
   &.index,
   &.four {
-    overflow: hidden;
-
     main {
       display: flex;
       align-items: center;
 
       @media (min-width: 1200px) {
         height: calc(100vh - 140px);
+        overflow: hidden;
       }
     }
 
