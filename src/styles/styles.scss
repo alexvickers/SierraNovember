@@ -1,84 +1,78 @@
-@import "./variables.scss";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@use 'pages/portfolio';
+@use 'animations/fog';
+@use 'variables';
+@use "bootstrap";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Barlow:700&display=swap");
 
-* {
-  font-family: "Lato", sans-serif;
-}
-
 body {
-  background-color: $greyish;
-}
+  background-color: variables.$greyish;
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: $barlow;
-  font-weight: 700;
-}
-
-p {
-  font-size: 1.1rem;
-}
-
-.index main {
-  display: flex;
-  align-items: center;
-
-  @media (min-width: 1200px) {
-    height: calc(100vh - 140px);
+  * {
+    font-family: variables.$lato;
   }
 
-  .avatar {
-    border: 3px solid #ffffff;
-    padding: 5px;
-    border-radius: 50%;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 700;
+    font-family: variables.$barlow;
+  }
 
-    .gatsby-image-wrapper {
-      border-radius: 50%;
+  p {
+    font-size: 1.1rem;
+  }
 
-      img {
+  &.index,
+  &.four {
+    overflow: hidden;
+
+    main {
+      display: flex;
+      align-items: center;
+
+      @media (min-width: 1200px) {
+        height: calc(100vh - 140px);
+      }
+    }
+
+    footer {
+      font-size: 0.75rem;
+    }
+  }
+
+  &.index {
+    main {
+      .avatar {
+        border: 3px solid #ffffff;
+        padding: 5px;
         border-radius: 50%;
+
+        .gatsby-image-wrapper {
+          border-radius: 50%;
+
+          img {
+            border-radius: 50%;
+          }
+        }
+      }
+
+      .icons {
+        flex-wrap: wrap;
+
+        @media (min-width: 1200px) {
+          justify-content: center;
+        }
       }
     }
   }
 
-  .icons {
-    flex-wrap: wrap;
-
-    @media (min-width: 1200px) {
-      justify-content: center;
+  &.four {
+    header,
+    footer {
+      position: relative;
+      z-index: 10;
     }
-  }
-}
-
-footer {
-  font-size: 0.75rem;
-}
-
-.portfolio-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-  height: 100%;
-
-  @media (max-width: 768px) {
-    max-height: 280px;
-  }
-}
-
-.badge-fade-in {
-  opacity: 0;
-  transform: translateY(10px);
-  animation: fadeInUp 0.6s ease forwards;
-  animation-delay: var(--animation-delay, 0s);
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }

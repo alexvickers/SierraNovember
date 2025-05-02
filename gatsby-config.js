@@ -4,7 +4,7 @@ module.exports = {
     description: `Personal website and Portfolio of Alexandre Aimbiré`,
     author: `Alexandre Aimbiré`,
     url: `https://sierranovember.com.br`,
-    image: `/images/me.jpg`,
+    image: `/assets/images/me.jpg`,
     lang: `en`,
   },
   plugins: [
@@ -40,7 +40,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     `gatsby-plugin-image`,
@@ -53,7 +53,7 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `sierra`,
         start_url: `/`,
-        icon: `src/images/mountain-solid.svg`,
+        icon: `src/assets/images/sierra.svg`,
         background_color: `#1d1d1d`,
       },
     },
