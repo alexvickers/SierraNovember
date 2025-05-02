@@ -5,7 +5,7 @@ module.exports = {
     author: `Alexandre Aimbiré`,
     url: `https://sierranovember.com.br`,
     image: `/images/me.jpg`,
-    twitterUsername: `@vickersvickers`,
+    lang: `en`,
   },
   plugins: [
     {
@@ -32,7 +32,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
