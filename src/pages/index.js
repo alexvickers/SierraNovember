@@ -18,7 +18,7 @@ const IndexPage = () => (
         <div className="col-md-8 col-lg-9">
           <h1 className="text-white">Call me Alex!</h1>
           <h2 className="text-white mb-4">
-            Frontend Developer with a love for building things, living in
+            Frontend Developer with a love for building things, living in the
             concrete jungle of São Paulo, Brazil.
           </h2>
           <p className="text-white">
