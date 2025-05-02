@@ -5,6 +5,7 @@ import {
   FaExchangeAlt,
   FaPhp,
   FaReact,
+  FaSass,
   FaWordpress
 } from "react-icons/fa";
 import {
@@ -13,7 +14,8 @@ import {
   SiJavascript,
   SiJquery,
   SiNextdotjs,
-  SiTailwindcss
+  SiTailwindcss,
+  SiPostcss
 } from "react-icons/si";
 
 export const tagMetaMap = {
@@ -27,8 +29,10 @@ export const tagMetaMap = {
   php: { icon: <FaPhp />, color: "lightPurple" },
   react: { icon: <FaReact />, color: "primary" },
   rest: { icon: <FaCogs />, color: "rest" },
+  sass: { icon: <FaSass />, color: "sass" },
   tailwind: { icon: <SiTailwindcss />, color: "info" },
   wordpress: { icon: <FaWordpress />, color: "blue" },
+  postcss: { icon: <SiPostcss />, color: "postcss" },
 };
 
 export const customColors = {
@@ -41,5 +45,7 @@ export const customColors = {
   darkBlue: "#0769ad",
   success: "#38b2ac",
   rest: "#6c757d",
+  sass: "#cf649a",
   tailwind: "#38bdf8",
+  postcss: "#dd3a0a",
 };

@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
-import { useSiteMetadata } from '../hooks/useSiteMetadata';
 import ImageMe from "../components/image-me";
 import Layout from "../components/layout";
 import Age from "../components/age";
-import { SeoHead } from '../components/SEOHead';
+import { SeoHead } from "../components/SEOHead";
 
 import {
   FaReact,
@@ -34,29 +33,35 @@ const IndexPage = () => (
         <div className="col-md-8 col-lg-9">
           <h1 className="text-white">Call me Alex!</h1>
           <h2 className="text-white mb-4">
-            I'm a Frontend Developer living in São Paulo, Brazil.
+            Frontend Developer with a love for building things, living in concrete jungle of São Paulo, Brazil.
           </h2>
           <p className="text-white">
             My name is <strong>Alexandre Aimbiré</strong>. I'm <Age /> years old
-            and I was born in Florianópolis, a city mostly known for it's sandy
-            beaches and former tennis player Gustavo Kuerten. I'm currently
-            studying English Language and Literature at the University of São
-            Paulo and I'm a recovering Coca-Cola addict. I play guitar and bass,
-            and I collect vinyl records.
+            and I hail from Florianópolis, a city known for its stunning beaches
+            and the legendary tennis player Gustavo Kuerten. These days, I’m
+            diving deep into English Language and Literature at the University
+            of São Paulo, where I’m rediscovering my passion for language. I
+            like to think of myself as a recovering Coca-Cola addict — who knew
+            caffeine could have such a hold on you?
           </p>
           <p className="text-white">
-            Check out my portfolio to see a selection of the{" "}
+            When I’m not buried in books, I play guitar and bass. Music has
+            always been a big part of my life, and I collect vinyl records
+            because, let’s face it, there’s nothing quite like the crackle of a
+            record.
+          </p>
+          <p className="text-white">
+            Take a look at my{" "}
             <Link to="/portfolio" title="Portfolio" className="text-white">
-              projects
+              portfolio
             </Link>{" "}
-            I've worked on.
-            <br />
-            I'll be constantly updating this website in the near future.
+            for a selection of the projects I’ve worked on. I’ll be updating
+            this site regularly, so keep an eye out for new stuff!
           </p>
           <p className="text-white">
-            Here's some of the stuff I've worked with:
+            Here’s a quick rundown of some of the tech I’ve worked with:
           </p>
-          <div className="icons text-white d-flex justify-content-start">
+          <div className="icons text-white d-flex justify-content-between">
             <FaReact size={36} className="me-3 mb-2" />
             <RiJavascriptFill size={36} className="me-3 mb-2" />
             <RiNextjsFill size={36} className="me-3 mb-2" />
@@ -83,4 +88,9 @@ const IndexPage = () => (
 
 export default IndexPage;
 
-export const Head = () => <SeoHead pageTitle="Hello! This is the personal website of Alexandre Aimbiré!" bodyClass="index" />;
+export const Head = () => (
+  <SeoHead
+    pageTitle="Hello! This is the personal website of Alexandre Aimbiré!"
+    bodyClass="index"
+  />
+);
