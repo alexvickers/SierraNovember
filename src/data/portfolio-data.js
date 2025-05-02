@@ -1,9 +1,9 @@
-import pecImage from "../assets/images/pec.png";
-import mitImage from "../assets/images/mit.png";
-import hueImage from "../assets/images/hue.png";
-import exameImage from '../assets/images/exame.png';
-import underImage from '../assets/images/underfloripa.png';
-import sierraImage from '../assets/images/sierra.png';
+import pecImage from "../assets/images/portfolio/pec.png";
+import mitImage from "../assets/images/portfolio/mit.png";
+import hueImage from "../assets/images/portfolio/hue.png";
+import exameImage from '../assets/images/portfolio/exame.png';
+import underImage from '../assets/images/portfolio/underfloripa.png';
+import sierraImage from '../assets/images/portfolio/sierra.png';
 
 const portfolioData = [
   {
