@@ -34,14 +34,14 @@ const PortfolioPage = () => {
           {portfolioData.map((project, index) => (
             <div className="col-12" key={index}>
               <div className="card h-100 flex-md-row" style={cardStyle}>
-                <div className="col-md-5">
+                <div className="col-lg-5">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="portfolio-image img-fluid rounded-start w-auto"
+                    className="portfolio-image img-fluid rounded-start object-fit-cover"
                   />
                 </div>
-                <div className="col-md-7 d-flex flex-column p-4">
+                <div className="col-lg-7 d-flex flex-column p-4">
                   <div className="card-body d-flex flex-column h-100">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.description}</p>
