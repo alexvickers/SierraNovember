@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "gatsby";
 import ImageMe from "../components/ImageMe";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Age from "../components/age";
 import { SeoHead } from "../components/SEOHead";
 import IconList from "../components/IconList";

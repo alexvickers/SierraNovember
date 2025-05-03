@@ -3,7 +3,7 @@ import { PiMountainsFill } from "react-icons/pi";
 import { Link } from "gatsby";
 import { socialLinks } from "../components/socialLinks";
 import PropTypes from "prop-types";
-import React from "react";
+import * as React from "react";
 
 const Header = ({ siteTitle }) => {
   const handleMouseEnter = (e, color) => {

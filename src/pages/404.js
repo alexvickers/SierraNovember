@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "gatsby";
 import { SeoHead } from "../components/SEOHead";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import FogOverlay from "../components/FogOverlay";
 import Lottie from "lottie-react";
 import lostAnimation from "../assets/lottie/404.json";
