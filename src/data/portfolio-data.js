@@ -9,7 +9,7 @@ const portfolioData = [
   {
     title: "Princeton Election Consortium",
     description:
-      "A custom WordPress build for Princeton’s Election Consortium, ahead of the 2022 midterms. Designed to mimic the look and feel of a newspaper, but built as a lightweight single-page app — fast, responsive, and easy to navigate.",
+      "A custom WordPress build for Princeton’s Election Consortium, ahead of the 2022 midterms. Designed to mimic the look and feel of a newspaper, but built as a lightweight single-page app — fast, responsive, and easy to navigate. This project was completed while I was working at Goodfolk Agency.",
     image: pecImage,
     link: "https://election.princeton.edu/",
     tags: ["wordpress", "php", "javascript", "jquery", "ajax", "postcss"],
@@ -17,7 +17,7 @@ const portfolioData = [
   {
     title: "MIT Energy Initiative",
     description:
-      "A redesign of the MIT Energy Initiative’s website, focused on improving accessibility and usability. We prioritized intuitive navigation, mobile responsiveness, and compliance with WCAG 2.1 Level AA accessibility standards to ensure the site is inclusive for all users — from researchers to industry professionals.",
+      "A redesign of the MIT Energy Initiative’s website, focused on improving accessibility and usability. We prioritized intuitive navigation, mobile responsiveness, and compliance with WCAG 2.1 Level AA accessibility standards to ensure the site is inclusive for all users — from researchers to industry professionals. This project was completed while I was working at Goodfolk Agency.",
     image: mitImage,
     link: "https://energy.mit.edu/",
     tags: ["wordpress", "php", "javascript", "jquery", "postcss"],
@@ -25,7 +25,7 @@ const portfolioData = [
   {
     title: "HUE | The Magazine of FIT",
     description:
-      "A complete overhaul of the HUE website for the Fashion Institute of Technology. The focus was on creating a visually striking, user-friendly design that reflected the vibrant nature of the FIT community while ensuring accessibility and easy navigation for students, faculty, and visitors alike.",
+      "A complete overhaul of the HUE website for the Fashion Institute of Technology. The focus was on creating a visually striking, user-friendly design that reflected the vibrant nature of the FIT community while ensuring accessibility and easy navigation for students, faculty, and visitors alike. This project was completed while I was working at Goodfolk Agency.",
     image: hueImage,
     link: "https://hue.fitnyc.edu/",
     tags: ["wordpress", "php", "javascript", "jquery", "sass"],

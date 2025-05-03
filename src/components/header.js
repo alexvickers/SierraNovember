@@ -19,17 +19,18 @@ const Header = ({ siteTitle }) => {
       <div className="row align-items-center">
         <div className="col-lg-1 col-6">
           <Link to="/" title={siteTitle} className="logo text-white">
-            <PiMountainsFill size={42} />
+            <PiMountainsFill size={42} className="logo-icon" />
           </Link>
         </div>
         <div className="col-lg-3 col-6 d-flex d-lg-block justify-content-end">
           <Link
             to="/portfolio"
             title={siteTitle}
-            className="text-white text-decoration-none"
+            className="text-decoration-none d-flex align-items-center gap-2 portfolio-link"
           >
-            <FaLaptopCode size={24} /> Portfolio
-          </Link>
+            <FaLaptopCode size={24} />
+            Portfolio
+          </Link>{" "}
         </div>
         <div className="col-lg-8 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
           {socialLinks.map(({ icon: Icon, url, title, color }, index) => (

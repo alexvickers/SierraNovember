@@ -31,7 +31,6 @@ module.exports = {
         id: "G-4SN5BHWDPN",
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
-        routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
         enableWebVitalsTracking: true,
       },
     },
