@@ -1,45 +1,40 @@
 import * as React from "react";
-import { Link, graphql } from "gatsby";
+import { Link } from "gatsby";
 import { SeoHead } from "../components/SEOHead";
 import Layout from "../components/Layout";
 import FogOverlay from "../components/FogOverlay";
 import Lottie from "lottie-react";
 import lostAnimation from "../assets/lottie/404.json";
+import { useSiteMetadata } from "../hooks/useSiteMetadata";
 
-const NotFoundPage = ({ data }) => (
-  <Layout siteTitle={data.site.siteMetadata.title}>
-    <FogOverlay />
-    <div className="container text-center py-5 position-relative">
-      <h1 className="display-4 fw-bold">Into the Void</h1>
-      <Lottie
-        animationData={lostAnimation}
-        loop={true}
-        style={{ maxWidth: "500px", margin: "auto" }}
-      />
-      <p className="mt-4">
-        The cities are dead. The silence screams. This page was consumed by the
-        void.
-      </p>
-      <p>
-        Follow the{" "}
-        <Link className="text-white text-decoration-underline" to="/">
-          trail of riffs back home
-        </Link>
-        .
-      </p>
-    </div>
-  </Layout>
-);
+const NotFoundPage = () => {
+  const { title: siteTitle } = useSiteMetadata();
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
+  return (
+    <Layout siteTitle={siteTitle}>
+      <FogOverlay />
+      <div className="container text-center py-5 position-relative">
+        <h1 className="display-4 fw-bold">Into the Void</h1>
+        <Lottie
+          animationData={lostAnimation}
+          loop={true}
+          style={{ maxWidth: "500px", margin: "auto" }}
+        />
+        <p className="mt-4">
+          The cities are dead. The silence screams. This page was consumed by
+          the void.
+        </p>
+        <p>
+          Follow the{" "}
+          <Link className="text-white text-decoration-underline" to="/">
+            trail of riffs back home
+          </Link>
+          .
+        </p>
+      </div>
+    </Layout>
+  );
+};
 
 export default NotFoundPage;
 

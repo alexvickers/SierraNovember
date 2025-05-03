@@ -1,9 +1,10 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 import { SeoHead } from "../components/SEOHead";
-import { Link, graphql } from "gatsby";
+import { Link } from "gatsby";
 import portfolioData from "../data/portfolio-data";
 import { tagMetaMap, customColors } from "../data/techstack-meta";
+import { useSiteMetadata } from "../hooks/useSiteMetadata";
 
 const cardStyle = {
   backgroundColor: "#f1f1f1",
@@ -20,9 +21,11 @@ const buttonStyle = {
   },
 };
 
-const PortfolioPage = ({ data }) => {
+const PortfolioPage = () => {
+  const { title: siteTitle } = useSiteMetadata();
+
   return (
-    <Layout siteTitle={data.site.siteMetadata.title}>
+    <Layout siteTitle={siteTitle}>
       <div className="container py-5">
         <h1 className="mb-3">Portfolio</h1>
         <p className="mb-4">
@@ -69,7 +72,7 @@ const PortfolioPage = ({ data }) => {
                           </span>
                         );
                       })}
-                    </div>{" "}
+                    </div>
                     <div className="mt-auto">
                       {project.link.startsWith("http") ? (
                         <a
@@ -101,16 +104,6 @@ const PortfolioPage = ({ data }) => {
     </Layout>
   );
 };
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
 
 export default PortfolioPage;
 

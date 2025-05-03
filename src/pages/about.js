@@ -1,13 +1,16 @@
-import { graphql } from "gatsby";
 import * as React from "react";
 import Layout from "../components/Layout";
 import AboutIntro from "../components/AboutIntro";
 import Timeline from "../components/Timeline";
 import Extras from "../components/Extras";
+import { SeoHead } from "../components/SEOHead";
+import { useSiteMetadata } from "../hooks/useSiteMetadata";
 
-const AboutPage = ({ data }) => {
+const AboutPage = () => {
+  const { title: siteTitle } = useSiteMetadata();
+
   return (
-    <Layout siteTitle={data.site.siteMetadata.title} pageTitle="About Me">
+    <Layout siteTitle={siteTitle} pageTitle="About Me">
       <AboutIntro />
       <Timeline />
       <Extras />
@@ -15,14 +18,6 @@ const AboutPage = ({ data }) => {
   );
 };
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
-
 export default AboutPage;
+
+export const Head = () => <SeoHead pageTitle="About Me" bodyClass="about" />;
