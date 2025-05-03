@@ -5,7 +5,7 @@ const TimelineItem = ({ year, title, description }) => {
     <div className="mb-4">
       <h5 className="fw-bold text-primary">{year}</h5>
       <h6 className="fw-semibold">{title}</h6>
-      <p className="text-muted">{description}</p>
+      <p>{description}</p>
     </div>
   );
 };
