@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import { SeoHead } from '../components/SEOHead';
-import { Link } from "gatsby";
+import { SeoHead } from "../components/SEOHead";
+import { Link, graphql } from "gatsby";
 import portfolioData from "../data/portfolio-data";
 import { tagMetaMap, customColors } from "../data/techstack-meta";
 
@@ -20,9 +20,9 @@ const buttonStyle = {
   },
 };
 
-const PortfolioPage = () => {
+const PortfolioPage = ({ data }) => {
   return (
-    <Layout>
+    <Layout siteTitle={data.site.siteMetadata.title}>
       <div className="container py-5">
         <h1 className="mb-3">Portfolio</h1>
         <p className="mb-4">
@@ -102,6 +102,18 @@ const PortfolioPage = () => {
   );
 };
 
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
+
 export default PortfolioPage;
 
-export const Head = () => <SeoHead pageTitle="This is my portfolio!" bodyClass="portfolio" />;
+export const Head = () => (
+  <SeoHead pageTitle="This is my portfolio!" bodyClass="portfolio" />
+);

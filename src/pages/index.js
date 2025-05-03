@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 import ImageMe from "../components/ImageMe";
 import Layout from "../components/Layout";
 import Age from "../components/age";
@@ -7,8 +7,8 @@ import { SeoHead } from "../components/SEOHead";
 import IconList from "../components/IconList";
 import HomeHeader from "../components/HomeHeader";
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({ data }) => (
+  <Layout siteTitle={data.site.siteMetadata.title}>
     <div className="container">
       <div className="row">
         <div className="col-8 col-md-4 col-lg-3 mx-auto">
@@ -42,15 +42,23 @@ const IndexPage = () => (
             for a selection of the projects I’ve worked on. I’ll be updating
             this site regularly, so keep an eye out for new stuff!
           </p>
-          <p>
-            Here’s a quick rundown of some of the tech I’ve worked with:
-          </p>
+          <p>Here’s a quick rundown of some of the tech I’ve worked with:</p>
           <IconList />
         </div>
       </div>
     </div>
   </Layout>
 );
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
 
 export default IndexPage;
 

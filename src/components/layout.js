@@ -5,20 +5,10 @@ import * as React from "react";
 import Footer from "./footer";
 import Header from "./header";
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
+const Layout = ({ children, siteTitle }) => {
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={siteTitle} />
       <main>{children}</main>
       <Footer />
     </>
@@ -27,6 +17,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  siteTitle: PropTypes.string.isRequired,
 };
 
 export default Layout;
