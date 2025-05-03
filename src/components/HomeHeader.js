@@ -84,7 +84,7 @@ const HomeHeader = () => {
   }, []);
 
   return (
-    <h2 className="text-white mb-4">
+    <h2 className="mb-4">
       Frontend Developer with a love for building things, living in{" "}
       <span style={{ whiteSpace: "nowrap" }}>{displayText}</span>
       {showCursor && <span className="blinking-cursor">|</span>}

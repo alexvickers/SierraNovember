@@ -4,7 +4,7 @@ import { BsBootstrapFill } from "react-icons/bs";
 import { SiNetlify } from "react-icons/si";
 
 const Footer = () => (
-  <footer className="text-white text-right container py-3">
+  <footer className="text-right container py-3">
     <div className="row">
       <div className="col">
         © {new Date().getFullYear()}, Built with{" "}

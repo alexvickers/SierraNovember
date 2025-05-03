@@ -24,8 +24,8 @@ const PortfolioPage = () => {
   return (
     <Layout>
       <div className="container py-5">
-        <h1 className="mb-3 text-white">Portfolio</h1>
-        <p className="text-white mb-4">
+        <h1 className="mb-3">Portfolio</h1>
+        <p className="mb-4">
           Some of the stuff I’ve built over the years — WordPress sites, React
           apps, a few things in between. Mostly clean code, always made with
           care.
