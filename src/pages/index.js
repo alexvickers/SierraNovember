@@ -17,9 +17,9 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="col-md-8 col-lg-9">
-          <h1 className="text-white">Call me Alex!</h1>
+          <h1>Call me Alex!</h1>
           <HomeHeader />
-          <p className="text-white">
+          <p>
             My name is <strong>Alexandre Aimbiré</strong>. I'm <Age /> years old
             and I hail from Florianópolis, a city known for its stunning beaches
             and the legendary tennis player Gustavo Kuerten. These days, I’m
@@ -28,13 +28,13 @@ const IndexPage = () => (
             like to think of myself as a recovering Coca-Cola addict — but I
             still drink coffee by the bucketload.
           </p>
-          <p className="text-white">
+          <p>
             When I’m not buried in books, I play guitar and bass. Music has
             always been a big part of my life, and I collect vinyl records
             because, let’s face it, there’s nothing quite like the crackle of a
             record.
           </p>
-          <p className="text-white">
+          <p>
             Take a look at my{" "}
             <Link to="/portfolio" title="Portfolio" className="text-white">
               portfolio
@@ -42,7 +42,7 @@ const IndexPage = () => (
             for a selection of the projects I’ve worked on. I’ll be updating
             this site regularly, so keep an eye out for new stuff!
           </p>
-          <p className="text-white">
+          <p>
             Here’s a quick rundown of some of the tech I’ve worked with:
           </p>
           <IconList />
