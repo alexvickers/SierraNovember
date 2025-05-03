@@ -37,7 +37,7 @@ export const socialLinks = [
     icon: BsMedium,
     url: "https://vickersvickers.medium.com/",
     title: "Medium",
-    color: "#12100E",
+    color: "#b3b3b3",
   },
   {
     icon: FaLastfm,
@@ -49,6 +49,6 @@ export const socialLinks = [
     icon: FaSteam,
     url: "https://steamcommunity.com/id/vickersvickers",
     title: "Steam",
-    color: "#171A21",
+    color: "#5c738d",
   },
 ];
