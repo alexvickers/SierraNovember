@@ -1,21 +1,14 @@
-@use "pages/portfolio";
 @use "variables";
 @use "bootstrap";
+@use "pages/portfolio";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Barlow:700&display=swap");
 
 body {
   background-color: variables.$greyish;
   overflow-x: hidden;
+  font-family: variables.$lato;
 
-  * {
-    font-family: variables.$lato;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+  h1, h2, h3, h4, h5 {
     font-weight: 700;
     font-family: variables.$barlow;
   }
@@ -23,66 +16,73 @@ body {
   p {
     font-size: 1.1rem;
   }
+}
 
-  &.index,
-  &.four {
-    main {
-      display: flex;
-      align-items: center;
+header .portfolio-link {
+  transition: color 0.3s ease, transform 0.3s ease;
 
-      @media (min-width: 1200px) {
-        height: calc(100vh - 140px);
-        overflow: hidden;
-      }
-    }
+  &:hover {
+    color: #ffc107;
 
-    footer {
-      font-size: 0.75rem;
+    svg {
+      animation: bounce 0.5s;
     }
   }
+}
 
-  &.index {
-    main {
-      .avatar {
-        border: 3px solid #ffffff;
-        padding: 5px;
-        border-radius: 50%;
+body.index main,
+body.four main {
+  display: flex;
+  align-items: center;
 
-        .gatsby-image-wrapper {
-          border-radius: 50%;
-
-          img {
-            border-radius: 50%;
-          }
-        }
-      }
-
-      .icons {
-        flex-wrap: wrap;
-
-        @media (min-width: 1200px) {
-          justify-content: center;
-        }
-      }
-    }
+  @media (min-width: 1200px) {
+    height: calc(100vh - 140px);
+    overflow: hidden;
   }
+}
 
-  &.four {
-    header,
-    footer {
-      position: relative;
-      z-index: 10;
-    }
+body.index footer,
+body.four footer {
+  font-size: 0.75rem;
+}
+
+body.index main .avatar {
+  border: 3px solid #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+
+  .gatsby-image-wrapper,
+  .gatsby-image-wrapper img {
+    border-radius: 50%;
   }
+}
 
-  footer {
-    .footer-icon {
-      transition: transform 0.2s ease, filter 0.2s ease;
-    }
+body.index main .icons {
+  flex-wrap: wrap;
 
-    .footer-link:hover .footer-icon {
-      transform: scale(1.1);
-      filter: brightness(1.2);
-    }
+  @media (min-width: 1200px) {
+    justify-content: center;
   }
+}
+
+body.four header,
+body.four footer {
+  position: relative;
+  z-index: 10;
+}
+
+footer .footer-icon {
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.footer-link:hover .footer-icon {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-4px); }
+  60%  { transform: translateY(2px); }
+  100% { transform: translateY(0); }
 }

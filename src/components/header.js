@@ -26,10 +26,11 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/portfolio"
             title={siteTitle}
-            className="text-white text-decoration-none"
+            className="text-white text-decoration-none d-flex align-items-center gap-2 portfolio-link"
           >
-            <FaLaptopCode size={24} /> Portfolio
-          </Link>
+            <FaLaptopCode size={24} />
+            Portfolio
+          </Link>{" "}
         </div>
         <div className="col-lg-8 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
           {socialLinks.map(({ icon: Icon, url, title, color }, index) => (
