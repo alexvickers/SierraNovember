@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
-import ImageMe from "../components/image-me";
+import ImageMe from "../components/ImageMe";
 import Layout from "../components/layout";
 import Age from "../components/age";
 import { SeoHead } from "../components/SEOHead";
 import IconList from "../components/IconList";
+import HomeHeader from "../components/HomeHeader";
 
 const IndexPage = () => (
   <Layout>
     <div className="container">
-      <div className="row align-items-center">
+      <div className="row">
         <div className="col-8 col-md-4 col-lg-3 mx-auto">
           <div className="avatar my-4 my-xl-0">
             <ImageMe />
@@ -17,10 +18,7 @@ const IndexPage = () => (
         </div>
         <div className="col-md-8 col-lg-9">
           <h1 className="text-white">Call me Alex!</h1>
-          <h2 className="text-white mb-4">
-            Frontend Developer with a love for building things, living in the
-            concrete jungle of São Paulo, Brazil.
-          </h2>
+          <HomeHeader />
           <p className="text-white">
             My name is <strong>Alexandre Aimbiré</strong>. I'm <Age /> years old
             and I hail from Florianópolis, a city known for its stunning beaches
