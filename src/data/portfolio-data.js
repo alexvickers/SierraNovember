@@ -4,6 +4,7 @@ import hueImage from "../assets/images/portfolio/hue.png";
 import exameImage from "../assets/images/portfolio/exame.png";
 import underImage from "../assets/images/portfolio/underfloripa.png";
 import sierraImage from "../assets/images/portfolio/sierra.png";
+import wuImage from "../assets/images/portfolio/wu.png";
 
 const portfolioData = [
   {
@@ -46,6 +47,14 @@ const portfolioData = [
       "tailwind",
       "sass",
     ],
+  },
+  {
+    title: "Western Union Wallet App",
+    description:
+      "Built using OutSystems, a leading low-code platform, the Western Union Wallet app offers a seamless and secure mobile experience for international money transfers. This app allows users to send, receive, and manage funds effortlessly, powered by robust backend technology that ensures fast, real-time transactions. Leveraging OutSystems' flexibility, the app combines a user-friendly interface with advanced security features, enabling rapid development and easy maintenance.",
+    image: wuImage,
+    link: "https://corretorawesternunion.com.br/digital-wallet/",
+    tags: ["outsystems", "javascript", "css"],
   },
   {
     title: "Underfloripa",
