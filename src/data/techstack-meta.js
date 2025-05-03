@@ -6,7 +6,9 @@ import {
   FaPhp,
   FaReact,
   FaSass,
-  FaWordpress
+  FaWordpress,
+  FaDotCircle,
+  FaCss3Alt,
 } from "react-icons/fa";
 import {
   SiGatsby,
@@ -33,6 +35,8 @@ export const tagMetaMap = {
   tailwind: { icon: <SiTailwindcss />, color: "info" },
   wordpress: { icon: <FaWordpress />, color: "blue" },
   postcss: { icon: <SiPostcss />, color: "postcss" },
+  outsystems: { icon: <FaDotCircle />, color: "red" },
+  css: { icon: <FaCss3Alt />, color: "css"  },
 };
 
 export const customColors = {
@@ -48,4 +52,6 @@ export const customColors = {
   sass: "#cf649a",
   tailwind: "#38bdf8",
   postcss: "#dd3a0a",
+  red: "#dd1234",
+  css: "#1572b6",
 };

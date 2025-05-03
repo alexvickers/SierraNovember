@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from "react";
 
 const jungleAlternatives = [
-  "concrete jungle of",
-  "city with no horizon,",
-  "urban sprawl of",
-  "locomotive of Brazil,",
-  "cultural melting pot of",
-  "unstoppable city,",
-  "home of SC Corinthians Paulista,",
-  "place with the best pizza in the World,",
-  "biggest city in the Southern Hemisphere,",
-  "place that makes Anthony Bourdain's favortite sandwich,",
+  "the concrete jungle of",
+  "the city with no horizon,",
+  "the urban sprawl of",
+  "Brazil's locomotive,",
+  "a cultural melting pot,",
+  "the unstoppable city,",
+  "the home of SC Corinthians Paulista,",
+  "the place with the best pizza in the World,",
+  "the biggest city in the Southern Hemisphere,",
+  "the home Anthony Bourdain's favortite sandwich,",
+  "a place where anything can happen,",
+  "a city bigger that the Netherlands,",
+  "the birthplace of Ayrton Senna,",
+  "the Land of the Garoa,",
+  "the largest megacity outside of Asia,",
+  "a city with better traffic than LA,",
+  "the greatest city in the world,",
 ];
 
 const getRandomPhrases = (count) => {
@@ -78,7 +85,7 @@ const HomeHeader = () => {
 
   return (
     <h2 className="text-white mb-4">
-      Frontend Developer with a love for building things, living in the{" "}
+      Frontend Developer with a love for building things, living in{" "}
       <span style={{ whiteSpace: "nowrap" }}>{displayText}</span>
       {showCursor && <span className="blinking-cursor">|</span>}
       {" "}São Paulo, Brazil.
