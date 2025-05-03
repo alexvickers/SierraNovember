@@ -1,5 +1,5 @@
-@use 'pages/portfolio';
-@use 'variables';
+@use "pages/portfolio";
+@use "variables";
 @use "bootstrap";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Barlow:700&display=swap");
 
@@ -72,6 +72,17 @@ body {
     footer {
       position: relative;
       z-index: 10;
+    }
+  }
+
+  footer {
+    .footer-icon {
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+
+    .footer-link:hover .footer-icon {
+      transform: scale(1.1);
+      filter: brightness(1.2);
     }
   }
 }

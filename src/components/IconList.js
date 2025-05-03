@@ -78,7 +78,7 @@ const IconList = () => {
             color: "white",
             transition: "color 0.3s ease",
           }}
-          className={`mb-2 ${index !== icons.length - 1 ? "me-3" : ""}`}
+          className="mb-2"
           onMouseEnter={(e) => handleMouseEnter(e, hoverColors[index])}
           onMouseLeave={handleMouseLeave}
         />

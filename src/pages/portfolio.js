@@ -104,4 +104,4 @@ const PortfolioPage = () => {
 
 export default PortfolioPage;
 
-export const Head = () => <SeoHead pageTitle="This is my portfolio!" bodyClass="porfolio" />;
+export const Head = () => <SeoHead pageTitle="This is my portfolio!" bodyClass="portfolio" />;
