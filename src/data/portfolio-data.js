@@ -2,6 +2,7 @@ import pecImage from "../assets/images/portfolio/pec.png";
 import mitImage from "../assets/images/portfolio/mit.png";
 import hueImage from "../assets/images/portfolio/hue.png";
 import exameImage from "../assets/images/portfolio/exame.png";
+import osacImage from "../assets/images/portfolio/exame.png";
 import underImage from "../assets/images/portfolio/underfloripa.png";
 import sierraImage from "../assets/images/portfolio/sierra.png";
 import wuImage from "../assets/images/portfolio/wu.png";
@@ -30,6 +31,14 @@ const portfolioData = [
     image: hueImage,
     link: "https://hue.fitnyc.edu/",
     tags: ["wordpress", "php", "javascript", "jquery", "sass"],
+  },
+  {
+    title: "2022 OSAC Annual Briefing",
+    description:
+      "The online home for the 2022 OSAC Annual Briefing — a key event hosted by the U.S. State Department for the global security community. Developed in WordPress with a focus on responsive design and subtle, polished animations to enhance user experience. This project was completed while I was working at Goodfolk Agency.",
+    image: osacImage,
+    link: "https://web.archive.org/web/20220418023729/https://annualbriefing.osac.gov/",
+    tags: ["wordpress", "php", "javascript", "jquery", "postcss"],
   },
   {
     title: "Exame",
