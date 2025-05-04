@@ -32,6 +32,14 @@ const portfolioData = [
     tags: ["wordpress", "php", "javascript", "jquery", "sass"],
   },
   {
+    title: "2022 OSAC Annual Briefing",
+    description:
+      "The online home for the 2022 OSAC Annual Briefing — a key event hosted by the U.S. State Department for the global security community. Developed in WordPress with a focus on responsive design and subtle, polished animations to enhance user experience. This project was completed while I was working at Goodfolk Agency.",
+    image: osacImage,
+    link: "https://web.archive.org/web/20220418023729/https://annualbriefing.osac.gov/",
+    tags: ["wordpress", "php", "javascript", "jquery", "postcss"],
+  },
+  {
     title: "Exame",
     description:
       "A comprehensive redesign of Exame's digital platform, Brazil's leading business and finance news outlet. The project involved streamlining the user interface for improved navigation and readability, enhancing SEO performance, and optimizing ad placements to boost monetization—all while modernizing the site's visual identity. This was implemented as a headless site, leveraging a decoupled architecture for greater flexibility and performance.",
