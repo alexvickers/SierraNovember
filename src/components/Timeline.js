@@ -20,6 +20,7 @@ const Timeline = () => {
               height: 120
               layout: FIXED
               placeholder: BLURRED
+              transformOptions: { grayscale: true }
             )
           }
         }
@@ -39,7 +40,11 @@ const Timeline = () => {
 
   return (
     <section className="container py-5">
-      <h2 className="mb-5 text-center">My Journey</h2>
+      <h2 className="text-center mb-3">"Well, How Did I Get Here?"</h2>
+      <h3 className="text-center mb-5">
+        My ongoing adventure in making things, fixing things, and figuring it
+        out.
+      </h3>
       <div className="timeline position-relative border-start border-2 ps-4">
         {sortedData.map((item, index) => (
           <TimelineItem
@@ -52,6 +57,8 @@ const Timeline = () => {
           />
         ))}
       </div>
+      <p className="mb-1 text-center">This ain’t no party, this ain’t no disco, this ain’t no complete timeline.</p>
+      <p className="mb-0 text-center">More moments coming soon. Because time isn’t holding us, time isn’t after us — but it is still happening.</p>
     </section>
   );
 };
