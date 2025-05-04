@@ -2,6 +2,7 @@ import pecImage from "../assets/images/portfolio/pec.png";
 import mitImage from "../assets/images/portfolio/mit.png";
 import hueImage from "../assets/images/portfolio/hue.png";
 import exameImage from "../assets/images/portfolio/exame.png";
+import osacImage from "../assets/images/portfolio/exame.png";
 import underImage from "../assets/images/portfolio/underfloripa.png";
 import sierraImage from "../assets/images/portfolio/sierra.png";
 import wuImage from "../assets/images/portfolio/wu.png";
