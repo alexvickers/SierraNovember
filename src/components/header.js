@@ -1,9 +1,9 @@
-import { FaLaptopCode } from "react-icons/fa";
+import { FaLaptopCode, FaRegAddressCard } from "react-icons/fa";
 import { PiMountainsFill } from "react-icons/pi";
 import { Link } from "gatsby";
 import { socialLinks } from "../components/socialLinks";
 import PropTypes from "prop-types";
-import React from "react";
+import * as React from "react";
 
 const Header = ({ siteTitle }) => {
   const handleMouseEnter = (e, color) => {
@@ -22,17 +22,25 @@ const Header = ({ siteTitle }) => {
             <PiMountainsFill size={42} className="logo-icon" />
           </Link>
         </div>
-        <div className="col-lg-3 col-6 d-flex d-lg-block justify-content-end">
+        <div className="menu col-lg-4 col-6 d-flex align-items-center gap-3">
           <Link
             to="/portfolio"
-            title={siteTitle}
-            className="text-decoration-none d-flex align-items-center gap-2 portfolio-link"
+            title="Portfolio"
+            className="text-decoration-none d-flex align-items-center gap-2 text-white portfolio-link"
           >
             <FaLaptopCode size={24} />
             Portfolio
-          </Link>{" "}
+          </Link>
+          <Link
+            to="/about"
+            title="About Me"
+            className="text-decoration-none d-flex align-items-center gap-2 text-white about-link"
+          >
+            <FaRegAddressCard size={24} />
+            About Me
+          </Link>
         </div>
-        <div className="col-lg-8 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
+        <div className="col-lg-7 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
           {socialLinks.map(({ icon: Icon, url, title, color }, index) => (
             <a
               key={index}

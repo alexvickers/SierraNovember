@@ -1,9 +1,10 @@
-import React from "react";
-import Layout from "../components/layout";
-import { SeoHead } from '../components/SEOHead';
+import * as React from "react";
+import Layout from "../components/Layout";
+import { SeoHead } from "../components/SEOHead";
 import { Link } from "gatsby";
 import portfolioData from "../data/portfolio-data";
 import { tagMetaMap, customColors } from "../data/techstack-meta";
+import { useSiteMetadata } from "../hooks/useSiteMetadata";
 
 const cardStyle = {
   backgroundColor: "#f1f1f1",
@@ -21,8 +22,10 @@ const buttonStyle = {
 };
 
 const PortfolioPage = () => {
+  const { title: siteTitle } = useSiteMetadata();
+
   return (
-    <Layout>
+    <Layout siteTitle={siteTitle}>
       <div className="container py-5">
         <h1 className="mb-3">Portfolio</h1>
         <p className="mb-4">
@@ -69,7 +72,7 @@ const PortfolioPage = () => {
                           </span>
                         );
                       })}
-                    </div>{" "}
+                    </div>
                     <div className="mt-auto">
                       {project.link.startsWith("http") ? (
                         <a
@@ -104,4 +107,6 @@ const PortfolioPage = () => {
 
 export default PortfolioPage;
 
-export const Head = () => <SeoHead pageTitle="This is my portfolio!" bodyClass="portfolio" />;
+export const Head = () => (
+  <SeoHead pageTitle="This is my portfolio!" bodyClass="portfolio" />
+);

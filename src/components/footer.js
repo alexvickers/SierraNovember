@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { RiGatsbyFill } from "react-icons/ri";
 import { BsBootstrapFill } from "react-icons/bs";
 import { SiNetlify } from "react-icons/si";
