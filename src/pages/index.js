@@ -43,7 +43,8 @@ const IndexPage = () => {
               <Link to="/portfolio" title="Portfolio" className="text-white">
                 portfolio
               </Link>{" "}
-              for a selection of the projects I’ve worked on. I’ll be updating
+              for a selection of the projects I’ve worked on, or if you want to know what makes me tick, there's also               <Link to="/about" title="About Me" className="text-white">
+              a page for that</Link>!<br /> I’ll be updating
               this site regularly, so keep an eye out for new stuff!
             </p>
             <p>Here’s a quick rundown of some of the tech I’ve worked with:</p>
