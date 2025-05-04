@@ -16,8 +16,8 @@ const Timeline = () => {
           name
           childImageSharp {
             gatsbyImageData(
-              width: 60
-              height: 60
+              width: 120
+              height: 120
               layout: FIXED
               placeholder: BLURRED
             )

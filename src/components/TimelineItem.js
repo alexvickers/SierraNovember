@@ -3,7 +3,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 const getMonthName = (month) => {
   const date = new Date();
-  date.setMonth(month - 1); // month is 1-based in your data
+  date.setMonth(month - 1);
   return date.toLocaleString("en-US", { month: "long" });
 };
 
@@ -17,7 +17,7 @@ const TimelineItem = ({ year, month, title, description, image }) => {
             image={image}
             alt={title}
             className="rounded-circle"
-            style={{ width: "60px", height: "60px" }}
+            style={{ width: "120px", height: "120px" }}
           />
         </div>
       )}
