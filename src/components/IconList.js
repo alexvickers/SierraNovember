@@ -69,7 +69,7 @@ const IconList = () => {
   };
 
   return (
-    <div className="icons d-flex justify-content-between flex-wrap">
+    <div className="icons d-flex justify-content-between flex-wrap gap-2">
       {icons.map((Icon, index) => (
         <Icon
           key={index}

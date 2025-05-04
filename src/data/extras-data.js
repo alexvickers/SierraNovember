@@ -8,7 +8,7 @@ const extrasData = [
     icon: FaRecordVinyl,
   },
   {
-    label: "Reading Is Believing",
+    label: "The Book(s) I Read",
     description:
       "I'm pursuing a degree in English Language and Literature at the University of São Paulo (USP). I love critical theory, short stories, and writing essays.",
     icon: FaBook,
