@@ -44,6 +44,14 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "UF",
+        fieldName: "underfloripa",
+        url: "https://underfloripa.com.br/graphql",
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     {
@@ -54,6 +62,36 @@ module.exports = {
         start_url: `/`,
         icon: `src/assets/images/sierra.svg`,
         background_color: `#1d1d1d`,
+      },
+    },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: process.env.WPGRAPHQL_URL || `https://underfloripa.com.br/graphql`,
+        html: {
+          useGatsbyImage: true,
+          createStaticFiles: true,
+          fallbackImageMaxWidth: 2048,
+          imageQuality: 90,
+        },
+        type: {
+          MediaItem: {
+            createFileNodes: true,
+          },
+          Post: {
+            limit: process.env.NODE_ENV === `development` ? 50 : 5000,
+          },
+          AcfFieldGroup: {
+            exclude: true,
+          },
+        },
+        schema: {
+          typePrefix: `Wp`,
+          perPage: 100,
+        },
+        develop: {
+          hardCacheMediaFiles: true,
+        },
       },
     },
   ],
