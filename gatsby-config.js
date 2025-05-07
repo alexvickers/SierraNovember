@@ -3,7 +3,7 @@ module.exports = {
     title: `Sierra November`,
     description: `Personal website and Portfolio of Alexandre Aimbiré`,
     author: `Alexandre Aimbiré`,
-    url: `https://sierranovember.com.br`,
+    url: `https://www.sierranovember.com.br`,
     image: `https://www.sierranovember.com.br/og-image.jpg`,
     lang: `en`,
   },
