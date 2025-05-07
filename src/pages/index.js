@@ -43,9 +43,13 @@ const IndexPage = () => {
               <Link to="/portfolio" title="Portfolio" className="text-white">
                 portfolio
               </Link>{" "}
-              for a selection of the projects I’ve worked on, or if you want to know what makes me tick, there's also               <Link to="/about" title="About Me" className="text-white">
-              a page for that</Link>!<br /> I’ll be updating
-              this site regularly, so keep an eye out for new stuff!
+              for a selection of the projects I’ve worked on, or if you want to
+              know what makes me tick, there's also{" "}
+              <Link to="/about" title="About Me" className="text-white">
+                a page for that
+              </Link>
+              !<br /> I’ll be updating this site regularly, so keep an eye out
+              for new stuff!
             </p>
             <p>Here’s a quick rundown of some of the tech I’ve worked with:</p>
             <IconList />
@@ -60,7 +64,8 @@ export default IndexPage;
 
 export const Head = () => (
   <SeoHead
-    pageTitle="Hello! This is the personal website of Alexandre Aimbiré!"
+    pageTitle="Hello! I'm Alexandre Aimbiré — Developer, Educator & Vinyl Addict"
+    pageUrl={`https://www.sierranovember.com.br${location.pathname}`}
     bodyClass="index"
   />
 );
