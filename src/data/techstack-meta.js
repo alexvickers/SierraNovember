@@ -27,7 +27,7 @@ export const tagMetaMap = {
   graphql: { icon: <SiGraphql />, color: "pink" },
   javascript: { icon: <SiJavascript />, color: "yellow" },
   jquery: { icon: <SiJquery />, color: "darkBlue" },
-  nextjs: { icon: <SiNextdotjs />, color: "success" },
+  nextjs: { icon: <SiNextdotjs />, color: "gray" },
   php: { icon: <FaPhp />, color: "lightPurple" },
   react: { icon: <FaReact />, color: "primary" },
   rest: { icon: <FaCogs />, color: "rest" },
@@ -54,4 +54,5 @@ export const customColors = {
   postcss: "#dd3a0a",
   red: "#dd1234",
   css: "#1572b6",
+  gray: "#888888",
 };
