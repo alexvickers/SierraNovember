@@ -41,6 +41,7 @@ export default NotFoundPage;
 export const Head = () => (
   <SeoHead
     pageTitle="0–3–5... 0–6–5–3 — You’ve Gone Into the Void (404)"
+    pageUrl={`https://www.sierranovember.com.br/404`}
     description="Lost in the endless void, where cities die and silence screams. This page is no more."
     bodyClass="four"
   />

@@ -11,19 +11,21 @@ import {
   FaGulp,
   FaFigma,
 } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import {
-  RiJavascriptFill,
-  RiNextjsFill,
-  RiGatsbyFill,
-  RiTailwindCssFill,
-} from "react-icons/ri";
-import { SiJquery, SiWoo, SiAdobexd } from "react-icons/si";
+  SiJquery,
+  SiWoo,
+  SiAdobexd,
+  SiGatsby,
+  SiJavascript,
+  SiTailwindcss,
+} from "react-icons/si";
 
 const icons = [
   FaReact,
-  RiJavascriptFill,
+  SiJavascript,
   RiNextjsFill,
-  RiGatsbyFill,
+  SiGatsby,
   FaHtml5,
   FaCss3Alt,
   SiJquery,
@@ -32,7 +34,7 @@ const icons = [
   FaPhp,
   FaSass,
   FaBootstrap,
-  RiTailwindCssFill,
+  SiTailwindcss,
   FaGit,
   FaGulp,
   FaFigma,
