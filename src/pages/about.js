@@ -23,7 +23,7 @@ export default AboutPage;
 export const Head = () => (
   <SeoHead
     pageTitle="Meet Alexandre Aimbiré | Developer, English Teacher & Guitar Nerd"
-    pageUrl={`https://www.sierranovember.com.br${location.pathname}`}
+    pageUrl={`https://www.sierranovember.com.br/about`}
     bodyClass="about"
   />
 );

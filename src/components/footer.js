@@ -1,7 +1,6 @@
 import * as React from "react";
-import { RiGatsbyFill } from "react-icons/ri";
 import { BsBootstrapFill } from "react-icons/bs";
-import { SiNetlify } from "react-icons/si";
+import { SiNetlify, SiGatsby } from "react-icons/si";
 
 const Footer = () => (
   <footer className="text-right container py-3">
@@ -14,7 +13,7 @@ const Footer = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiGatsbyFill
+          <SiGatsby
             className="footer-icon"
             style={{
               color: "#663399",

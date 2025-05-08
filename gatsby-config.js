@@ -3,7 +3,7 @@ module.exports = {
     title: `Sierra November`,
     description: `Personal website and Portfolio of Alexandre Aimbiré`,
     author: `Alexandre Aimbiré`,
-    url: `https://www.sierranovember.com.br`,
+    siteUrl: `https://www.sierranovember.com.br`,
     image: `https://www.sierranovember.com.br/og-image.jpg`,
     lang: `en`,
   },
@@ -19,8 +19,8 @@ module.exports = {
         redirect: [
           "RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]",
           {
-            from: "http:sierranovember.com.br",
-            to: "https:sierranovember.com.br",
+            from: "http://sierranovember.com.br",
+            to: "https://sierranovember.com.br",
           },
         ],
       },
@@ -40,6 +40,18 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/assets/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     `gatsby-plugin-image`,
