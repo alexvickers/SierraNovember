@@ -110,7 +110,7 @@ export default PortfolioPage;
 export const Head = () => (
   <SeoHead
     pageTitle="WordPress & React Projects | Developer Portfolio of Alexandre Aimbiré"
-    pageUrl={`https://www.sierranovember.com.br${location.pathname}`}
+    pageUrl={`https://www.sierranovember.com.br/portfolio`}
     bodyClass="portfolio"
   />
 );

@@ -6,6 +6,7 @@ export const SeoHead = ({
   pageDescription,
   lang = "en",
   bodyClass = "",
+  pageUrl,
 }) => {
   const { title, description, author, image } = useSiteMetadata();
   const fullTitle = pageTitle ? `${pageTitle} | ${title}` : title;

@@ -65,7 +65,7 @@ export default IndexPage;
 export const Head = () => (
   <SeoHead
     pageTitle="Hello! I'm Alexandre Aimbiré — Developer, Educator & Vinyl Addict"
-    pageUrl={`https://www.sierranovember.com.br${location.pathname}`}
+    pageUrl={`https://www.sierranovember.com.br`}
     bodyClass="index"
   />
 );
