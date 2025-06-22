@@ -1,9 +1,9 @@
-import { FaLaptopCode, FaRegAddressCard } from "react-icons/fa";
+import * as React from "react";
+import { FaLaptopCode, FaRegAddressCard, FaCameraRetro } from "react-icons/fa";
 import { PiMountainsFill } from "react-icons/pi";
 import { Link } from "gatsby";
 import { socialLinks } from "../components/socialLinks";
 import PropTypes from "prop-types";
-import * as React from "react";
 
 const Header = ({ siteTitle }) => {
   const handleMouseEnter = (e, color) => {
@@ -31,6 +31,15 @@ const Header = ({ siteTitle }) => {
             <FaLaptopCode size={24} />
             Portfolio
           </Link>
+          <Link
+            to="/photography"
+            title="Photography"
+            className="text-decoration-none d-flex align-items-center gap-2 text-white photography-link"
+          >
+            <FaCameraRetro size={24} />
+            Photography
+          </Link>
+
           <Link
             to="/about"
             title="About Me"
