@@ -6,7 +6,6 @@ import osacImage from "../assets/images/portfolio/osac.png";
 import underImage from "../assets/images/portfolio/underfloripa.png";
 import sierraImage from "../assets/images/portfolio/sierra.png";
 import wuImage from "../assets/images/portfolio/wu.png";
-import flatImage from "../assets/images/portfolio/flat.png";
 
 const portfolioData = [
   {
@@ -65,14 +64,6 @@ const portfolioData = [
     image: wuImage,
     link: "https://corretorawesternunion.com.br/digital-wallet/",
     tags: ["outsystems", "javascript", "css"],
-  },
-  {
-    title: "Flatbox",
-    description:
-      "At Flatbox, a creative agency in São Paulo, I worked on building a headless website using WordPress as the CMS and Gatsby for the frontend. This was my first time working with Gatsby, and I was responsible for structuring the project with performance and SEO in mind. We implemented best practices like clean semantic markup, fast page loads, image optimization, and dynamic metadata handling via GraphQL. The result was a blazing-fast, search-friendly site that gave the content team full control while boosting visibility.",
-    image: flatImage,
-    link: "https://web.archive.org/web/20181217142420/http://www.grupoflatbox.com.br/",
-    tags: ["gatbsy", "wordpress", "react", "javascript", "sass", "graphql"],
   },
   {
     title: "Underfloripa",

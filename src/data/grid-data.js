@@ -8,22 +8,8 @@ export const gridData = [
   },
   {
     title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-10",
-    image: "cyhsy-10.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-11",
-    image: "cyhsy-11.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-12",
-    image: "cyhsy-12.jpg",
+    slug: "cyhsy-2",
+    image: "cyhsy-2.jpg",
     location: "Cine Jóia",
     date: "2025-06-12"
   },
@@ -77,6 +63,13 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
+    title: "Clap Your Hands Say Yeah",
+    slug: "cyhsy-10",
+    image: "cyhsy-10.jpg",
+    location: "Cine Jóia",
+    date: "2025-06-12"
+  },
+  {
     title: "Escalpo",
     slug: "escalpo-1",
     image: "escalpo-1.jpg",
@@ -87,20 +80,6 @@ export const gridData = [
     title: "Escalpo",
     slug: "escalpo-2",
     image: "escalpo-2.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Exploited",
-    slug: "exploited-1",
-    image: "exploited-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Exploited",
-    slug: "exploited-2",
-    image: "exploited-2.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -119,30 +98,9 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
-    title: "The Exploited",
-    slug: "exploited-5",
-    image: "exploited-5.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Exploited",
-    slug: "exploited-6",
-    image: "exploited-6.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Exploited",
-    slug: "exploited-7",
-    image: "exploited-7.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
     title: "Paira",
     slug: "paira-1",
-    image: "paira-1.jpg",
+    image: "paira-1",
     location: "Cine Jóia",
     date: "2025-06-12"
   },
@@ -175,44 +133,16 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Paira",
-    slug: "paira-6",
-    image: "paira-6.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Paira",
-    slug: "paira-7",
-    image: "paira-7.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Paira",
-    slug: "paira-8",
-    image: "paira-8.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Paira",
-    slug: "paira-9",
-    image: "paira-9",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
     title: "Punho de Mahin",
-    slug: "punho-de-mahin-2",
-    image: "punho-de-mahin-2.jpg",
+    slug: "punho-de-mahin-1",
+    image: "punho-de-mahin-1.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
   {
     title: "Punho de Mahin",
-    slug: "punho-de-mahin-1",
-    image: "punho-de-mahin-1.jpg",
+    slug: "punho-de-mahin-2",
+    image: "punho-de-mahin-2.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -239,15 +169,29 @@ export const gridData = [
   },
   {
     title: "Ratos de Porão",
+    slug: "ratos-de-porao-1",
+    image: "ratos-de-porao-1.jpg",
+    location: "Carioca Club",
+    date: "2025-06-23"
+  },
+  {
+    title: "Ratos de Porão",
     slug: "ratos-de-porao-2",
     image: "ratos-de-porao-2.jpg",
-    location: "",
+    location: "Carioca Club",
     date: "2025-06-23"
   },
   {
     title: "Ratos de Porão",
     slug: "ratos-de-porao-3",
     image: "ratos-de-porao-3.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
+    title: "Ratos de Porão",
+    slug: "ratos-de-porao-4",
+    image: "ratos-de-porao-4.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -273,9 +217,44 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
+    title: "The Chisel",
+    slug: "the-chisel-4",
+    image: "the-chisel-4.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
+    title: "The Exploited",
+    slug: "exploited-1",
+    image: "exploited-1.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
+    title: "The Exploited",
+    slug: "exploited-2",
+    image: "exploited-2.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
+    title: "The Exploited",
+    slug: "exploited-5",
+    image: "exploited-5.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
     title: "Urutu",
-    slug: "urutu",
-    image: "urutu.jpg",
+    slug: "urutu-1",
+    image: "urutu-1.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
+    title: "Urutu",
+    slug: "urutu-2",
+    image: "urutu-2.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   }
