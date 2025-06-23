@@ -9,7 +9,7 @@ const PhotographyPage = () => {
 
   return (
     <Layout siteTitle={siteTitle}>
-      <div className="photography-page container">
+      <div className="container py-3 py-lg-5">
         <h1>Louder than Love</h1>
         <p>A collection of raw moments, frozen mid-chaos. No filters. Just light, sweat, and noise.</p>
         <PhotoGrid />

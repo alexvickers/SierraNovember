@@ -8,7 +8,7 @@ export const query = graphql`
   query UnderfloripaQuery {
     underfloripa {
       posts(
-        first: 10
+        first: 12
         where: {
           authorName: "vickersvickers"
           categoryName: "resenhas, coberturas"
@@ -42,7 +42,7 @@ const UnderfloripaPage = ({ data }) => {
 
   return (
     <Layout siteTitle={siteTitle}>
-      <div className="container py-5">
+      <div className="container py-3 py-lg-5">
         <h1 className="mb-5">Últimos textos no Underfloripa</h1>
         <div className="row">
           {posts.map((post) => (
@@ -54,8 +54,10 @@ const UnderfloripaPage = ({ data }) => {
                     alt={post.featuredImage.node.altText || post.title}
                     className="card-img-top"
                     style={{ objectFit: "cover", maxHeight: "300px" }}
+                    loading="lazy"
+                    decoding="async"
                   />
-                )}
+                )}{" "}
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">
                     <a
