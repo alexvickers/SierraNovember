@@ -6,9 +6,11 @@
   NODE_VERSION = "18.17.0"
   NODE_ENV = "development"
   NPM_FLAGS = "--legacy-peer-deps"
+  NPM_VERSION = "9.1.3"
 
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
 [context.production.environment]
   NODE_ENV = "production"
+  NPM_VERSION = "9.1.3"
