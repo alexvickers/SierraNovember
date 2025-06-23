@@ -94,19 +94,29 @@ module.exports = {
           imageQuality: 90,
         },
         type: {
-          MediaItem: {
-            createFileNodes: true,
-          },
           Post: {
-            limit: process.env.NODE_ENV === `development` ? 50 : 5000,
+            limit: process.env.NODE_ENV === "production" ? 25 : 12,
           },
-          AcfFieldGroup: {
-            exclude: true,
+          MediaItem: {
+            createFileNodes: process.env.NODE_ENV === "production",
           },
+          Page: { exclude: true },
+          Comment: { exclude: true },
+          Tag: { exclude: true },
+          Taxonomy: { exclude: true },
+          Category: { exclude: true },
+          Menu: { exclude: true },
+          MenuItem: { exclude: true },
+          User: { exclude: true },
+          AcfFieldGroup: { exclude: true },
+          Plugin: { exclude: true },
+          Theme: { exclude: true },
+          ContentType: { exclude: true },
         },
         schema: {
           typePrefix: `Wp`,
-          perPage: 100,
+          perPage: 50,
+          timeout: 300000,
         },
         develop: {
           hardCacheMediaFiles: true,
