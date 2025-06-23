@@ -1,3 +1,26 @@
+.masonry-grid {
+  column-count: 3;
+  column-gap: 1.5rem;
+  margin: 2rem 0;
+
+  @media (max-width: 1000px) {
+    column-count: 2;
+  }
+
+  @media (max-width: 600px) {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  width: 100%;
+
+  &.is-portrait .gatsby-image-wrapper {
+  }
+}
+
 .photo-wrapper {
   position: relative;
   overflow: hidden;
@@ -5,7 +28,13 @@
 
   .gatsby-image-wrapper {
     display: block;
-    transition: transform 0.3s ease;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
   }
 
   .caption {
