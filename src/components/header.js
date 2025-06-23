@@ -4,9 +4,12 @@ import {
   FaLaptopCode,
   FaRegAddressCard,
   FaCameraRetro,
-  FaBars,
+  FaBars
 } from "react-icons/fa";
-import { PiMountainsFill } from "react-icons/pi";
+import {
+  PiMountainsFill,
+  PiVinylRecordFill
+} from "react-icons/pi";
 import { Link } from "gatsby";
 import { socialLinks } from "../components/socialLinks";
 import PropTypes from "prop-types";
@@ -46,11 +49,11 @@ const Header = ({ siteTitle }) => {
         </div>
 
         <div
-          className={`menu col-12 col-lg-4 ${
+          className={`menu col-12 col-lg-5 ${
             menuOpen ? "open" : ""
           } `}
         >
-          <ul className="d-lg-flex gap-3 p-0 mb-0 mt-3 mt-lg-0">
+          <ul className="d-lg-flex gap-3 p-0 mb-0 mt-3 mt-lg-0 align-items-center">
             <li>
               <Link
                 to="/portfolio"
@@ -59,6 +62,16 @@ const Header = ({ siteTitle }) => {
               >
                 <FaLaptopCode size={24} />
                 Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/underfloripa"
+                title="Writing"
+                className="text-decoration-none d-flex align-items-center gap-1 text-white writing-link"
+              >
+                <PiVinylRecordFill size={28} />
+                Writing
               </Link>
             </li>
             <li>
@@ -84,7 +97,7 @@ const Header = ({ siteTitle }) => {
           </ul>
         </div>
 
-        <div className="col-lg-7 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 gap-3">
+        <div className="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 gap-3">
           {socialLinks.map(({ icon: Icon, url, title, color }, index) => (
             <a
               key={index}
