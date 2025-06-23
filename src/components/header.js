@@ -1,11 +1,19 @@
 import * as React from "react";
-import { FaLaptopCode, FaRegAddressCard, FaCameraRetro } from "react-icons/fa";
+import { useState } from "react";
+import {
+  FaLaptopCode,
+  FaRegAddressCard,
+  FaCameraRetro,
+  FaBars,
+} from "react-icons/fa";
 import { PiMountainsFill } from "react-icons/pi";
 import { Link } from "gatsby";
 import { socialLinks } from "../components/socialLinks";
 import PropTypes from "prop-types";
 
 const Header = ({ siteTitle }) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const handleMouseEnter = (e, color) => {
     e.currentTarget.style.color = color;
   };
@@ -14,15 +22,37 @@ const Header = ({ siteTitle }) => {
     e.currentTarget.style.color = "white";
   };
 
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
   return (
     <header className="container py-4">
       <div className="row align-items-center">
-        <div className="col-lg-1 col-3">
+        {/* Logo */}
+        <div className="col-lg-1 col-6 d-flex align-items-center">
           <Link to="/" title={siteTitle} className="logo text-white">
             <PiMountainsFill size={42} className="logo-icon" />
           </Link>
         </div>
-        <div className="menu col-lg-4 col-9 d-flex align-items-center justify-content-end justify-content-lg-start gap-3">
+
+        {/* Hamburger icon on mobile */}
+        <div className="d-lg-none col-6 text-end">
+          <button
+            className="btn btn-link text-white p-0"
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
+            <FaBars size={28} />
+          </button>
+        </div>
+
+        {/* Menu (responsive) */}
+        <div
+          className={`menu col-lg-4 col-12 d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-end justify-content-lg-start gap-3 mt-3 mt-lg-0 ${
+            menuOpen ? "d-flex" : "d-none d-lg-flex"
+          }`}
+        >
           <Link
             to="/portfolio"
             title="Portfolio"
@@ -39,7 +69,6 @@ const Header = ({ siteTitle }) => {
             <FaCameraRetro size={24} />
             Photography
           </Link>
-
           <Link
             to="/about"
             title="About Me"
@@ -49,11 +78,13 @@ const Header = ({ siteTitle }) => {
             About Me
           </Link>
         </div>
+
+        {/* Social icons */}
         <div className="col-lg-7 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 gap-3">
           {socialLinks.map(({ icon: Icon, url, title, color }, index) => (
             <a
               key={index}
-              className={`icon`}
+              className="icon"
               href={url}
               target="_blank"
               title={title}

@@ -12,7 +12,6 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
     background: transparent;
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -45,6 +44,16 @@ header {
           animation: tilt 0.5s ease;
         }
       }
+    }
+  }
+
+  .menu {
+    transition: all 0.3s ease;
+
+    @media (max-width: 991.98px) {
+      background: #111;
+      padding: 1rem;
+      border-radius: 8px;
     }
   }
 }
