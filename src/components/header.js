@@ -29,14 +29,12 @@ const Header = ({ siteTitle }) => {
   return (
     <header className="container py-4">
       <div className="row align-items-center">
-        {/* Logo */}
         <div className="col-lg-1 col-6 d-flex align-items-center">
           <Link to="/" title={siteTitle} className="logo text-white">
             <PiMountainsFill size={42} className="logo-icon" />
           </Link>
         </div>
 
-        {/* Hamburger icon on mobile */}
         <div className="d-lg-none col-6 text-end">
           <button
             className="btn btn-link text-white p-0"
@@ -47,39 +45,45 @@ const Header = ({ siteTitle }) => {
           </button>
         </div>
 
-        {/* Menu (responsive) */}
         <div
-          className={`menu col-lg-4 col-12 d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-end justify-content-lg-start gap-3 mt-3 mt-lg-0 ${
-            menuOpen ? "d-flex" : "d-none d-lg-flex"
-          }`}
+          className={`menu col-12 col-lg-4 ${
+            menuOpen ? "open" : ""
+          } `}
         >
-          <Link
-            to="/portfolio"
-            title="Portfolio"
-            className="text-decoration-none d-flex align-items-center gap-2 text-white portfolio-link"
-          >
-            <FaLaptopCode size={24} />
-            Portfolio
-          </Link>
-          <Link
-            to="/photography"
-            title="Photography"
-            className="text-decoration-none d-flex align-items-center gap-2 text-white photography-link"
-          >
-            <FaCameraRetro size={24} />
-            Photography
-          </Link>
-          <Link
-            to="/about"
-            title="About Me"
-            className="text-decoration-none d-flex align-items-center gap-2 text-white about-link"
-          >
-            <FaRegAddressCard size={24} />
-            About Me
-          </Link>
+          <ul className="d-lg-flex gap-3 p-0 mb-0 mt-3 mt-lg-0">
+            <li>
+              <Link
+                to="/portfolio"
+                title="Portfolio"
+                className="text-decoration-none d-flex align-items-center gap-2 text-white portfolio-link"
+              >
+                <FaLaptopCode size={24} />
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/photography"
+                title="Photography"
+                className="text-decoration-none d-flex align-items-center gap-2 text-white photography-link"
+              >
+                <FaCameraRetro size={24} />
+                Photography
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                title="About Me"
+                className="text-decoration-none d-flex align-items-center gap-2 text-white about-link"
+              >
+                <FaRegAddressCard size={24} />
+                About Me
+              </Link>
+            </li>
+          </ul>
         </div>
 
-        {/* Social icons */}
         <div className="col-lg-7 col-12 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 gap-3">
           {socialLinks.map(({ icon: Icon, url, title, color }, index) => (
             <a
