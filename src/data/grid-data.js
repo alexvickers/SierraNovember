@@ -203,35 +203,35 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Punho De Mahin",
+    title: "Punho de Mahin",
     slug: "punho-de-mahin-2",
     image: "punho-de-mahin-2.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
   {
-    title: "Punho De Mahin",
+    title: "Punho de Mahin",
     slug: "punho-de-mahin-1",
     image: "punho-de-mahin-1.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
   {
-    title: "Punho De Mahin",
+    title: "Punho de Mahin",
     slug: "punho-de-mahin-3",
     image: "punho-de-mahin-3.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
   {
-    title: "Punho De Mahin",
+    title: "Punho de Mahin",
     slug: "punho-de-mahin-4",
     image: "punho-de-mahin-4.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
   {
-    title: "Punho De Mahin",
+    title: "Punho de Mahin",
     slug: "punho-de-mahin-5",
     image: "punho-de-mahin-5.jpg",
     location: "Carioca Club",

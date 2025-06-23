@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import AboutIntro from "../components/AboutIntro";
 import Extras from "../components/Extras";
 import { SeoHead } from "../components/SEOHead";
