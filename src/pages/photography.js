@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import PhotoGrid from "../components/PhotoGrid";
 import { SeoHead } from "../components/SEOHead";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
