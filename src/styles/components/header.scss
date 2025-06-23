@@ -72,4 +72,8 @@ header {
   .about-link:hover svg {
     animation: tilt 0.5s ease;
   }
+
+  .writing-link:hover svg {
+    animation: spin 3s linear infinite;
+  }
 }

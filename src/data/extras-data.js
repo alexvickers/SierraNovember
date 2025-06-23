@@ -4,7 +4,7 @@ const extrasData = [
   {
     label: "This Must Be the Place (for Music)",
     description:
-      "I play guitar and bass, and I'm also taking singing lessons. I collect records — from post-rock to Brazilian 70s psychedelia. My prized possession is a German reissue of My Bloody Valentine's *Loveless*.",
+      "I play guitar and bass, and I'm also taking singing lessons. I collect records — from post-rock to Brazilian 70s psychedelia. My prized possession is a German reissue of My Bloody Valentine's Loveless.",
     icon: FaRecordVinyl,
   },
   {
