@@ -38,13 +38,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `concertContent`,
-        path: `${__dirname}/src/content/concerts`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `concertImages`,
         path: `${__dirname}/src/assets/images/concerts`,
       },
