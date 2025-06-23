@@ -101,6 +101,7 @@ const UnderfloripaPage = ({ data }) => {
             href="https://underfloripa.com.br"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-white"
           >
             Under Floripa
           </a>{" "}
@@ -109,6 +110,7 @@ const UnderfloripaPage = ({ data }) => {
             href="https://vickersvickers.medium.com/"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-white"
           >
             Medium
           </a>

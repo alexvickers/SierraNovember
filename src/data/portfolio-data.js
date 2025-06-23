@@ -66,9 +66,9 @@ const portfolioData = [
     tags: ["outsystems", "javascript", "css"],
   },
   {
-    title: "Underfloripa",
+    title: "Under Floripa",
     description:
-      "I lead the development and design of Underfloripa, an independent music and culture website built on WordPress. My work focuses on customizing the theme, extending functionality with custom plugins, and optimizing performance. I also handle ongoing maintenance, content strategy, and feature planning—including a plugin I built for managing local concert listings. Beyond the technical side, I contribute music reviews and features, combining my digital expertise with editorial work.",
+      "I lead the development and design of Under Floripa, an independent music and culture website built on WordPress. My work focuses on customizing the theme, extending functionality with custom plugins, and optimizing performance. I also handle ongoing maintenance, content strategy, and feature planning—including a plugin I built for managing local concert listings. Beyond the technical side, I contribute music reviews and features, combining my digital expertise with editorial work.",
     image: underImage,
     link: "https://underfloripa.com.br/",
     tags: ["wordpress", "javascript", "php", "rest", "css", "sass"],
