@@ -71,7 +71,7 @@ const portfolioData = [
       "I lead the development and design of Underfloripa, an independent music and culture website built on WordPress. My work focuses on customizing the theme, extending functionality with custom plugins, and optimizing performance. I also handle ongoing maintenance, content strategy, and feature planning—including a plugin I built for managing local concert listings. Beyond the technical side, I contribute music reviews and features, combining my digital expertise with editorial work.",
     image: underImage,
     link: "https://underfloripa.com.br/",
-    tags: ["wordpress", "javascript", "php", "rest", "sass"],
+    tags: ["wordpress", "javascript", "php", "rest", "css", "sass"],
   },
   {
     title: "Sierra November",
@@ -79,7 +79,7 @@ const portfolioData = [
       "This is my personal portfolio site where I show off my work as a frontend developer and designer. It’s a mix of everything I love to do—building clean, responsive, and user-friendly websites.",
     image: sierraImage,
     link: "https://github.com/alexvickers/SierraNovember",
-    tags: ["gatsby", "react", "javascript", "bootstrap", "sass", "graphql"],
+    tags: ["gatsby", "react", "javascript", "wordpress", "bootstrap", "sass", "graphql"],
   },
 ];
 

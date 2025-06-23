@@ -43,10 +43,16 @@ const UnderfloripaPage = ({ data }) => {
   return (
     <Layout siteTitle={siteTitle}>
       <div className="container py-3 py-lg-5">
-        <h1 className="mb-5">Últimos textos no Underfloripa</h1>
+        <h1 className="mb-4">Latest Articles for Under Floripa</h1>
+        <p>
+          Here you’ll find the latest batch of fresh articles from Under Floripa
+          — from sharp music reviews to lively concert recaps and cultural
+          musings. It’s a snapshot of the local indie scene and the creative
+          buzz that keeps this place alive.
+        </p>
         <div className="row">
           {posts.map((post) => (
-            <div key={post.uri} className="col-12 col-md-6 mb-4">
+            <div key={post.uri} className="col-12 col-md-6 mb-5">
               <div className="card h-100 shadow-sm">
                 {post.featuredImage?.node?.sourceUrl && (
                   <img
@@ -88,7 +94,27 @@ const UnderfloripaPage = ({ data }) => {
             </div>
           ))}
         </div>
-      </div>{" "}
+        <p>
+          {" "}
+          Want to read more? Visit the full collection at{" "}
+          <a
+            href="https://underfloripa.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Under Floripa
+          </a>{" "}
+          or check out my articles on{" "}
+          <a
+            href="https://vickersvickers.medium.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Medium
+          </a>
+          .
+        </p>
+      </div>
     </Layout>
   );
 };
