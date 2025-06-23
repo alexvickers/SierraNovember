@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { SeoHead } from "../components/SEOHead";
 import { Link } from "gatsby";
 import portfolioData from "../data/portfolio-data";
@@ -26,7 +26,7 @@ const PortfolioPage = () => {
 
   return (
     <Layout siteTitle={siteTitle}>
-      <div className="container py-5">
+      <div className="container py-3 py-lg-5">
         <h1 className="mb-3">Portfolio</h1>
         <p className="mb-4">
           Some of the stuff I’ve built over the years — WordPress sites, React

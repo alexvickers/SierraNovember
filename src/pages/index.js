@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import ImageMe from "../components/ImageMe";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import Age from "../components/age";
 import { SeoHead } from "../components/SEOHead";
 import IconList from "../components/IconList";
