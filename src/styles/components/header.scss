@@ -1,0 +1,75 @@
+header {
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .logo-icon {
+      transition: transform 0.4s ease-out;
+
+      &:hover {
+        transform: scale(1.1);
+        transition-delay: 0.1s;
+      }
+    }
+  }
+
+  .menu {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+
+    &.open {
+      max-height: 500px;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (min-width: 992px) {
+      overflow: visible;
+      max-height: none;
+      opacity: 1;
+      transform: none;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      flex-direction: column;
+
+      @media (min-width: 992px) {
+        flex-direction: row;
+      }
+
+      li {
+        margin-bottom: 1rem;
+
+        @media (min-width: 992px) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .portfolio-link:hover svg {
+    animation: bounce 0.5s;
+  }
+
+  .photography-link:hover svg {
+    animation: shutterClick 0.8s infinite ease-in-out;
+  }
+
+  .about-link:hover svg {
+    animation: tilt 0.5s ease;
+  }
+}

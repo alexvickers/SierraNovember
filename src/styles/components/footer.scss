@@ -1,0 +1,10 @@
+footer {
+  .footer-icon {
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+
+  .footer-link:hover .footer-icon {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+}

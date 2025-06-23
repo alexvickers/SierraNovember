@@ -4,15 +4,15 @@
 
 [build.environment]
   NODE_VERSION = "18.17.0"
-  NODE_ENV = "production"
-  NPM_FLAGS = "--legacy-peer-deps"
-    GATSBY_MY_ENV_VAR = "value"
-
-[build.processing]
-  skip_processing = true
+  NODE_ENV = "development"
+  NPM_VERSION = "9.1.3"
+  NPM_FLAGS = "--legacy-peer-deps --loglevel verbose"
+  NPM_CONFIG_IGNORE_OPTIONAL = "true"
 
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
 [context.production.environment]
   NODE_ENV = "production"
+  NPM_VERSION = "9.1.3"
+  NPM_CONFIG_IGNORE_OPTIONAL = "true"

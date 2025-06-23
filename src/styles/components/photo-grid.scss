@@ -1,0 +1,75 @@
+.masonry-grid {
+  column-count: 3;
+  column-gap: 1.5rem;
+  margin: 2rem 0;
+
+  @media (max-width: 1000px) {
+    column-count: 2;
+  }
+
+  @media (max-width: 600px) {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  width: 100%;
+
+  &.is-portrait .gatsby-image-wrapper {
+      max-height: calc(277px * 2 + 1.5rem);
+  }
+}
+
+.photo-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+
+  .gatsby-image-wrapper {
+    display: block;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 0.9rem;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+
+    .artist {
+      font-weight: bold;
+    }
+
+    .location,
+    .date {
+      font-weight: normal;
+      color: #ccc;
+    }
+  }
+
+  &:hover {
+    .gatsby-image-wrapper {
+      transform: scale(1.02);
+    }
+
+    .caption {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
