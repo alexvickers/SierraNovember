@@ -73,27 +73,39 @@ const PortfolioPage = () => {
                         );
                       })}
                     </div>
-                    <div className="mt-auto">
-                      {project.link.startsWith("http") ? (
+                    <div className="mt-auto d-flex gap-2">
+                      {project.link &&
+                        (project.link.startsWith("http") ? (
+                          <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn"
+                            style={buttonStyle}
+                          >
+                            View Project
+                          </a>
+                        ) : (
+                          <Link
+                            to={project.link}
+                            className="btn"
+                            style={buttonStyle}
+                          >
+                            View Project
+                          </Link>
+                        ))}
+                      {project.github && (
                         <a
-                          href={project.link}
+                          href={project.github}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn"
                           style={buttonStyle}
                         >
-                          View Project
+                          View on GitHub
                         </a>
-                      ) : (
-                        <Link
-                          to={project.link}
-                          className="btn"
-                          style={buttonStyle}
-                        >
-                          View Project
-                        </Link>
                       )}
-                    </div>
+                    </div>{" "}
                   </div>
                 </div>
               </div>

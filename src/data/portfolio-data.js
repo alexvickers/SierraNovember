@@ -66,11 +66,12 @@ const portfolioData = [
     tags: ["outsystems", "javascript", "css"],
   },
   {
-    title: "Underfloripa",
+    title: "Under Floripa",
     description:
-      "I lead the development and design of Underfloripa, an independent music and culture website built on WordPress. My work focuses on customizing the theme, extending functionality with custom plugins, and optimizing performance. I also handle ongoing maintenance, content strategy, and feature planning—including a plugin I built for managing local concert listings. Beyond the technical side, I contribute music reviews and features, combining my digital expertise with editorial work.",
+      "I designed and developed Under Floripa, an independent music and culture website, creating a custom WordPress theme from the ground up. I built custom plugins to extend functionality—most notably a tool for managing local concert listings—and optimized the site for performance and scalability. I also oversee content strategy, feature planning, and ongoing maintenance. Beyond coding, I contribute music reviews and editorial features, bridging digital expertise with creative storytelling.",
     image: underImage,
     link: "https://underfloripa.com.br/",
+    github: "https://github.com/alexvickers/underfloripa",
     tags: ["wordpress", "javascript", "php", "rest", "sass"],
   },
   {
@@ -78,7 +79,7 @@ const portfolioData = [
     description:
       "This is my personal portfolio site where I show off my work as a frontend developer and designer. It’s a mix of everything I love to do—building clean, responsive, and user-friendly websites.",
     image: sierraImage,
-    link: "https://github.com/alexvickers/SierraNovember",
+    github: "https://github.com/alexvickers/SierraNovember",
     tags: ["gatsby", "react", "javascript", "bootstrap", "sass", "graphql"],
   },
 ];
