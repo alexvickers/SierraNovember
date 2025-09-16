@@ -1,13 +1,6 @@
 export const gridData = [
   {
     title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-1",
-    image: "chtsy-1.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-2",
     image: "cyhsy-2.jpg",
     location: "Cine Jóia",
@@ -257,6 +250,132 @@ export const gridData = [
     image: "urutu-2.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
+  },
+  {
+    title: "Violeta de Outono",
+    slug: "violeta-1",
+    image: "violeta1.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Violeta de Outono",
+    slug: "violeta-2",
+    image: "violeta2.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Violeta de Outono",
+    slug: "violeta-3",
+    image: "violeta3.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Violeta de Outono",
+    slug: "violeta-4",
+    image: "violeta4.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Violeta de Outono",
+    slug: "violeta-5",
+    image: "violeta5.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Violeta de Outono",
+    slug: "violeta-6",
+    image: "violeta6.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-1",
+    image: "retrato1.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-2",
+    image: "retrato2.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-3",
+    image: "retrato3.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-4",
+    image: "retrato4.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-5",
+    image: "retrato5.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-6",
+    image: "retrato6.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-7",
+    image: "retrato7.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Retrato + Oruã",
+    slug: "retrato-8",
+    image: "retrato8.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Bufo Borealis",
+    slug: "bufo-1",
+    image: "bufo1.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Bufo Borealis",
+    slug: "bufo-2",
+    image: "bufo2.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Bufo Borealis",
+    slug: "bufo-3",
+    image: "bufo3.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "Bufo Borealis",
+    slug: "bufo-4",
+    image: "bufo4.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
   }
 ];
 
