@@ -8,6 +8,7 @@
     "@react-icons/all-files": "^4.1.0",
     "@sideway/address": "^5.0.0",
     "bootstrap": "^5.3.5",
+    "framer-motion": "^12.23.13",
     "gatsby": "^5.14.4",
     "gatsby-adapter-netlify": "^1.2.1",
     "gatsby-plugin-google-tagmanager": "^5.14.0",
