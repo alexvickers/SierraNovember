@@ -376,6 +376,62 @@ export const gridData = [
     image: "bufo4.jpg",
     location: "Fabrique",
     date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "place1",
+    image: "place1.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "place2",
+    image: "place2.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "strangers-3",
+    image: "place3.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "strangers-4",
+    image: "place4.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "strangers-5",
+    image: "place5.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "strangers-6",
+    image: "place6.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "strangers-7",
+    image: "place7.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "place8",
+    image: "place8.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
   }
 ];
 
