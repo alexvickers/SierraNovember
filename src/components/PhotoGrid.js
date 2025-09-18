@@ -71,9 +71,10 @@ const PhotoGrid = () => {
               <div className="photo-wrapper">
                 <button
                   type="button"
+                  class="button"
                   onClick={() => setModalImage(gatsbyImage)}
                   style={{
-                    all: "unset", // resets default button styles
+                    all: "unset",
                     cursor: "pointer",
                     display: "block",
                   }}
