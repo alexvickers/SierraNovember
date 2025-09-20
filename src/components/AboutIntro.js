@@ -12,7 +12,7 @@ const AboutIntro = () => {
       </p>
       <p>
         I’m also an English teacher, amateur musician, vinyl hoarder, and a
-        writer/photographer for <em>Underfloripa</em>. I believe good code has rhythm, a killer
+        writer/photographer for <em>Under Floripa</em>. I believe good code has rhythm, a killer
         sentence is like a well-placed guitar solo, and São Paulo is the most
         electrifying city on the planet. I like my interfaces like I like my records:
         clean, bold, and full of texture.
