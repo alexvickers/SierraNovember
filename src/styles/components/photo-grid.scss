@@ -4,7 +4,15 @@
   gap: 1.5rem;
   margin: 2rem 0;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -34,7 +42,7 @@
   .photo-wrapper {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 6px;
     height: 100%;
 
     button,
@@ -46,6 +54,7 @@
         height: 100%;
         width: 100%;
         overflow: hidden;
+        transition: all ease 0.2s;
 
         img {
           object-fit: cover;
@@ -75,6 +84,7 @@
 
     .location,
     .date {
+      display: block;
       font-weight: normal;
       color: #ccc;
     }
@@ -82,7 +92,7 @@
 
   &:hover {
     .gatsby-image-wrapper {
-      transform: scale(1.02);
+      transform: scale(1.05);
     }
 
     .caption {

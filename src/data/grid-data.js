@@ -77,14 +77,14 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
-    title: "Exploited 3",
+    title: "The Exploited",
     slug: "exploited-3",
     image: "exploited-3.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
   {
-    title: "Exploited 4",
+    title: "The Exploited",
     slug: "exploited-4",
     image: "exploited-4.jpg",
     location: "Carioca Club",

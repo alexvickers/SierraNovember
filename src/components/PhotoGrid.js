@@ -87,12 +87,9 @@ const PhotoGrid = () => {
                 </button>
                 <div className="caption">
                   <span className="artist">{title}</span>
-                  {location && <span className="location"> — {location}</span>}
+                  {location && <span className="location">{location}</span>}
                   {date && (
-                    <span className="date">
-                      {" "}
-                      ({formatDateWithOrdinal(date)})
-                    </span>
+                    <span className="date">{formatDateWithOrdinal(date)}</span>
                   )}
                 </div>
               </div>
