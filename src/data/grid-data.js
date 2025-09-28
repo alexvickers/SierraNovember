@@ -432,6 +432,20 @@ export const gridData = [
     image: "place8.jpg",
     location: "Fabrique",
     date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "place9",
+    image: "place9.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
+  },
+  {
+    title: "A Place to Bury Strangers",
+    slug: "place10",
+    image: "place10.jpg",
+    location: "Fabrique",
+    date: "2025-07-14"
   }
 ];
 
