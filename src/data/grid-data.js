@@ -56,13 +56,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-10",
-    image: "cyhsy-10.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
     title: "Escalpo",
     slug: "escalpo-1",
     image: "escalpo-1.jpg",
@@ -113,13 +106,6 @@ export const gridData = [
   },
   {
     title: "Paira",
-    slug: "paira-4",
-    image: "paira-4.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Paira",
     slug: "paira-5",
     image: "paira-5.jpg",
     location: "Cine Jóia",
@@ -136,13 +122,6 @@ export const gridData = [
     title: "Punho de Mahin",
     slug: "punho-de-mahin-2",
     image: "punho-de-mahin-2.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "Punho de Mahin",
-    slug: "punho-de-mahin-3",
-    image: "punho-de-mahin-3.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -365,13 +344,6 @@ export const gridData = [
   },
   {
     title: "Bufo Borealis",
-    slug: "bufo-3",
-    image: "bufo3.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Bufo Borealis",
     slug: "bufo-4",
     image: "bufo4.jpg",
     location: "Fabrique",
@@ -402,13 +374,6 @@ export const gridData = [
     title: "A Place to Bury Strangers",
     slug: "strangers-4",
     image: "place4.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
-    slug: "strangers-5",
-    image: "place5.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -446,6 +411,41 @@ export const gridData = [
     image: "place10.jpg",
     location: "Fabrique",
     date: "2025-07-14"
+  },
+  {
+    title: "The Dead South",
+    slug: "dead1",
+    image: "dead1.jpg",
+    location: "Carioca Club",
+    date: "2025-10-17"
+  },
+  {
+    title: "The Dead South",
+    slug: "dead2",
+    image: "dead2.jpg",
+    location: "Carioca Club",
+    date: "2025-10-17"
+  },
+  {
+    title: "The Dead South",
+    slug: "dead3",
+    image: "dead3.jpg",
+    location: "Carioca Club",
+    date: "2025-10-17"
+  },
+  {
+    title: "The Dead South",
+    slug: "dead4",
+    image: "dead4.jpg",
+    location: "Carioca Club",
+    date: "2025-10-17"
+  },
+  {
+    title: "The Dead South",
+    slug: "dead5",
+    image: "dead5.jpg",
+    location: "Carioca Club",
+    date: "2025-10-17"
   }
 ];
 
