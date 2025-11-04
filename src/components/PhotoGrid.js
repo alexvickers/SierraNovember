@@ -35,6 +35,15 @@ const PhotoGrid = () => {
     return [...gridData].sort(() => 0.5 - Math.random());
   }, []);
 
+  const featuredIndexes = React.useMemo(() => {
+    const count = 3;
+    const indexes = new Set();
+    while (indexes.size < count) {
+      indexes.add(Math.floor(Math.random() * gridData.length));
+    }
+    return indexes;
+  }, []);
+
   const [modalImage, setModalImage] = React.useState(null);
 
   const formatDateWithOrdinal = (dateStr) => {
@@ -53,7 +62,7 @@ const PhotoGrid = () => {
   return (
     <>
       <div className="masonry-grid">
-        {shuffledItems.map(({ title, location, date, image, slug }) => {
+        {shuffledItems.map(({ title, location, date, image, slug }, index) => {
           const imageSharp = imagesMap.get(image);
           if (!imageSharp) {
             console.warn(`Image not found: ${image}`);
@@ -62,16 +71,20 @@ const PhotoGrid = () => {
 
           const gatsbyImage = getImage(imageSharp);
           const isPortrait = gatsbyImage.height > gatsbyImage.width;
+          const isFeatured = !isPortrait && featuredIndexes.has(index);
 
           return (
             <div
               key={slug}
-              className={`masonry-item ${isPortrait ? "is-portrait" : ""}`}
+              className={`masonry-item
+                ${isPortrait ? "is-portrait" : "is-landscape"}
+                ${isFeatured ? "is-featured" : ""}`}
             >
               <div className="photo-wrapper">
                 <button
                   type="button"
-                  class="button"
+                  className="button"
+                  aria-label={`View ${title}`}
                   onClick={() => setModalImage(gatsbyImage)}
                   style={{
                     all: "unset",
@@ -98,7 +111,6 @@ const PhotoGrid = () => {
         })}
       </div>
 
-      {/* Modal */}
       <Modal image={modalImage} onClose={() => setModalImage(null)} />
     </>
   );

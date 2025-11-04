@@ -1,13 +1,6 @@
 export const gridData = [
   {
     title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-2",
-    image: "cyhsy-2.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-3",
     image: "cyhsy-3.jpg",
     location: "Cine Jóia",
@@ -110,13 +103,6 @@ export const gridData = [
     image: "paira-5.jpg",
     location: "Cine Jóia",
     date: "2025-06-12"
-  },
-  {
-    title: "Punho de Mahin",
-    slug: "punho-de-mahin-1",
-    image: "punho-de-mahin-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
   },
   {
     title: "Punho de Mahin",
@@ -239,13 +225,6 @@ export const gridData = [
   },
   {
     title: "Violeta de Outono",
-    slug: "violeta-2",
-    image: "violeta2.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Violeta de Outono",
     slug: "violeta-3",
     image: "violeta3.jpg",
     location: "Fabrique",
@@ -354,7 +333,7 @@ export const gridData = [
     slug: "place1",
     image: "place1.jpg",
     location: "Fabrique",
-    date: "2025-07-14"
+    date: "2025-07-14",
   },
   {
     title: "A Place to Bury Strangers",
