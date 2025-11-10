@@ -42,13 +42,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-9",
-    image: "cyhsy-9.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
     title: "Escalpo",
     slug: "escalpo-1",
     image: "escalpo-1.jpg",
@@ -87,13 +80,6 @@ export const gridData = [
     title: "Paira",
     slug: "paira-2",
     image: "paira-2.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Paira",
-    slug: "paira-3",
-    image: "paira-3.jpg",
     location: "Cine Jóia",
     date: "2025-06-12"
   },
@@ -143,13 +129,6 @@ export const gridData = [
     title: "Ratos de Porão",
     slug: "ratos-de-porao-3",
     image: "ratos-de-porao-3.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "Ratos de Porão",
-    slug: "ratos-de-porao-4",
-    image: "ratos-de-porao-4.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -234,13 +213,6 @@ export const gridData = [
     title: "Violeta de Outono",
     slug: "violeta-4",
     image: "violeta4.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Violeta de Outono",
-    slug: "violeta-5",
-    image: "violeta5.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -365,13 +337,6 @@ export const gridData = [
   },
   {
     title: "A Place to Bury Strangers",
-    slug: "strangers-7",
-    image: "place7.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
     slug: "place8",
     image: "place8.jpg",
     location: "Fabrique",
@@ -425,7 +390,49 @@ export const gridData = [
     image: "dead5.jpg",
     location: "Carioca Club",
     date: "2025-10-17"
-  }
+  },
+  {
+    title: "Owen",
+    slug: "owen1",
+    image: "mike-1.jpg",
+    location: "Jai Club",
+    date: "2025-11-06"
+  },
+  {
+    title: "Owen",
+    slug: "owen2",
+    image: "mike-2.jpg",
+    location: "Jai Club",
+    date: "2025-11-06"
+  },
+  {
+    title: "Owen",
+    slug: "owen3",
+    image: "mike-3.jpg",
+    location: "Jai Club",
+    date: "2025-11-06"
+  },
+  {
+    title: "Cyro Sampaio",
+    slug: "cyro1",
+    image: "cyro-1.jpg",
+    location: "Jai Club",
+    date: "2025-11-06"
+  },
+  {
+    title: "Cyro Sampaio",
+    slug: "cyro2",
+    image: "cyro-2.jpg",
+    location: "Jai Club",
+    date: "2025-11-06"
+  },
+  {
+    title: "Cyro Sampaio",
+    slug: "cyro3",
+    image: "cyro-3.jpg",
+    location: "Jai Club",
+    date: "2025-11-06"
+  },
 ];
 
 export default gridData;
