@@ -433,6 +433,27 @@ export const gridData = [
     location: "Jai Club",
     date: "2025-11-06"
   },
+  {
+    title: "Zagüaraz",
+    slug: "zaguaraz1",
+    image: "zaguaraz-1.jpg",
+    location: "Estúdio Aurora",
+    date: "2025-11-07"
+  },
+  {
+    title: "Bad Canadians",
+    slug: "canadians1",
+    image: "canadians-1.jpg",
+    location: "Estúdio Aurora",
+    date: "2025-11-07"
+  },
+  {
+    title: "Bad Canadians",
+    slug: "canadians3",
+    image: "canadians-3.jpg",
+    location: "Estúdio Aurora",
+    date: "2025-11-07"
+  }
 ];
 
 export default gridData;
