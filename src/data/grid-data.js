@@ -22,13 +22,6 @@ export const gridData = [
   },
   {
     title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-6",
-    image: "cyhsy-6.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-7",
     image: "cyhsy-7.jpg",
     location: "Cine Jóia",
@@ -80,13 +73,6 @@ export const gridData = [
     title: "Paira",
     slug: "paira-2",
     image: "paira-2.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Paira",
-    slug: "paira-5",
-    image: "paira-5.jpg",
     location: "Cine Jóia",
     date: "2025-06-12"
   },
@@ -154,13 +140,6 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
-    title: "The Chisel",
-    slug: "the-chisel-4",
-    image: "the-chisel-4.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
     title: "The Exploited",
     slug: "exploited-1",
     image: "exploited-1.jpg",
@@ -197,13 +176,6 @@ export const gridData = [
   },
   {
     title: "Violeta de Outono",
-    slug: "violeta-1",
-    image: "violeta1.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Violeta de Outono",
     slug: "violeta-3",
     image: "violeta3.jpg",
     location: "Fabrique",
@@ -234,13 +206,6 @@ export const gridData = [
     title: "Retrato + Oruã",
     slug: "retrato-2",
     image: "retrato2.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Retrato + Oruã",
-    slug: "retrato-3",
-    image: "retrato3.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -365,13 +330,6 @@ export const gridData = [
   },
   {
     title: "The Dead South",
-    slug: "dead2",
-    image: "dead2.jpg",
-    location: "Carioca Club",
-    date: "2025-10-17"
-  },
-  {
-    title: "The Dead South",
     slug: "dead3",
     image: "dead3.jpg",
     location: "Carioca Club",
@@ -381,13 +339,6 @@ export const gridData = [
     title: "The Dead South",
     slug: "dead4",
     image: "dead4.jpg",
-    location: "Carioca Club",
-    date: "2025-10-17"
-  },
-  {
-    title: "The Dead South",
-    slug: "dead5",
-    image: "dead5.jpg",
     location: "Carioca Club",
     date: "2025-10-17"
   },
@@ -406,23 +357,9 @@ export const gridData = [
     date: "2025-11-06"
   },
   {
-    title: "Owen",
-    slug: "owen3",
-    image: "mike-3.jpg",
-    location: "Jai Club",
-    date: "2025-11-06"
-  },
-  {
     title: "Cyro Sampaio",
     slug: "cyro1",
     image: "cyro-1.jpg",
-    location: "Jai Club",
-    date: "2025-11-06"
-  },
-  {
-    title: "Cyro Sampaio",
-    slug: "cyro2",
-    image: "cyro-2.jpg",
     location: "Jai Club",
     date: "2025-11-06"
   },
@@ -453,6 +390,76 @@ export const gridData = [
     image: "canadians-3.jpg",
     location: "Estúdio Aurora",
     date: "2025-11-07"
+  },
+  {
+    title: "Ema Stoned",
+    slug: "stoned1",
+    image: "ema-1.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "Ema Stoned",
+    slug: "stoned2",
+    image: "ema-2.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "Ema Stoned",
+    slug: "stoned3",
+    image: "ema-3.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "The Brian Jonestown Massacre",
+    slug: "brian1",
+    image: "brian-1.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "The Brian Jonestown Massacre",
+    slug: "brian2",
+    image: "brian-2.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "The Brian Jonestown Massacre",
+    slug: "brian3",
+    image: "brian-3.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "The Brian Jonestown Massacre",
+    slug: "brian4",
+    image: "brian-4.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "Odair José",
+    slug: "odair1",
+    image: "odair-1.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "Odair José",
+    slug: "odair2",
+    image: "odair-2.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
+  },
+  {
+    title: "Odair José",
+    slug: "odair3",
+    image: "odair-3.jpg",
+    location: "Espaço Usine",
+    date: "2025-11-28"
   }
 ];
 
