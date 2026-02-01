@@ -1,13 +1,6 @@
 export const gridData = [
   {
     title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-3",
-    image: "cyhsy-3.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-4",
     image: "cyhsy-4.jpg",
     location: "Cine Jóia",
@@ -106,13 +99,6 @@ export const gridData = [
   },
   {
     title: "Ratos de Porão",
-    slug: "ratos-de-porao-2",
-    image: "ratos-de-porao-2.jpg",
-    location: "Carioca Club",
-    date: "2025-06-23"
-  },
-  {
-    title: "Ratos de Porão",
     slug: "ratos-de-porao-3",
     image: "ratos-de-porao-3.jpg",
     location: "Carioca Club",
@@ -148,13 +134,6 @@ export const gridData = [
   },
   {
     title: "The Exploited",
-    slug: "exploited-2",
-    image: "exploited-2.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Exploited",
     slug: "exploited-5",
     image: "exploited-5.jpg",
     location: "Carioca Club",
@@ -164,13 +143,6 @@ export const gridData = [
     title: "Urutu",
     slug: "urutu-1",
     image: "urutu-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "Urutu",
-    slug: "urutu-2",
-    image: "urutu-2.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -225,22 +197,8 @@ export const gridData = [
   },
   {
     title: "Retrato + Oruã",
-    slug: "retrato-6",
-    image: "retrato6.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Retrato + Oruã",
     slug: "retrato-7",
     image: "retrato7.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Retrato + Oruã",
-    slug: "retrato-8",
-    image: "retrato8.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -259,20 +217,6 @@ export const gridData = [
     date: "2025-07-14"
   },
   {
-    title: "Bufo Borealis",
-    slug: "bufo-4",
-    image: "bufo4.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
-    slug: "place1",
-    image: "place1.jpg",
-    location: "Fabrique",
-    date: "2025-07-14",
-  },
-  {
     title: "A Place to Bury Strangers",
     slug: "place2",
     image: "place2.jpg",
@@ -283,13 +227,6 @@ export const gridData = [
     title: "A Place to Bury Strangers",
     slug: "strangers-3",
     image: "place3.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
-    slug: "strangers-4",
-    image: "place4.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -385,13 +322,6 @@ export const gridData = [
     date: "2025-11-07"
   },
   {
-    title: "Bad Canadians",
-    slug: "canadians3",
-    image: "canadians-3.jpg",
-    location: "Estúdio Aurora",
-    date: "2025-11-07"
-  },
-  {
     title: "Ema Stoned",
     slug: "stoned1",
     image: "ema-1.jpg",
@@ -460,6 +390,62 @@ export const gridData = [
     image: "odair-3.jpg",
     location: "Espaço Usine",
     date: "2025-11-28"
+  },
+  {
+    title: "Dave Hause",
+    slug: "dave1",
+    image: "dave-1.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Dave Hause",
+    slug: "dave2",
+    image: "dave-2.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Frank Turner",
+    slug: "frank1",
+    image: "frank-1.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Frank Turner",
+    slug: "frank2",
+    image: "frank-2.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Frank Turner",
+    slug: "frank3",
+    image: "frank-3.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Frank Turner",
+    slug: "frank4",
+    image: "frank-4.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Katacombs",
+    slug: "kata1",
+    image: "katacombs-1.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Katacombs",
+    slug: "kata2",
+    image: "katacombs-2.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
   }
 ];
 
