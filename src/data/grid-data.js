@@ -133,20 +133,6 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
-    title: "The Exploited",
-    slug: "exploited-5",
-    image: "exploited-5.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "Urutu",
-    slug: "urutu-1",
-    image: "urutu-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
     title: "Violeta de Outono",
     slug: "violeta-3",
     image: "violeta3.jpg",
@@ -185,20 +171,6 @@ export const gridData = [
     title: "Retrato + Oruã",
     slug: "retrato-4",
     image: "retrato4.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Retrato + Oruã",
-    slug: "retrato-5",
-    image: "retrato5.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Retrato + Oruã",
-    slug: "retrato-7",
-    image: "retrato7.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -295,13 +267,6 @@ export const gridData = [
   },
   {
     title: "Cyro Sampaio",
-    slug: "cyro1",
-    image: "cyro-1.jpg",
-    location: "Jai Club",
-    date: "2025-11-06"
-  },
-  {
-    title: "Cyro Sampaio",
     slug: "cyro3",
     image: "cyro-3.jpg",
     location: "Jai Club",
@@ -320,13 +285,6 @@ export const gridData = [
     image: "canadians-1.jpg",
     location: "Estúdio Aurora",
     date: "2025-11-07"
-  },
-  {
-    title: "Ema Stoned",
-    slug: "stoned1",
-    image: "ema-1.jpg",
-    location: "Espaço Usine",
-    date: "2025-11-28"
   },
   {
     title: "Ema Stoned",
@@ -351,13 +309,6 @@ export const gridData = [
   },
   {
     title: "The Brian Jonestown Massacre",
-    slug: "brian2",
-    image: "brian-2.jpg",
-    location: "Espaço Usine",
-    date: "2025-11-28"
-  },
-  {
-    title: "The Brian Jonestown Massacre",
     slug: "brian3",
     image: "brian-3.jpg",
     location: "Espaço Usine",
@@ -367,13 +318,6 @@ export const gridData = [
     title: "The Brian Jonestown Massacre",
     slug: "brian4",
     image: "brian-4.jpg",
-    location: "Espaço Usine",
-    date: "2025-11-28"
-  },
-  {
-    title: "Odair José",
-    slug: "odair1",
-    image: "odair-1.jpg",
     location: "Espaço Usine",
     date: "2025-11-28"
   },
@@ -406,9 +350,9 @@ export const gridData = [
     date: "2026-01-30"
   },
   {
-    title: "Frank Turner",
-    slug: "frank1",
-    image: "frank-1.jpg",
+    title: "Dave Hause",
+    slug: "dave3",
+    image: "dave-3.jpg",
     location: "Fabrique",
     date: "2026-01-30"
   },
@@ -421,15 +365,15 @@ export const gridData = [
   },
   {
     title: "Frank Turner",
-    slug: "frank3",
-    image: "frank-3.jpg",
+    slug: "frank4",
+    image: "frank-4.jpg",
     location: "Fabrique",
     date: "2026-01-30"
   },
   {
     title: "Frank Turner",
-    slug: "frank4",
-    image: "frank-4.jpg",
+    slug: "frank5",
+    image: "frank-5.jpg",
     location: "Fabrique",
     date: "2026-01-30"
   },
@@ -444,6 +388,13 @@ export const gridData = [
     title: "Katacombs",
     slug: "kata2",
     image: "katacombs-2.jpg",
+    location: "Fabrique",
+    date: "2026-01-30"
+  },
+  {
+    title: "Katacombs",
+    slug: "kata3",
+    image: "katacombs-3.jpg",
     location: "Fabrique",
     date: "2026-01-30"
   }
