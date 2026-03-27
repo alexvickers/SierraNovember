@@ -15,13 +15,6 @@ export const gridData = [
   },
   {
     title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-7",
-    image: "cyhsy-7.jpg",
-    location: "Cine Jóia",
-    date: "2025-06-12"
-  },
-  {
-    title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-8",
     image: "cyhsy-8.jpg",
     location: "Cine Jóia",
@@ -45,13 +38,6 @@ export const gridData = [
     title: "The Exploited",
     slug: "exploited-3",
     image: "exploited-3.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Exploited",
-    slug: "exploited-4",
-    image: "exploited-4.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -141,22 +127,8 @@ export const gridData = [
   },
   {
     title: "Violeta de Outono",
-    slug: "violeta-4",
-    image: "violeta4.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Violeta de Outono",
     slug: "violeta-6",
     image: "violeta6.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Retrato + Oruã",
-    slug: "retrato-1",
-    image: "retrato1.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -229,13 +201,6 @@ export const gridData = [
     image: "place10.jpg",
     location: "Fabrique",
     date: "2025-07-14"
-  },
-  {
-    title: "The Dead South",
-    slug: "dead1",
-    image: "dead1.jpg",
-    location: "Carioca Club",
-    date: "2025-10-17"
   },
   {
     title: "The Dead South",
@@ -323,24 +288,10 @@ export const gridData = [
   },
   {
     title: "Odair José",
-    slug: "odair2",
-    image: "odair-2.jpg",
-    location: "Espaço Usine",
-    date: "2025-11-28"
-  },
-  {
-    title: "Odair José",
     slug: "odair3",
     image: "odair-3.jpg",
     location: "Espaço Usine",
     date: "2025-11-28"
-  },
-  {
-    title: "Dave Hause",
-    slug: "dave1",
-    image: "dave-1.jpg",
-    location: "Fabrique",
-    date: "2026-01-30"
   },
   {
     title: "Dave Hause",
@@ -360,13 +311,6 @@ export const gridData = [
     title: "Frank Turner",
     slug: "frank2",
     image: "frank-2.jpg",
-    location: "Fabrique",
-    date: "2026-01-30"
-  },
-  {
-    title: "Frank Turner",
-    slug: "frank4",
-    image: "frank-4.jpg",
     location: "Fabrique",
     date: "2026-01-30"
   },
@@ -397,7 +341,119 @@ export const gridData = [
     image: "katacombs-3.jpg",
     location: "Fabrique",
     date: "2026-01-30"
-  }
+  },
+  {
+    title: "Sorosoro",
+    slug: "soro1",
+    image: "sorosoro-1.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Sorosoro",
+    slug: "soro2",
+    image: "sorosoro-2.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Stela",
+    slug: "stela1",
+    image: "stela-1.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Stela",
+    slug: "stela2",
+    image: "stela-2.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Stela",
+    slug: "stela3",
+    image: "stela-3.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Jonabug",
+    slug: "jonabug1",
+    image: "jonabug-1.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Jonabug",
+    slug: "jonabug2",
+    image: "jonabug-2.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Jonabug",
+    slug: "jonabug3",
+    image: "jonabug-3.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Jonabug",
+    slug: "jonabug4",
+    image: "jonabug-4.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Jonabug",
+    slug: "jonabug5",
+    image: "jonabug-5.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Centroleste Autopeças",
+    slug: "centroleste1",
+    image: "centroleste-1.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
+    title: "Kadavar",
+    slug: "kadavar1",
+    image: "kadavar-1.jpg",
+    location: "Carioca Club",
+    date: "2026-03-21"
+  },
+  {
+    title: "Kadavar",
+    slug: "kadavar2",
+    image: "kadavar-2.jpg",
+    location: "Carioca Club",
+    date: "2026-03-21"
+  },
+  {
+    title: "Kadavar",
+    slug: "kadavar3",
+    image: "kadavar-3.jpg",
+    location: "Carioca Club",
+    date: "2026-03-21"
+  },
+  {
+    title: "Kadavar",
+    slug: "kadavar4",
+    image: "kadavar-4.jpg",
+    location: "Carioca Club",
+    date: "2026-03-21"
+  },
+  {
+    title: "Kadavar",
+    slug: "kadavar5",
+    image: "kadavar-5.jpg",
+    location: "Carioca Club",
+    date: "2026-03-21"
+  },
 ];
 
 export default gridData;
