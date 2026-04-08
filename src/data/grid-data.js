@@ -357,6 +357,13 @@ export const gridData = [
     date: "2026-02-21"
   },
   {
+    title: "Sorosoro",
+    slug: "soro3",
+    image: "sorosoro-3.jpg",
+    location: "Banda de Casinha Floripa",
+    date: "2026-02-21"
+  },
+  {
     title: "Stela",
     slug: "stela1",
     image: "stela-1.jpg",
@@ -395,13 +402,6 @@ export const gridData = [
     title: "Jonabug",
     slug: "jonabug3",
     image: "jonabug-3.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
-    title: "Jonabug",
-    slug: "jonabug4",
-    image: "jonabug-4.jpg",
     location: "Banda de Casinha Floripa",
     date: "2026-02-21"
   },
