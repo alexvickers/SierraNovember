@@ -84,13 +84,6 @@ export const gridData = [
     date: "2025-06-23"
   },
   {
-    title: "Ratos de Porão",
-    slug: "ratos-de-porao-3",
-    image: "ratos-de-porao-3.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
     title: "The Chisel",
     slug: "the-chisel-1",
     image: "the-chisel-1.jpg",
@@ -183,13 +176,6 @@ export const gridData = [
   },
   {
     title: "A Place to Bury Strangers",
-    slug: "place8",
-    image: "place8.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
     slug: "place9",
     image: "place9.jpg",
     location: "Fabrique",
@@ -218,15 +204,15 @@ export const gridData = [
   },
   {
     title: "Owen",
-    slug: "owen1",
-    image: "mike-1.jpg",
+    slug: "owen2",
+    image: "mike-2.jpg",
     location: "Jai Club",
     date: "2025-11-06"
   },
   {
     title: "Owen",
-    slug: "owen2",
-    image: "mike-2.jpg",
+    slug: "owen4",
+    image: "mike-4.jpg",
     location: "Jai Club",
     date: "2025-11-06"
   },
