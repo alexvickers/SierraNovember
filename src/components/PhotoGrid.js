@@ -36,7 +36,7 @@ const PhotoGrid = () => {
   }, []);
 
   const featuredIndexes = React.useMemo(() => {
-    const count = 4;
+    const count = 6;
     const indexes = new Set();
     while (indexes.size < count) {
       indexes.add(Math.floor(Math.random() * gridData.length));
