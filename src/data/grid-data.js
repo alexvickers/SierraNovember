@@ -147,13 +147,6 @@ export const gridData = [
     date: "2025-07-14"
   },
   {
-    title: "Bufo Borealis",
-    slug: "bufo-2",
-    image: "bufo2.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
     title: "A Place to Bury Strangers",
     slug: "place2",
     image: "place2.jpg",
@@ -255,13 +248,6 @@ export const gridData = [
     title: "The Brian Jonestown Massacre",
     slug: "brian1",
     image: "brian-1.jpg",
-    location: "Espaço Usine",
-    date: "2025-11-28"
-  },
-  {
-    title: "The Brian Jonestown Massacre",
-    slug: "brian3",
-    image: "brian-3.jpg",
     location: "Espaço Usine",
     date: "2025-11-28"
   },
@@ -440,6 +426,41 @@ export const gridData = [
     location: "Carioca Club",
     date: "2026-03-21"
   },
+  {
+    title: "Cachorro Grande",
+    slug: "cachorro1",
+    image: "cachorro-1.jpg",
+    location: "Cine Joia",
+    date: "2026-04-17"
+  },
+  {
+    title: "Cachorro Grande",
+    slug: "cachorro2",
+    image: "cachorro-2.jpg",
+    location: "Cine Joia",
+    date: "2026-04-17"
+  },
+  {
+    title: "Cachorro Grande",
+    slug: "cachorro3",
+    image: "cachorro-3.jpg",
+    location: "Cine Joia",
+    date: "2026-04-17"
+  },
+  {
+    title: "Cachorro Grande",
+    slug: "cachorro4",
+    image: "cachorro-4.jpg",
+    location: "Cine Joia",
+    date: "2026-04-17"
+  },
+  {
+    title: "Matheus Torres",
+    slug: "matheus1",
+    image: "matheus-1.jpg",
+    location: "Cine Joia",
+    date: "2026-04-17"
+  }
 ];
 
 export default gridData;
