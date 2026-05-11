@@ -15,7 +15,6 @@ import { RiNextjsFill } from "react-icons/ri";
 import {
   SiJquery,
   SiWoo,
-  SiAdobexd,
   SiGatsby,
   SiJavascript,
   SiTailwindcss,
@@ -38,7 +37,6 @@ const icons = [
   FaGit,
   FaGulp,
   FaFigma,
-  SiAdobexd,
 ];
 
 const hoverColors = [

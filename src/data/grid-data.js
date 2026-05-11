@@ -3,21 +3,21 @@ export const gridData = [
     title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-4",
     image: "cyhsy-4.jpg",
-    location: "Cine Jóia",
+    location: "Cine Joia",
     date: "2025-06-12"
   },
   {
     title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-5",
     image: "cyhsy-5.jpg",
-    location: "Cine Jóia",
+    location: "Cine Joia",
     date: "2025-06-12"
   },
   {
     title: "Clap Your Hands Say Yeah",
     slug: "cyhsy-8",
     image: "cyhsy-8.jpg",
-    location: "Cine Jóia",
+    location: "Cine Joia",
     date: "2025-06-12"
   },
   {
@@ -44,15 +44,15 @@ export const gridData = [
   {
     title: "Paira",
     slug: "paira-1",
-    image: "paira-1",
-    location: "Cine Jóia",
+    image: "paira-1.jpg",
+    location: "Cine Joia",
     date: "2025-06-12"
   },
   {
     title: "Paira",
     slug: "paira-2",
     image: "paira-2.jpg",
-    location: "Cine Jóia",
+    location: "Cine Joia",
     date: "2025-06-12"
   },
   {
@@ -443,7 +443,7 @@ export const gridData = [
   {
     title: "Graveyard",
     slug: "graveyard1",
-    image: "Graveyard-2.jpg",
+    image: "graveyard-1.jpg",
     location: "Hangar 110",
     date: "2026-05-09"
   },
@@ -457,7 +457,7 @@ export const gridData = [
   {
     title: "Graveyard",
     slug: "graveyard3",
-    image: "grevayeard-3.jpg",
+    image: "graveyard-3.jpg",
     location: "Hangar 110",
     date: "2026-05-09"
   },

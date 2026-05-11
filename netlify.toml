@@ -9,9 +9,6 @@
   NPM_FLAGS = "--legacy-peer-deps --loglevel verbose"
   NPM_CONFIG_IGNORE_OPTIONAL = "true"
 
-[[plugins]]
-  package = "@netlify/plugin-gatsby"
-
 [context.production.environment]
   NODE_ENV = "production"
   NPM_VERSION = "9.1.3"
