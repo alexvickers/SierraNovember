@@ -8,32 +8,6 @@ module.exports = {
     lang: `en`,
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-htaccess",
-      options: {
-        RewriteBase: "/custom/",
-        https: true,
-        www: false,
-        SymLinksIfOwnerMatch: true,
-        host: "sierranovember.com.br",
-        redirect: [
-          "RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]",
-          {
-            from: "http://sierranovember.com.br",
-            to: "https://sierranovember.com.br",
-          },
-        ],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "G-4SN5BHWDPN",
-        includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
-        enableWebVitalsTracking: true,
-      },
-    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
