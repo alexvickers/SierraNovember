@@ -48,7 +48,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "engines": {
-    "node": "18.17.0"
+    "node": "18.20.8"
   },
   "repository": {
     "type": "git",
