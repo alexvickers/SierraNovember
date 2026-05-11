@@ -70,13 +70,6 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
-    title: "Punho de Mahin",
-    slug: "punho-de-mahin-5",
-    image: "punho-de-mahin-5.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
     title: "Ratos de Porão",
     slug: "ratos-de-porao-1",
     image: "ratos-de-porao-1.jpg",
@@ -164,20 +157,6 @@ export const gridData = [
     title: "A Place to Bury Strangers",
     slug: "strangers-6",
     image: "place6.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
-    slug: "place9",
-    image: "place9.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
-    slug: "place10",
-    image: "place10.jpg",
     location: "Fabrique",
     date: "2025-07-14"
   },
@@ -372,13 +351,6 @@ export const gridData = [
   },
   {
     title: "Jonabug",
-    slug: "jonabug3",
-    image: "jonabug-3.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
-    title: "Jonabug",
     slug: "jonabug5",
     image: "jonabug-5.jpg",
     location: "Banda de Casinha Floripa",
@@ -413,20 +385,6 @@ export const gridData = [
     date: "2026-03-21"
   },
   {
-    title: "Kadavar",
-    slug: "kadavar4",
-    image: "kadavar-4.jpg",
-    location: "Carioca Club",
-    date: "2026-03-21"
-  },
-  {
-    title: "Kadavar",
-    slug: "kadavar5",
-    image: "kadavar-5.jpg",
-    location: "Carioca Club",
-    date: "2026-03-21"
-  },
-  {
     title: "Cachorro Grande",
     slug: "cachorro1",
     image: "cachorro-1.jpg",
@@ -448,18 +406,88 @@ export const gridData = [
     date: "2026-04-17"
   },
   {
-    title: "Cachorro Grande",
-    slug: "cachorro4",
-    image: "cachorro-4.jpg",
-    location: "Cine Joia",
-    date: "2026-04-17"
-  },
-  {
     title: "Matheus Torres",
     slug: "matheus1",
     image: "matheus-1.jpg",
     location: "Cine Joia",
     date: "2026-04-17"
+  },
+  {
+    title: "Space Grease",
+    slug: "space1",
+    image: "space-1.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Space Grease",
+    slug: "space2",
+    image: "space-2.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Bike",
+    slug: "bike1",
+    image: "bike-1.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Bike",
+    slug: "bike2",
+    image: "bike-2.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Graveyard",
+    slug: "graveyard1",
+    image: "Graveyard-2.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Graveyard",
+    slug: "graveyard2",
+    image: "graveyard-2.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Graveyard",
+    slug: "graveyard3",
+    image: "grevayeard-3.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
+    title: "Stick to Your Guns",
+    slug: "styg1",
+    image: "styg-1.jpg",
+    location: "Hangar 110",
+    date: "2026-05-02"
+  },
+  {
+    title: "Stick to Your Guns",
+    slug: "styg2",
+    image: "styg-2.jpg",
+    location: "Hangar 110",
+    date: "2026-05-02"
+  },
+  {
+    title: "Bane",
+    slug: "bane",
+    image: "bane.jpg",
+    location: "Hangar 110",
+    date: "2026-05-02"
+  },
+  {
+    title: "Uttara",
+    slug: "utarra",
+    image: "uttara.jpg",
+    location: "Hangar 110",
+    date: "2026-05-02"
   }
 ];
 
