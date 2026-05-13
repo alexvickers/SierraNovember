@@ -427,6 +427,13 @@ export const gridData = [
     date: "2026-05-09"
   },
   {
+    title: "Space Grease",
+    slug: "space3",
+    image: "space-3.jpg",
+    location: "Hangar 110",
+    date: "2026-05-09"
+  },
+  {
     title: "Bike",
     slug: "bike1",
     image: "bike-1.jpg",
@@ -465,13 +472,6 @@ export const gridData = [
     title: "Stick to Your Guns",
     slug: "styg1",
     image: "styg-1.jpg",
-    location: "Hangar 110",
-    date: "2026-05-02"
-  },
-  {
-    title: "Stick to Your Guns",
-    slug: "styg2",
-    image: "styg-2.jpg",
     location: "Hangar 110",
     date: "2026-05-02"
   },
