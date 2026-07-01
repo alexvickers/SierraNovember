@@ -1,3 +1,4 @@
+import answerImage from "../assets/images/portfolio/answersuite.png";
 import pecImage from "../assets/images/portfolio/pec.png";
 import mitImage from "../assets/images/portfolio/mit.png";
 import hueImage from "../assets/images/portfolio/hue.png";
@@ -7,6 +8,14 @@ import underImage from "../assets/images/portfolio/underfloripa.png";
 import sierraImage from "../assets/images/portfolio/sierra.png";
 
 const portfolioData = [
+  {
+    title: "AnswerSuite Insights",
+    description:
+      "AnswerSuite Insights is a corporate website for a biopharmaceutical market intelligence platform, built with Next.js as a static site while I was part of the development team at BoldSky, a digital studio within Syneos Health. The project emphasizes performance, SEO, and a clean, accessible user experience.",
+    image: answerImage,
+    link: "https://www.answersuiteinsights.com/",
+    tags: ["nextjs", "javascript", "sass", "tailwind"],
+  },
   {
     title: "Princeton Election Consortium",
     description:
