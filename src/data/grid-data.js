@@ -418,7 +418,7 @@ export const gridData = [
     image: "pigs-3.jpg",
     location: "Massarifest 2026",
     date: "2026-07-03"
-  },
+  }
 ];
 
 export default gridData;
