@@ -14,13 +14,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Clap Your Hands Say Yeah",
-    slug: "cyhsy-8",
-    image: "cyhsy-8.jpg",
-    location: "Cine Joia",
-    date: "2025-06-12"
-  },
-  {
     title: "Escalpo",
     slug: "escalpo-1",
     image: "escalpo-1.jpg",
@@ -31,6 +24,13 @@ export const gridData = [
     title: "Escalpo",
     slug: "escalpo-2",
     image: "escalpo-2.jpg",
+    location: "Carioca Club",
+    date: "2025-05-12"
+  },
+  {
+    title: "The Exploited",
+    slug: "exploited-1",
+    image: "exploited-1.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
   },
@@ -85,13 +85,6 @@ export const gridData = [
   },
   {
     title: "The Chisel",
-    slug: "the-chisel-2",
-    image: "the-chisel-2.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Chisel",
     slug: "the-chisel-3",
     image: "the-chisel-3.jpg",
     location: "Carioca Club",
@@ -108,56 +101,42 @@ export const gridData = [
     title: "Violeta de Outono",
     slug: "violeta-3",
     image: "violeta3.jpg",
-    location: "Fabrique",
+    location: "Massarifest 2025",
     date: "2025-07-14"
   },
   {
     title: "Violeta de Outono",
     slug: "violeta-6",
     image: "violeta6.jpg",
-    location: "Fabrique",
+    location: "Massarifest 2025",
     date: "2025-07-14"
   },
   {
     title: "Retrato + Oruã",
     slug: "retrato-2",
     image: "retrato2.jpg",
-    location: "Fabrique",
+    location: "Massarifest 2025",
     date: "2025-07-14"
   },
   {
     title: "Retrato + Oruã",
     slug: "retrato-4",
     image: "retrato4.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "Bufo Borealis",
-    slug: "bufo-1",
-    image: "bufo1.jpg",
-    location: "Fabrique",
+    location: "Massarifest 2025",
     date: "2025-07-14"
   },
   {
     title: "A Place to Bury Strangers",
     slug: "place2",
     image: "place2.jpg",
-    location: "Fabrique",
-    date: "2025-07-14"
-  },
-  {
-    title: "A Place to Bury Strangers",
-    slug: "strangers-3",
-    image: "place3.jpg",
-    location: "Fabrique",
+    location: "Massarifest 2025",
     date: "2025-07-14"
   },
   {
     title: "A Place to Bury Strangers",
     slug: "strangers-6",
     image: "place6.jpg",
-    location: "Fabrique",
+    location: "Massarifest 2025",
     date: "2025-07-14"
   },
   {
@@ -231,13 +210,6 @@ export const gridData = [
     date: "2025-11-28"
   },
   {
-    title: "The Brian Jonestown Massacre",
-    slug: "brian4",
-    image: "brian-4.jpg",
-    location: "Espaço Usine",
-    date: "2025-11-28"
-  },
-  {
     title: "Odair José",
     slug: "odair3",
     image: "odair-3.jpg",
@@ -266,13 +238,6 @@ export const gridData = [
     date: "2026-01-30"
   },
   {
-    title: "Frank Turner",
-    slug: "frank5",
-    image: "frank-5.jpg",
-    location: "Fabrique",
-    date: "2026-01-30"
-  },
-  {
     title: "Katacombs",
     slug: "kata1",
     image: "katacombs-1.jpg",
@@ -285,20 +250,6 @@ export const gridData = [
     image: "katacombs-2.jpg",
     location: "Fabrique",
     date: "2026-01-30"
-  },
-  {
-    title: "Katacombs",
-    slug: "kata3",
-    image: "katacombs-3.jpg",
-    location: "Fabrique",
-    date: "2026-01-30"
-  },
-  {
-    title: "Sorosoro",
-    slug: "soro1",
-    image: "sorosoro-1.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
   },
   {
     title: "Sorosoro",
@@ -332,13 +283,6 @@ export const gridData = [
     title: "Stela",
     slug: "stela3",
     image: "stela-3.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
-    title: "Jonabug",
-    slug: "jonabug1",
-    image: "jonabug-1.jpg",
     location: "Banda de Casinha Floripa",
     date: "2026-02-21"
   },
@@ -378,13 +322,6 @@ export const gridData = [
     date: "2026-03-21"
   },
   {
-    title: "Kadavar",
-    slug: "kadavar3",
-    image: "kadavar-3.jpg",
-    location: "Carioca Club",
-    date: "2026-03-21"
-  },
-  {
     title: "Cachorro Grande",
     slug: "cachorro1",
     image: "cachorro-1.jpg",
@@ -399,20 +336,6 @@ export const gridData = [
     date: "2026-04-17"
   },
   {
-    title: "Cachorro Grande",
-    slug: "cachorro3",
-    image: "cachorro-3.jpg",
-    location: "Cine Joia",
-    date: "2026-04-17"
-  },
-  {
-    title: "Matheus Torres",
-    slug: "matheus1",
-    image: "matheus-1.jpg",
-    location: "Cine Joia",
-    date: "2026-04-17"
-  },
-  {
     title: "Space Grease",
     slug: "space1",
     image: "space-1.jpg",
@@ -423,20 +346,6 @@ export const gridData = [
     title: "Space Grease",
     slug: "space2",
     image: "space-2.jpg",
-    location: "Hangar 110",
-    date: "2026-05-09"
-  },
-  {
-    title: "Space Grease",
-    slug: "space3",
-    image: "space-3.jpg",
-    location: "Hangar 110",
-    date: "2026-05-09"
-  },
-  {
-    title: "Bike",
-    slug: "bike1",
-    image: "bike-1.jpg",
     location: "Hangar 110",
     date: "2026-05-09"
   },
@@ -462,13 +371,6 @@ export const gridData = [
     date: "2026-05-09"
   },
   {
-    title: "Graveyard",
-    slug: "graveyard3",
-    image: "graveyard-3.jpg",
-    location: "Hangar 110",
-    date: "2026-05-09"
-  },
-  {
     title: "Stick to Your Guns",
     slug: "styg1",
     image: "styg-1.jpg",
@@ -488,7 +390,35 @@ export const gridData = [
     image: "uttara.jpg",
     location: "Hangar 110",
     date: "2026-05-02"
-  }
+  },
+  {
+    title: "Firefriend",
+    slug: "fire-1",
+    image: "firefriend-1.jpg",
+    location: "Massarifest 2026",
+    date: "2026-07-03"
+  },
+  {
+    title: "Firefriend",
+    slug: "fire-2",
+    image: "firefriend-2.jpg",
+    location: "Massarifest 2026",
+    date: "2026-07-03"
+  },
+  {
+    title: "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
+    slug: "pigs-1",
+    image: "pigs-1.jpg",
+    location: "Massarifest 2026",
+    date: "2026-07-03"
+  },
+  {
+    title: "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
+    slug: "pigs-3",
+    image: "pigs-3.jpg",
+    location: "Massarifest 2026",
+    date: "2026-07-03"
+  },
 ];
 
 export default gridData;
