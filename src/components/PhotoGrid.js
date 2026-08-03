@@ -77,6 +77,10 @@ const PhotoGrid = () => {
           const isPortrait = gatsbyImage.height > gatsbyImage.width;
           const isFeatured = !isPortrait && featuredIndexes.has(index);
 
+          const alt = location
+            ? `${title} at ${location} by Alexandre Aimbiré`
+            : `${title} by Alexandre Aimbiré`;
+
           return (
             <div
               key={image}
@@ -98,10 +102,11 @@ const PhotoGrid = () => {
                 >
                   <LazyImage
                     imageSharp={imageSharp}
-                    title={title}
+                    alt={alt}
                     onClick={() => setModalImage(gatsbyImage)}
                   />
                 </button>
+
                 <div className="caption">
                   <span className="artist">{title}</span>
                   {location && <span className="location">{location}</span>}
