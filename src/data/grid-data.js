@@ -418,6 +418,27 @@ export const gridData = [
     image: "pigs-3.jpg",
     location: "Massarifest 2026",
     date: "2026-07-03"
+  },
+  {
+    title: "Left/Leaving",
+    slug: "left-1",
+    image: "left.jpg",
+    location: "Célula Showcase",
+    date: "2026-07-26"
+  },
+  {
+    title: "Bad Chairs",
+    slug: "chairs-1",
+    image: "chairs.jpg",
+    location: "Célula Showcase",
+    date: "2026-07-26"
+  },
+  {
+    title: "Boom Boom Kid",
+    slug: "bbk-1",
+    image: "bbk.jpg",
+    location: "Célula Showcase",
+    date: "2026-07-26"
   }
 ];
 
