@@ -16,7 +16,7 @@ const PhotoGrid = () => {
           relativePath
           childImageSharp {
             gatsbyImageData(
-              layout: FULL_WIDTH
+              layout: CONSTRAINED
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
               quality: 82
@@ -42,9 +42,11 @@ const PhotoGrid = () => {
   const featuredIndexes = React.useMemo(() => {
     const count = Math.min(6, shuffledItems.length);
     const indexes = new Set();
+
     while (indexes.size < count) {
       indexes.add(Math.floor(Math.random() * shuffledItems.length));
     }
+
     return indexes;
   }, [shuffledItems]);
 
@@ -55,11 +57,13 @@ const PhotoGrid = () => {
     const day = date.getDate();
     const month = date.toLocaleString("en-US", { month: "long" });
     const year = date.getFullYear();
+
     const getOrdinal = (n) => {
       const s = ["th", "st", "nd", "rd"];
       const v = n % 100;
       return s[(v - 20) % 10] || s[v] || s[0];
     };
+
     return `${month} ${day}${getOrdinal(day)}, ${year}`;
   };
 
@@ -68,6 +72,7 @@ const PhotoGrid = () => {
       <div className="masonry-grid">
         {shuffledItems.map(({ title, location, date, image }, index) => {
           const imageSharp = imagesMap.get(image);
+
           if (!imageSharp) {
             console.warn(`Image not found: ${image}`);
             return null;
@@ -111,7 +116,9 @@ const PhotoGrid = () => {
                   <span className="artist">{title}</span>
                   {location && <span className="location">{location}</span>}
                   {date && (
-                    <span className="date">{formatDateWithOrdinal(date)}</span>
+                    <span className="date">
+                      {formatDateWithOrdinal(date)}
+                    </span>
                   )}
                 </div>
               </div>
