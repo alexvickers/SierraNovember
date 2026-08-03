@@ -7,15 +7,19 @@ import LazyImage from "./LazyImage";
 
 const PhotoGrid = () => {
   const data = useStaticQuery(graphql`
-    query {
-      allFile(filter: { sourceInstanceName: { eq: "concertImages" } }) {
+    query ConcertImagesQuery {
+      allFile(
+        filter: { sourceInstanceName: { eq: "concertImages" } }
+        sort: { relativePath: ASC }
+      ) {
         nodes {
           relativePath
           childImageSharp {
             gatsbyImageData(
-              layout: CONSTRAINED
+              layout: FULL_WIDTH
               placeholder: BLURRED
-              formats: [AUTO, WEBP]
+              formats: [AUTO, WEBP, AVIF]
+              quality: 82
             )
           }
         }
@@ -32,17 +36,17 @@ const PhotoGrid = () => {
   }, [data]);
 
   const shuffledItems = React.useMemo(() => {
-    return [...gridData].sort(() => 0.5 - Math.random());
+    return [...gridData].sort(() => Math.random() - 0.5);
   }, []);
 
   const featuredIndexes = React.useMemo(() => {
-    const count = 6;
+    const count = Math.min(6, shuffledItems.length);
     const indexes = new Set();
     while (indexes.size < count) {
-      indexes.add(Math.floor(Math.random() * gridData.length));
+      indexes.add(Math.floor(Math.random() * shuffledItems.length));
     }
     return indexes;
-  }, []);
+  }, [shuffledItems]);
 
   const [modalImage, setModalImage] = React.useState(null);
 
@@ -62,7 +66,7 @@ const PhotoGrid = () => {
   return (
     <>
       <div className="masonry-grid">
-        {shuffledItems.map(({ title, location, date, image, slug }, index) => {
+        {shuffledItems.map(({ title, location, date, image }, index) => {
           const imageSharp = imagesMap.get(image);
           if (!imageSharp) {
             console.warn(`Image not found: ${image}`);
@@ -75,7 +79,7 @@ const PhotoGrid = () => {
 
           return (
             <div
-              key={slug}
+              key={image}
               className={`masonry-item
                 ${isPortrait ? "is-portrait" : "is-landscape"}
                 ${isFeatured ? "is-featured" : ""}`}
