@@ -6,12 +6,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Clap Your Hands Say Yeah",
-    image: "cyhsy-5.jpg",
-    location: "Cine Joia",
-    date: "2025-06-12"
-  },
-  {
     title: "Escalpo",
     image: "escalpo-1.jpg",
     location: "Carioca Club",
@@ -67,12 +61,6 @@ export const gridData = [
   },
   {
     title: "The Chisel",
-    image: "the-chisel-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Chisel",
     image: "the-chisel-3.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
@@ -86,12 +74,6 @@ export const gridData = [
   {
     title: "Violeta de Outono",
     image: "violeta3.jpg",
-    location: "Massarifest 2025",
-    date: "2025-07-14"
-  },
-  {
-    title: "Violeta de Outono",
-    image: "violeta6.jpg",
     location: "Massarifest 2025",
     date: "2025-07-14"
   },
@@ -241,12 +223,6 @@ export const gridData = [
     date: "2026-02-21"
   },
   {
-    title: "Stela",
-    image: "stela-3.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
     title: "Jonabug",
     image: "jonabug-2.jpg",
     location: "Banda de Casinha Floripa",
@@ -309,12 +285,6 @@ export const gridData = [
   {
     title: "Graveyard",
     image: "graveyard-1.jpg",
-    location: "Hangar 110",
-    date: "2026-05-09"
-  },
-  {
-    title: "Graveyard",
-    image: "graveyard-2.jpg",
     location: "Hangar 110",
     date: "2026-05-09"
   },
