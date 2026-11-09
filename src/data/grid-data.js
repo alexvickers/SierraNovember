@@ -6,12 +6,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Clap Your Hands Say Yeah",
-    image: "cyhsy-5.jpg",
-    location: "Cine Joia",
-    date: "2025-06-12"
-  },
-  {
     title: "Escalpo",
     image: "escalpo-1.jpg",
     location: "Carioca Club",
@@ -42,12 +36,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Paira",
-    image: "paira-2.jpg",
-    location: "Cine Joia",
-    date: "2025-06-12"
-  },
-  {
     title: "Punho de Mahin",
     image: "punho-de-mahin-2.jpg",
     location: "Carioca Club",
@@ -67,12 +55,6 @@ export const gridData = [
   },
   {
     title: "The Chisel",
-    image: "the-chisel-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
-    title: "The Chisel",
     image: "the-chisel-3.jpg",
     location: "Carioca Club",
     date: "2025-05-12"
@@ -86,12 +68,6 @@ export const gridData = [
   {
     title: "Violeta de Outono",
     image: "violeta3.jpg",
-    location: "Massarifest 2025",
-    date: "2025-07-14"
-  },
-  {
-    title: "Violeta de Outono",
-    image: "violeta6.jpg",
     location: "Massarifest 2025",
     date: "2025-07-14"
   },
@@ -241,12 +217,6 @@ export const gridData = [
     date: "2026-02-21"
   },
   {
-    title: "Stela",
-    image: "stela-3.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
     title: "Jonabug",
     image: "jonabug-2.jpg",
     location: "Banda de Casinha Floripa",
@@ -255,12 +225,6 @@ export const gridData = [
   {
     title: "Jonabug",
     image: "jonabug-5.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
-    title: "Centroleste Autopeças",
-    image: "centroleste-1.jpg",
     location: "Banda de Casinha Floripa",
     date: "2026-02-21"
   },
@@ -313,12 +277,6 @@ export const gridData = [
     date: "2026-05-09"
   },
   {
-    title: "Graveyard",
-    image: "graveyard-2.jpg",
-    location: "Hangar 110",
-    date: "2026-05-09"
-  },
-  {
     title: "Stick to Your Guns",
     image: "styg-1.jpg",
     location: "Hangar 110",
@@ -339,12 +297,6 @@ export const gridData = [
   {
     title: "Firefriend",
     image: "firefriend-1.jpg",
-    location: "Massarifest 2026",
-    date: "2026-07-03"
-  },
-  {
-    title: "Firefriend",
-    image: "firefriend-2.jpg",
     location: "Massarifest 2026",
     date: "2026-07-03"
   },
@@ -377,6 +329,90 @@ export const gridData = [
     image: "bbk.jpg",
     location: "Célula Showcase",
     date: "2026-07-26"
+  },
+  {
+    title: "Adorável Clichê",
+    image: "adoravel.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Wednesday",
+    image: "wednesday.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Beach Fossils",
+    image: "fossils-1.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Beach Fossils",
+    image: "fossils-2.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Beach Fossils",
+    image: "fossils-3.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "DIIV",
+    image: "diiv-1.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "DIIV",
+    image: "diiv-2.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "DIIV",
+    image: "diiv-3.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Pedro the Lion",
+    image: "pedro.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "Dry Cleaning",
+    image: "cleaning-1.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "Dry Cleaning",
+    image: "cleaning-2.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "Blonde Redhead",
+    image: "redhead.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "El Mató a un Policía Motorizado",
+    image: "el-mato.jpg",
+    location: "Cine Joia",
+    date: "2026-10-11"
+  },
+  {
+    title: "Los Otros",
+    image: "los-otros.jpg",
+    location: "Cine Joia",
+    date: "2026-10-11"
   }
 ];
 
