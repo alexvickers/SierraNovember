@@ -36,12 +36,6 @@ export const gridData = [
     date: "2025-06-12"
   },
   {
-    title: "Paira",
-    image: "paira-2.jpg",
-    location: "Cine Joia",
-    date: "2025-06-12"
-  },
-  {
     title: "Punho de Mahin",
     image: "punho-de-mahin-2.jpg",
     location: "Carioca Club",
@@ -235,12 +229,6 @@ export const gridData = [
     date: "2026-02-21"
   },
   {
-    title: "Centroleste Autopeças",
-    image: "centroleste-1.jpg",
-    location: "Banda de Casinha Floripa",
-    date: "2026-02-21"
-  },
-  {
     title: "Kadavar",
     image: "kadavar-1.jpg",
     location: "Carioca Club",
@@ -313,12 +301,6 @@ export const gridData = [
     date: "2026-07-03"
   },
   {
-    title: "Firefriend",
-    image: "firefriend-2.jpg",
-    location: "Massarifest 2026",
-    date: "2026-07-03"
-  },
-  {
     title: "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
     image: "pigs-1.jpg",
     location: "Massarifest 2026",
@@ -347,6 +329,90 @@ export const gridData = [
     image: "bbk.jpg",
     location: "Célula Showcase",
     date: "2026-07-26"
+  },
+  {
+    title: "Adorável Clichê",
+    image: "adoravel.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Wednesday",
+    image: "wednesday.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Beach Fossils",
+    image: "fossils-1.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Beach Fossils",
+    image: "fossils-2.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Beach Fossils",
+    image: "fossils-3.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "DIIV",
+    image: "diiv-1.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "DIIV",
+    image: "diiv-2.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "DIIV",
+    image: "diiv-3.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-27"
+  },
+  {
+    title: "Pedro the Lion",
+    image: "pedro.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "Dry Cleaning",
+    image: "cleaning-1.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "Dry Cleaning",
+    image: "cleaning-2.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "Blonde Redhead",
+    image: "redhead.jpg",
+    location: "Balaclava Fest 2026",
+    date: "2026-09-26"
+  },
+  {
+    title: "El Mató a un Policía Motorizado",
+    image: "el-mato.jpg",
+    location: "Cine Joia",
+    date: "2026-10-11"
+  },
+  {
+    title: "Los Otros",
+    image: "los-otros.jpg",
+    location: "Cine Joia",
+    date: "2026-10-11"
   }
 ];
 
