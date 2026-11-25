@@ -60,12 +60,6 @@ export const gridData = [
     date: "2025-05-12"
   },
   {
-    title: "The Exploited",
-    image: "exploited-1.jpg",
-    location: "Carioca Club",
-    date: "2025-05-12"
-  },
-  {
     title: "Violeta de Outono",
     image: "violeta3.jpg",
     location: "Massarifest 2025",
