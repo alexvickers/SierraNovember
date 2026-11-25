@@ -16,7 +16,11 @@ import {
   SiJquery,
   SiNextdotjs,
   SiTailwindcss,
-  SiPostcss
+  SiTypescript,
+  SiPostcss,
+  SiPwa,
+  SiVercel,
+  SiClaude,
 } from "react-icons/si";
 
 export const tagMetaMap = {
@@ -32,9 +36,13 @@ export const tagMetaMap = {
   rest: { icon: <FaCogs />, color: "rest" },
   sass: { icon: <FaSass />, color: "sass" },
   tailwind: { icon: <SiTailwindcss />, color: "info" },
+  typescript: { icon: <SiTypescript />, color: "ts" },
   wordpress: { icon: <FaWordpress />, color: "blue" },
   postcss: { icon: <SiPostcss />, color: "postcss" },
   css: { icon: <FaCss3Alt />, color: "css"  },
+  pwa: { icon: <SiPwa />, color: "pwa" },
+  vercel: { icon: <SiVercel />, color: "gray" },
+  claude: { icon: <SiClaude />, color: "claude" },
 };
 
 export const customColors = {
@@ -52,4 +60,7 @@ export const customColors = {
   postcss: "#dd3a0a",
   css: "#1572b6",
   gray: "#888888",
+  ts: "#719af4",
+  pwa: "#8a5cf5",
+  claude: "#d97757",
 };
