@@ -413,6 +413,24 @@ export const gridData = [
     image: "los-otros.jpg",
     location: "Cine Joia",
     date: "2026-10-11"
+  },
+  {
+    title: "Godspeed You! Black Emperor",
+    image: "gsybe-1.jpg",
+    location: "Audio",
+    date: "2026-11-23"
+  },
+  {
+    title: "Godspeed You! Black Emperor",
+    image: "gsybe-2.jpg",
+    location: "Audio",
+    date: "2026-11-23"
+  },
+  {
+    title: "Godspeed You! Black Emperor",
+    image: "gsybe-3.jpg",
+    location: "Audio",
+    date: "2026-11-23"
   }
 ];
 
