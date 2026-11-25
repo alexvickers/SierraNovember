@@ -4,6 +4,7 @@ import mitImage from "../assets/images/portfolio/mit.png";
 import hueImage from "../assets/images/portfolio/hue.png";
 import exameImage from "../assets/images/portfolio/exame.png";
 import osacImage from "../assets/images/portfolio/osac.png";
+import driverImage from "../assets/images/portfolio/driver.png";
 import underImage from "../assets/images/portfolio/underfloripa.png";
 import sierraImage from "../assets/images/portfolio/sierra.png";
 
@@ -41,9 +42,9 @@ const portfolioData = [
     tags: ["wordpress", "php", "javascript", "jquery", "sass"],
   },
   {
-    title: "2022 OSAC Annual Briefing",
+    title: "2021 OSAC Annual Briefing",
     description:
-      "The online home for the 2022 OSAC Annual Briefing — a key event hosted by the U.S. State Department for the global security community. Developed in WordPress with a focus on responsive design and subtle, polished animations to enhance user experience. This project was completed while I was working at Goodfolk Agency.",
+      "The online home for the 2021 OSAC Annual Briefing — a key event hosted by the U.S. State Department for the global security community. Developed in WordPress with a focus on responsive design and subtle, polished animations to enhance user experience. This project was completed while I was working at Goodfolk Agency.",
     image: osacImage,
     link: "https://web.archive.org/web/20220418023729/https://annualbriefing.osac.gov/",
     tags: ["wordpress", "php", "javascript", "jquery", "postcss"],
@@ -66,6 +67,15 @@ const portfolioData = [
     ],
   },
   {
+    title: "Driver Log",
+    description:
+      "Driver Log is a mobile-first, installable web app I built to see what rideshare driving really pays. I log each shift with odometer readings, earnings, and tips, add expenses like fuel, tolls, and maintenance, and the dashboard turns it into net profit, net per hour, and cost per km. It's a static Next.js and TypeScript PWA that works offline, deployed on Vercel, with all data kept locally in the browser through IndexedDB, so there's no account and no backend. I built it in collaboration with Claude, Anthropic's AI assistant, which helped with scoping, code, and documentation. I set the requirements, made the product decisions, tested it, and deployed it.",
+    image: driverImage,
+    link: "https://driver-log-beta.vercel.app/",
+    github: "https://github.com/alexvickers/driver-log",
+    tags: ["nextjs", "reactjs", "typescript", "pwa", "vercel", "claude"],
+  },
+  {
     title: "Under Floripa",
     description:
       "I designed and developed Under Floripa, an independent music and culture website, creating a custom WordPress theme from the ground up. I built custom plugins to extend functionality—most notably a tool for managing local concert listings—and optimized the site for performance and scalability. I also oversee content strategy, feature planning, and ongoing maintenance. Beyond coding, I contribute music reviews and editorial features, bridging digital expertise with creative storytelling.",
@@ -80,7 +90,7 @@ const portfolioData = [
       "This is my personal portfolio site where I show off my work as a frontend developer and designer. It’s a mix of everything I love to do—building clean, responsive, and user-friendly websites.",
     image: sierraImage,
     github: "https://github.com/alexvickers/SierraNovember",
-    tags: ["gatsby", "react", "javascript", "bootstrap", "sass", "graphql"],
+    tags: ["gatsby", "react", "javascript", "bootstrap", "sass", "graphql", "netlify"],
   },
 ];
 

@@ -1,62 +1,26 @@
 import * as React from "react";
-import {
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaWordpress,
-  FaPhp,
-  FaSass,
-  FaBootstrap,
-  FaGit,
-  FaGulp,
-  FaFigma,
-} from "react-icons/fa";
+import { FaReact, FaWordpress, FaPhp, FaSass, FaFigma } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import {
-  SiJquery,
-  SiWoo,
-  SiGatsby,
   SiJavascript,
+  SiTypescript,
+  SiGraphql,
+  SiGatsby,
   SiTailwindcss,
 } from "react-icons/si";
 
-const icons = [
-  FaReact,
-  SiJavascript,
-  RiNextjsFill,
-  SiGatsby,
-  FaHtml5,
-  FaCss3Alt,
-  SiJquery,
-  FaWordpress,
-  SiWoo,
-  FaPhp,
-  FaSass,
-  FaBootstrap,
-  SiTailwindcss,
-  FaGit,
-  FaGulp,
-  FaFigma,
-];
-
-const hoverColors = [
-  "#61DBFB", // React
-  "#F7DF1E", // JavaScript
-  "#000000", // Next.js
-  "#663399", // Gatsby
-  "#E34F26", // HTML5
-  "#1572B6", // CSS3
-  "#0769AD", // jQuery
-  "#21759B", // WordPress
-  "#96588A", // WooCommerce
-  "#777BB4", // PHP
-  "#CD6799", // Sass
-  "#7952B3", // Bootstrap
-  "#38BDF8", // Tailwind
-  "#F05032", // Git
-  "#CF4647", // Gulp
-  "#F24E1E", // Figma
-  "#FF61F6", // Adobe XD
+const tech = [
+  { Icon: FaReact, name: "React", color: "#61DBFB" },
+  { Icon: RiNextjsFill, name: "Next.js", color: "#888888" },
+  { Icon: SiTypescript, name: "TypeScript", color: "#719af4" },
+  { Icon: SiJavascript, name: "JavaScript", color: "#F7DF1E" },
+  { Icon: SiGraphql, name: "GraphQL", color: "#E535AB" },
+  { Icon: FaWordpress, name: "WordPress", color: "#21759B" },
+  { Icon: FaPhp, name: "PHP", color: "#777BB4" },
+  { Icon: SiTailwindcss, name: "Tailwind CSS", color: "#38BDF8" },
+  { Icon: FaSass, name: "Sass", color: "#CD6799" },
+  { Icon: SiGatsby, name: "Gatsby", color: "#663399" },
+  { Icon: FaFigma, name: "Figma", color: "#F24E1E" },
 ];
 
 const IconList = () => {
@@ -70,16 +34,14 @@ const IconList = () => {
 
   return (
     <div className="icons d-flex justify-content-between flex-wrap gap-2">
-      {icons.map((Icon, index) => (
+      {tech.map(({ Icon, name, color }) => (
         <Icon
-          key={index}
+          key={name}
           size={36}
-          style={{
-            color: "white",
-            transition: "color 0.3s ease",
-          }}
+          title={name}
+          style={{ color: "white", transition: "color 0.3s ease" }}
           className="mb-2"
-          onMouseEnter={(e) => handleMouseEnter(e, hoverColors[index])}
+          onMouseEnter={(e) => handleMouseEnter(e, color)}
           onMouseLeave={handleMouseLeave}
         />
       ))}
