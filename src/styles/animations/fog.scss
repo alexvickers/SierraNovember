@@ -32,7 +32,7 @@
 @include fogLayer('#foglayer_02', foglayer_02_opacity, 21s, '../../assets/images/fog/fog2.png');
 @include fogLayer('#foglayer_03', foglayer_03_opacity, 21s, '../../assets/images/fog/fog2.png');
 
-// ---------------------- Keyframes ----------------------
+// Keyframes
 
 @keyframes foglayer_01_opacity {
   0%   { opacity: 0.1; }

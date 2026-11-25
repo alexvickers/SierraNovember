@@ -1,0 +1,27 @@
+.type-cursor {
+    display: inline-block;
+    width: 0.08em;
+    height: 1em;
+    margin-left: 0.04em;
+    margin-right: -0.12em;
+    vertical-align: text-bottom;
+    background: currentColor;
+    animation: type-cursor-blink 1s step-end infinite;
+}
+
+.type-cursor.is-typing {
+    animation: none;
+    /* solid while characters are moving */
+}
+
+@keyframes type-cursor-blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .type-cursor {
+        animation: none;
+    }
+}

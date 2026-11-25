@@ -33,7 +33,7 @@ const IconList = () => {
   };
 
   return (
-    <div className="icons d-flex justify-content-between flex-wrap gap-2">
+    <div className="icons d-flex justify-content-around flex-wrap gap-2">
       {tech.map(({ Icon, name, color }) => (
         <Icon
           key={name}
