@@ -68,17 +68,16 @@ const portfolioData = [
   },
   {
     title: "Driver Log",
-    description:
-      "Driver Log is a mobile-first, installable web app I built to see what rideshare driving really pays. I log each shift with odometer readings, earnings, and tips, add expenses like fuel, tolls, and maintenance, and the dashboard turns it into net profit, net per hour, and cost per km. It's a static Next.js and TypeScript PWA that works offline, deployed on Vercel, with all data kept locally in the browser through IndexedDB, so there's no account and no backend. I built it in collaboration with Claude, Anthropic's AI assistant, which helped with scoping, code, and documentation. I set the requirements, made the product decisions, tested it, and deployed it.",
+    description: "Driver Log is a mobile-first PWA I built to see what rideshare driving really pays. I log shifts and expenses, and the dashboard shows net profit, net per hour, and cost per km. It's a static Next.js and TypeScript app that works offline, with data stored locally in IndexedDB: no account, no backend. Built in collaboration with Claude, Anthropic's AI assistant; I made the product decisions, tested, and deployed it.",
     image: driverImage,
     link: "https://driver-log-beta.vercel.app/",
     github: "https://github.com/alexvickers/driver-log",
-    tags: ["nextjs", "reactjs", "typescript", "pwa", "vercel", "claude"],
+    tags: ["nextjs", "react", "typescript", "pwa", "vercel", "claude"],
   },
   {
     title: "Under Floripa",
     description:
-      "I designed and developed Under Floripa, an independent music and culture website, creating a custom WordPress theme from the ground up. I built custom plugins to extend functionality—most notably a tool for managing local concert listings—and optimized the site for performance and scalability. I also oversee content strategy, feature planning, and ongoing maintenance. Beyond coding, I contribute music reviews and editorial features, bridging digital expertise with creative storytelling.",
+      "I designed and built Under Floripa, an independent music and culture website, with a custom WordPress theme from scratch. I developed custom plugins, most notably a tool for managing local concert listings, and optimized the site for performance and scalability. I also handle content strategy, feature planning, and maintenance, and write music reviews and editorial features, bridging digital expertise with creative storytelling.",
     image: underImage,
     link: "https://underfloripa.com.br/",
     github: "https://github.com/alexvickers/underfloripa",
